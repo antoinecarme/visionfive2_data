@@ -1,0 +1,1728 @@
+============ start debug info ============
+libhd version 21.82 (riscv) [7688]
+using /var/lib/hardware
+kernel version is 5.15
+----- /proc/cmdline -----
+  root=/dev/mmcblk1p4 root=/dev/mmcblk1p4 rw console=tty0 console=ttyS0,115200 earlycon rootwait stmmaceth=chain_mode:1 selinux=0
+----- /proc/cmdline end -----
+debug = 0xff7ffff7
+probe = 0x15938fcda8107cf9fffe (+memory +pci +isapnp +net +floppy +misc +misc.serial +misc.par +misc.floppy +serial +cpu +bios +monitor +mouse +scsi +usb -usb.mods +modem +modem.usb +parallel +parallel.lp +parallel.zip -isa -isa.isdn +isdn +kbd +prom +sbus +int -braille -braille.alva -braille.fhp -braille.ht -ignx11 +sys -bios.vbe -isapnp.old -isapnp.new -isapnp.mod -braille.baum -manual +fb +pppoe -scan +pcmcia +fork -parallel.imm +s390 +cpuemu -sysfs -s390disks +udev +block +block.cdrom +block.part +edd +edd.mod -bios.ddc -bios.fb -bios.mode +input +block.mods +bios.vesa -cpuemu.debug -scsi.noserial +wlan -bios.crc -hal +bios.vram +bios.acpi -bios.ddc.ports=0 +modules.pata -net.eeprom +x86emu=dump -max -lxrc)
+shm: attached segment 1 at 0x3fad5a9000
+>> hal.1: read hal data
+>> floppy.1: get nvram
+>> floppy.2: klog info
+>> sys.1: cpu
+>> misc.9: kernel log
+>> misc.1: misc data
+>> misc.1.1: open serial
+>> misc.1.2: open parallel
+>> misc.2.1: io
+>> misc.2.2: dma
+>> misc.2.3: irq
+----- /proc/ioports -----
+----- /proc/ioports end -----
+----- /proc/interrupts -----
+    1:          5          0          0          0  SiFive PLIC  69 Edge      timer@13050000.ch0
+    2:          5          0          0          0  SiFive PLIC  70 Edge      timer@13050000.ch1
+    3:          5          0          0          0  SiFive PLIC  71 Edge      timer@13050000.ch2
+    4:          5          0          0          0  SiFive PLIC  72 Edge      timer@13050000.ch3
+    5:      16571       6793      13260       8880  RISC-V INTC   5 Edge      riscv-timer
+    6:          0          0          0          0  SiFive PLIC   1 Edge      l2_ecc
+    7:          1          0          0          0  SiFive PLIC   3 Edge      l2_ecc
+    8:          1          0          0          0  SiFive PLIC   4 Edge      l2_ecc
+   10:          0          0          0          0  SiFive PLIC   2 Edge      l2_ecc
+   11:        288          0          0          0  SiFive PLIC  25 Edge      13010000.spi
+   12:          0          0          0          0  SiFive PLIC  68 Edge      13070000.wdog
+   15:          0          0          0          0  SiFive PLIC  12 Edge      rtc_starfive
+   16:       1532          0          0          0  SiFive PLIC 111 Edge      17030000.power-controller
+   17:        983          0          0          0  SiFive PLIC  32 Edge      ttyS0
+   18:          0          0          0          0  SiFive PLIC  73 Edge      dw_axi_dmac_platform
+   21:         62          0          0          0  SiFive PLIC  81 Edge      120e0000.tmon
+   22:          3          0          0          0  SiFive PLIC  30 Edge      1600c000.trng
+   23:          0          0          0          0  SiFive PLIC  29 Edge      pl08xdmac
+   24:         22          0          0          0  SiFive PLIC  28 Edge      16000000.crypto
+   25:          0          0          0          0  SiFive PLIC  35 Edge      10030000.i2c
+   26:         11          0          0          0  SiFive PLIC  37 Edge      10050000.i2c
+   27:       6700          0          0          0  SiFive PLIC  50 Edge      12050000.i2c
+   28:          2          0          0          0  SiFive PLIC  51 Edge      12060000.i2c
+   29:         98          0          0          0  SiFive PLIC  74 Edge      dw-mci
+   30:      44749          0          0          0  SiFive PLIC  75 Edge      dw-mci
+   31:          0          0          0          0  SiFive PLIC  92 Edge      vin_axiwr_irq
+   32:          0          0          0          0  SiFive PLIC  87 Edge      vin_isp_irq
+   35:          0          0          0          0  SiFive PLIC  90 Edge      vin_isp_irq_csiline
+   36:          0          0          0          0  SiFive PLIC  14 Edge      JPU_CODEC_IRQ
+   37:          0          0          0          0  SiFive PLIC  13 Edge      130a0000.vpu_dec
+   38:          0          0          0          0  SiFive PLIC  15 Edge      VPU_CODEC_IRQ
+   39:       1214          0          0          0  SiFive PLIC   7 Edge      end0
+   40:          0          0          0          0  SiFive PLIC   6 Edge      end0
+   41:          0          0          0          0  SiFive PLIC   5 Edge      end0
+   42:          0          0          0          0  SiFive PLIC  78 Edge      end1
+   43:          0          0          0          0  SiFive PLIC  77 Edge      end1
+   44:          0          0          0          0  SiFive PLIC  76 Edge      end1
+   46:          0          0          0          0  SiFive PLIC  38 Edge      pl022
+   51:          0          0          0          0  SiFive PLIC  95 Edge      29400000.dc8200
+   52:          1          0          0          0  SiFive PLIC  98 Edge      295d0000.mipi
+   53:          0          0          0          0  SiFive PLIC  99 Edge      29590000.hdmi
+   55:          0          0          0          0  SiFive PLIC 108 Edge      10100000.usb
+   56:          0          0          0          0  SiFive PLIC 110 Edge      10100000.usb
+   58:        140          0          0          0  PLDA PCIe MSI 524288 Edge      xhci_hcd
+  IPI0:       237        348        370        328  Rescheduling interrupts
+  IPI1:      4742      10740      11271       7022  Function call interrupts
+  IPI2:         0          0          0          0  CPU stop interrupts
+  IPI3:      2060       2069       5319       1805  IRQ work interrupts
+  IPI4:         0          0          0          0  Timer broadcast interrupts
+----- /proc/interrupts end -----
+----- /proc/dma -----
+----- /proc/dma end -----
+>> misc.3: FPU
+>> misc.3.1: DMA
+>> misc.3.2: PIC
+>> misc.3.3: timer
+>> misc.3.4: RTC
+>> cpu.1: cpuinfo
+----- /proc/cpuinfo -----
+  processor	: 0
+  hart		: 1
+  isa		: rv64imafdc
+  mmu		: sv39
+  isa-ext		: 
+  uarch		: sifive,u74-mc
+  
+  processor	: 1
+  hart		: 2
+  isa		: rv64imafdc
+  mmu		: sv39
+  isa-ext		: 
+  uarch		: sifive,u74-mc
+  
+  processor	: 2
+  hart		: 3
+  isa		: rv64imafdc
+  mmu		: sv39
+  isa-ext		: 
+  uarch		: sifive,u74-mc
+  
+  processor	: 3
+  hart		: 4
+  isa		: rv64imafdc
+  mmu		: sv39
+  isa-ext		: 
+  uarch		: sifive,u74-mc
+  
+----- /proc/cpuinfo end -----
+>> memory.1: main memory size
+  kcore mem:  0x0
+  klog mem 0: 0x0
+  klog mem 1: 0x0
+  klog mem:   0x0
+  bios mem:   0x0
+  meminfo:    0x1ef5d2000
+  xen balloon:    0x0
+>> pci.1: sysfs drivers
+----- sysfs driver list (id 0xc7d6ef2bc89612dc) -----
+       ssp-pl022: /devices/platform/soc/10060000.spi
+       pl08xdmac: /devices/platform/soc/16008000.sec_dma
+starfive-eth-plat: /devices/platform/soc/16030000.ethernet
+starfive-eth-plat: /devices/platform/soc/16040000.ethernet
+       pcie_plda: /devices/platform/soc/2c000000.pcie
+       pcie_plda: /devices/platform/soc/2b000000.pcie
+       leds-gpio: /devices/platform/leds
+       reg-dummy: /devices/platform/reg-dummy
+  dwmmc_starfive: /devices/platform/soc/16020000.sdio1
+  dwmmc_starfive: /devices/platform/soc/16010000.sdio0
+starfive_jh7110-pinctrl: /devices/platform/soc/17020000.gpio
+starfive_jh7110-pinctrl: /devices/platform/soc/13040000.gpio
+    restart-gpio: /devices/platform/gpio-restart
+         sfctemp: /devices/platform/soc/120e0000.tmon
+        starfive: /devices/platform/soc/soc:display-subsystem
+ starfive-pwmdac: /devices/platform/soc/100b0000.pwmdac
+      jh7110-vin: /devices/platform/soc/19800000.vin_sysctl
+   snd-soc-dummy: /devices/platform/snd-soc-dummy
+   starfive-trng: /devices/platform/soc/1600c000.trng
+dw_axi_dmac_platform: /devices/platform/soc/16050000.dma-controller
+     dw-apb-uart: /devices/platform/soc/10000000.serial
+    starfive-rtc: /devices/platform/soc/17040000.rtc
+  i2c_designware: /devices/platform/soc/12050000.i2c
+  i2c_designware: /devices/platform/soc/10030000.i2c
+  i2c_designware: /devices/platform/soc/10050000.i2c
+  i2c_designware: /devices/platform/soc/12060000.i2c
+            vdec: /devices/platform/soc/130a0000.vpu_dec
+            vdec: module = vdec
+      jh7110-sec: /devices/platform/soc/16000000.crypto
+  cdns3-starfive: /devices/platform/soc/10210000.usbdrd
+clk-starfive-jh7110-vout: /devices/platform/soc/295c0000.clock-controller
+       riscv-pmu: /devices/platform/riscv-pmu
+    cadence-qspi: /devices/platform/soc/13010000.spi
+    jh7110-reset: /devices/platform/soc/13020000.reset-controller
+ sf-mipi-dphy-tx: /devices/platform/soc/295e0000.mipi-dphy
+innohdmi-starfive: /devices/platform/soc/29590000.hdmi
+           vs-dc: /devices/platform/soc/29400000.dc8200
+   simple-pm-bus: /devices/platform/soc
+        cdns-dsi: /devices/platform/soc/295d0000.mipi
+       cdns-usb3: /devices/platform/soc/10210000.usbdrd/10100000.usb
+      jh7110-pmu: /devices/platform/soc/17030000.power-controller
+      alarmtimer: /devices/platform/soc/17040000.rtc/rtc/rtc0/alarmtimer.0.auto
+clk-starfive-jh7110: /devices/platform/soc/13020000.clock-controller
+pwm-starfive-ptc: /devices/platform/soc/120d0000.pwm
+            venc: /devices/platform/soc/130b0000.vpu_enc
+            venc: module = venc
+asoc-simple-card: /devices/platform/soc/soc:snd-card3
+asoc-simple-card: /devices/platform/soc/soc:snd-card1
+      serial8250: /devices/platform/serial8250
+      cpufreq-dt: /devices/platform/cpufreq-dt
+      pwmdac-dit: /devices/platform/soc/soc:pwmdac-transmitter
+vs-simple-encoder: /devices/platform/soc/soc:dsi-output
+         cnm_jpu: module = jpu
+         cnm_jpu: /devices/platform/soc/13090000.jpu
+    starfive-wdt: /devices/platform/soc/13070000.wdog
+clk-starfive-jh7110-isp: /devices/platform/soc/19810000.clock-controller
+    starfive-i2s: /devices/platform/soc/120b0000.i2stx_4ch0
+        xhci_hcd: /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0
+            ahci: module = ahci
+            nvme: module = nvme
+         iwlwifi: module = iwlwifi
+          mmcblk: /devices/platform/soc/16020000.sdio1/mmc_host/mmc1/mmc1:59b4
+YT8531 Gigabit Ethernet: /devices/platform/soc/16030000.ethernet/mdio_bus/stmmac-0/stmmac-0:01
+YT8531 Gigabit Ethernet: /devices/platform/soc/16030000.ethernet/mdio_bus/stmmac-0/stmmac-0:00
+YT8512B Ethernet: /devices/platform/soc/16040000.ethernet/mdio_bus/stmmac-1/stmmac-1:00
+YT8512B Ethernet: /devices/platform/soc/16040000.ethernet/mdio_bus/stmmac-1/stmmac-1:03
+          spidev: /devices/platform/soc/10060000.spi/spi_master/spi1/spi1.0
+         spi-nor: /devices/platform/soc/13010000.spi/spi_master/spi0/spi0.0
+     hid-generic: /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4/1-1.4:1.1/0003:062A:5918.0002
+     hid-generic: /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4/1-1.4:1.0/0003:062A:5918.0001
+   snd-usb-audio: module = snd_usb_audio
+          usbhid: /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4/1-1.4:1.0
+          usbhid: /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4/1-1.4:1.1
+          usbhid: module = usbhid
+     usb-storage: module = usb_storage
+        uvcvideo: module = uvcvideo
+             usb: /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1
+             usb: /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1
+             usb: /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb2
+             usb: /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4
+             usb: /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.2
+             hub: /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-0:1.0
+             hub: module = usbcore
+             hub: /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1:1.0
+             hub: /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb2/2-0:1.0
+           usbfs: module = usbcore
+           dummy: /devices/platform/soc/12050000.i2c/i2c-5/5-0051
+            at24: /devices/platform/soc/12050000.i2c/i2c-5/5-0050
+axp15060-regulator: /devices/platform/soc/12050000.i2c/i2c-5/5-0036
+----- sysfs driver list end -----
+>> pci.2: get sysfs pci data
+  pci device: name = 0000:01:00.0
+    path = /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0
+    modalias = "pci:v00001106d00003483sv00001106sd00003483bc0Csc03i30"
+    class = 0xc0330
+    vendor = 0x1106
+    device = 0x3483
+    subvendor = 0x1106
+    subdevice = 0x3483
+    irq = 58
+    res[0] = 0x30000000 0x30000fff 0x140204
+    config[64]
+  pci device: name = 0000:00:00.0
+    path = /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0
+    modalias = "pci:v00001556d00001111sv00000000sd00000000bc06sc04i00"
+    class = 0x60400
+    vendor = 0x1556
+    device = 0x1111
+    subvendor = 0x0
+    subdevice = 0x0
+    irq = 0
+    config[64]
+---------- PCI raw data ----------
+bus 01, slot 00, func 0, vend:dev:s_vend:s_dev:rev 1106:3483:1106:3483:01
+class 0c, sub_class 03 prog_if 30, hdr 0, flags <pm>, irq 58
+  addr0 30000000, size 00001000
+  00: 06 11 83 34 06 04 10 00 01 30 03 0c 10 00 00 00  "...4.....0......"
+  10: 04 00 00 30 00 00 00 00 00 00 00 00 00 00 00 00  "...0............"
+  20: 00 00 00 00 00 00 00 00 00 00 00 00 06 11 83 34  "...............4"
+  30: 00 00 00 00 80 00 00 00 00 00 00 00 39 01 00 00  "............9..."
+  40: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  "................"
+  50: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  "................"
+  60: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  "................"
+  70: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  "................"
+  80: 01 90 00 00 00 00 00 00 00 00 00 00 00 00 00 00  "................"
+  90: 05 c4 00 00 00 00 00 00 00 00 00 00 00 00 00 00  "................"
+  a0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  "................"
+  b0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  "................"
+  c0: 00 00 00 00 10 00  "......"
+
+bus 00->01, slot 00, func 0, vend:dev:s_vend:s_dev:rev 1556:1111:0000:0000:02
+class 06, sub_class 04 prog_if 00, hdr 1, flags <>, irq 0
+  00: 56 15 11 11 06 00 10 00 02 00 04 06 00 00 01 00  "V..............."
+  10: 0c 00 00 00 00 00 00 00 00 01 01 00 00 00 00 00  "................"
+  20: 00 30 00 30 01 00 01 00 00 00 00 00 00 00 00 00  ".0.0............"
+  30: 00 00 00 00 80 00 00 00 00 00 00 00 00 01 02 00  "................"
+---------- PCI raw data end ----------
+>> pci.4: build list
+>> pci.3: macio
+sysfs: no such bus: macio
+>> pci.4: vio
+sysfs: no such bus: vio
+>> pci.5: xen
+sysfs: no such bus: xen
+>> pci.6: ps3
+sysfs: no such bus: ps3_system_bus
+>> pci.7: platform
+  platform device: name = soc:snd-card0
+    path = /devices/platform/soc/soc:snd-card0
+    type = "snd-card0", modalias = "of:Nsnd-card0T(null)Csimple-audio-card", driver = ""
+  platform device: name = 2c000000.pcie
+    path = /devices/platform/soc/2c000000.pcie
+    type = "pcie", modalias = "of:NpcieTpciCstarfive,jh7110-pcieCplda,pci-xpressrich3-axi", driver = "pcie_plda"
+  platform device: name = 10230000.xrp
+    path = /devices/platform/soc/10230000.xrp
+    type = "xrp", modalias = "of:NxrpT(null)Ccdns,xrp", driver = ""
+  platform device: name = 12050000.i2c
+    path = /devices/platform/soc/12050000.i2c
+    type = "i2c", modalias = "of:Ni2cT(null)Csnps,designware-i2c", driver = "i2c_designware"
+  platform device: name = alarmtimer.0.auto
+    path = /devices/platform/soc/17040000.rtc/rtc/rtc0/alarmtimer.0.auto
+    type = "", modalias = "platform:alarmtimer", driver = "alarmtimer"
+  platform device: name = reg-dummy
+    path = /devices/platform/reg-dummy
+    type = "", modalias = "platform:reg-dummy", driver = "reg-dummy"
+  platform device: name = 16000000.crypto
+    path = /devices/platform/soc/16000000.crypto
+    type = "crypto", modalias = "of:NcryptoT(null)Cstarfive,jh7110-sec", driver = "jh7110-sec"
+  platform device: name = 16050000.dma-controller
+    path = /devices/platform/soc/16050000.dma-controller
+    type = "dma-controller", modalias = "of:Ndma-controllerT(null)Cstarfive,jh7110-dmaCsnps,axi-dma-1.01a", driver = "dw_axi_dmac_platform"
+  platform device: name = soc:display-subsystem
+    path = /devices/platform/soc/soc:display-subsystem
+    type = "display-subsystem", modalias = "of:Ndisplay-subsystemT(null)Cstarfive,jh7110-displayCverisilicon,display-subsystem", driver = "starfive"
+  platform device: name = 10030000.i2c
+    path = /devices/platform/soc/10030000.i2c
+    type = "i2c", modalias = "of:Ni2cT(null)Csnps,designware-i2c", driver = "i2c_designware"
+  platform device: name = sbi-cpuidle
+    path = /devices/platform/sbi-cpuidle
+    type = "", modalias = "platform:sbi-cpuidle", driver = ""
+  platform device: name = 16020000.sdio1
+    path = /devices/platform/soc/16020000.sdio1
+    type = "sdio1", modalias = "of:Nsdio1T(null)Cstarfive,jh7110-sdio", driver = "dwmmc_starfive"
+  platform device: name = 17020000.gpio
+    path = /devices/platform/soc/17020000.gpio
+    type = "gpio", modalias = "of:NgpioT(null)Cstarfive,jh7110-aon-pinctrl", driver = "starfive_jh7110-pinctrl"
+  platform device: name = 16030000.ethernet
+    path = /devices/platform/soc/16030000.ethernet
+    type = "ethernet", modalias = "of:NethernetT(null)Cstarfive,dwmacCsnps,dwmac-5.10a", driver = "starfive-eth-plat"
+    is net: interface = /sys/devices/platform/soc/16030000.ethernet/net/end0
+  platform device: name = 10210000.usbdrd
+    path = /devices/platform/soc/10210000.usbdrd
+    type = "usbdrd", modalias = "of:NusbdrdT(null)Cstarfive,jh7110-cdns3", driver = "cdns3-starfive"
+  platform device: name = platform-framebuffer.0
+    path = /devices/platform/platform-framebuffer.0
+    type = "", modalias = "platform:platform-framebuffer", driver = ""
+  platform device: name = 10050000.i2c
+    path = /devices/platform/soc/10050000.i2c
+    type = "i2c", modalias = "of:Ni2cT(null)Csnps,designware-i2c", driver = "i2c_designware"
+  platform device: name = 120d0000.pwm
+    path = /devices/platform/soc/120d0000.pwm
+    type = "pwm", modalias = "of:NpwmT(null)Cstarfive,jh7110-pwm", driver = "pwm-starfive-ptc"
+  platform device: name = soc:snd-card5
+    path = /devices/platform/soc/soc:snd-card5
+    type = "snd-card5", modalias = "of:Nsnd-card5T(null)Csimple-audio-card", driver = ""
+  platform device: name = 10100000.usb
+    path = /devices/platform/soc/10210000.usbdrd/10100000.usb
+    type = "usb", modalias = "of:NusbT(null)Ccdns,usb3", driver = "cdns-usb3"
+    is usb
+  platform device: name = 16010000.sdio0
+    path = /devices/platform/soc/16010000.sdio0
+    type = "sdio0", modalias = "of:Nsdio0T(null)Cstarfive,jh7110-sdio", driver = "dwmmc_starfive"
+  platform device: name = snd-soc-dummy
+    path = /devices/platform/snd-soc-dummy
+    type = "", modalias = "platform:snd-soc-dummy", driver = "snd-soc-dummy"
+  platform device: name = 13020000.clock-controller
+    path = /devices/platform/soc/13020000.clock-controller
+    type = "clock-controller", modalias = "of:Nclock-controllerT(null)Cstarfive,jh7110-clkgen", driver = "clk-starfive-jh7110"
+  platform device: name = 17030000.power-controller
+    path = /devices/platform/soc/17030000.power-controller
+    type = "power-controller", modalias = "of:Npower-controllerT(null)Cstarfive,jh7110-pmu", driver = "jh7110-pmu"
+  platform device: name = Fixed MDIO bus.0
+    path = /devices/platform/Fixed MDIO bus.0
+    type = "", modalias = "platform:Fixed MDIO bus", driver = ""
+  platform device: name = soc
+    path = /devices/platform/soc
+    type = "soc", modalias = "of:NsocT(null)Csimple-bus", driver = "simple-pm-bus"
+  platform device: name = soc:snd-card3
+    path = /devices/platform/soc/soc:snd-card3
+    type = "snd-card3", modalias = "of:Nsnd-card3T(null)Csimple-audio-card", driver = "asoc-simple-card"
+  platform device: name = riscv-pmu
+    path = /devices/platform/riscv-pmu
+    type = "", modalias = "platform:riscv-pmu", driver = "riscv-pmu"
+  platform device: name = soc:dsi-output
+    path = /devices/platform/soc/soc:dsi-output
+    type = "dsi-output", modalias = "of:Ndsi-outputT(null)Cstarfive,jh7110-display-encoderCverisilicon,dsi-encoder", driver = "vs-simple-encoder"
+  platform device: name = leds
+    path = /devices/platform/leds
+    type = "leds", modalias = "of:NledsT(null)Cgpio-leds", driver = "leds-gpio"
+  platform device: name = 17050000.otp
+    path = /devices/platform/soc/17050000.otp
+    type = "otp", modalias = "of:NotpT(null)Cstarfive,jh7110-otp", driver = ""
+  platform device: name = 2000000.clint
+    path = /devices/platform/soc/2000000.clint
+    type = "clint", modalias = "of:NclintT(null)Criscv,clint0", driver = ""
+  platform device: name = 17010000.aon_syscon
+    path = /devices/platform/soc/17010000.aon_syscon
+    type = "aon_syscon", modalias = "of:Naon_sysconT(null)Csyscon", driver = ""
+  platform device: name = 100b0000.pwmdac
+    path = /devices/platform/soc/100b0000.pwmdac
+    type = "pwmdac", modalias = "of:NpwmdacT(null)Cstarfive,jh7110-pwmdac", driver = "starfive-pwmdac"
+  platform device: name = soc:mailbox_client@0
+    path = /devices/platform/soc/soc:mailbox_client@0
+    type = "mailbox_client", modalias = "of:Nmailbox_clientT(null)Cstarfive,mailbox-test", driver = ""
+  platform device: name = 17040000.rtc
+    path = /devices/platform/soc/17040000.rtc
+    type = "rtc", modalias = "of:NrtcT(null)Cstarfive,jh7110-rtc", driver = "starfive-rtc"
+  platform device: name = soc:snd-card1
+    path = /devices/platform/soc/soc:snd-card1
+    type = "snd-card1", modalias = "of:Nsnd-card1T(null)Csimple-audio-card", driver = "asoc-simple-card"
+  platform device: name = gpio-restart
+    path = /devices/platform/gpio-restart
+    type = "gpio-restart", modalias = "of:Ngpio-restartT(null)Cgpio-restart", driver = "restart-gpio"
+  platform device: name = 19810000.clock-controller
+    path = /devices/platform/soc/19810000.clock-controller
+    type = "clock-controller", modalias = "of:Nclock-controllerT(null)Cstarfive,jh7110-clk-isp", driver = "clk-starfive-jh7110-isp"
+  platform device: name = 16040000.ethernet
+    path = /devices/platform/soc/16040000.ethernet
+    type = "ethernet", modalias = "of:NethernetT(null)Cstarfive,dwmacCsnps,dwmac-5.10a", driver = "starfive-eth-plat"
+    is net: interface = /sys/devices/platform/soc/16040000.ethernet/net/end1
+  platform device: name = 2010000.cache-controller
+    path = /devices/platform/soc/2010000.cache-controller
+    type = "cache-controller", modalias = "of:Ncache-controllerT(null)Csifive,fu740-c000-ccacheCcache", driver = ""
+  platform device: name = 13050000.timer
+    path = /devices/platform/soc/13050000.timer
+    type = "timer", modalias = "of:NtimerT(null)Cstarfive,jh7110-timers", driver = ""
+  platform device: name = 100d0000.pdm
+    path = /devices/platform/soc/100d0000.pdm
+    type = "pdm", modalias = "of:NpdmT(null)Cstarfive,jh7110-pdm", driver = ""
+  platform device: name = 130b0000.vpu_enc
+    path = /devices/platform/soc/130b0000.vpu_enc
+    type = "vpu_enc", modalias = "of:Nvpu_encT(null)Cstarfive,venc", driver = "venc"
+  platform device: name = 12060000.i2c
+    path = /devices/platform/soc/12060000.i2c
+    type = "i2c", modalias = "of:Ni2cT(null)Csnps,designware-i2c", driver = "i2c_designware"
+  platform device: name = 29400000.dc8200
+    path = /devices/platform/soc/29400000.dc8200
+    type = "dc8200", modalias = "of:Ndc8200T(null)Cstarfive,jh7110-dc8200Cverisilicon,dc8200", driver = "vs-dc"
+  platform device: name = 2b000000.pcie
+    path = /devices/platform/soc/2b000000.pcie
+    type = "pcie", modalias = "of:NpcieTpciCstarfive,jh7110-pcieCplda,pci-xpressrich3-axi", driver = "pcie_plda"
+  platform device: name = 295e0000.mipi-dphy
+    path = /devices/platform/soc/295e0000.mipi-dphy
+    type = "mipi-dphy", modalias = "of:Nmipi-dphyT(null)Cstarfive,jh7110-mipi-dphy-txCm31,mipi-dphy-tx", driver = "sf-mipi-dphy-tx"
+  platform device: name = 295b0000.dssctrl
+    path = /devices/platform/soc/295b0000.dssctrl
+    type = "dssctrl", modalias = "of:NdssctrlT(null)Cstarfive,jh7110-dssctrlCverisilicon,dss-ctrlCsyscon", driver = ""
+  platform device: name = 130a0000.vpu_dec
+    path = /devices/platform/soc/130a0000.vpu_dec
+    type = "vpu_dec", modalias = "of:Nvpu_decT(null)Cstarfive,vdec", driver = "vdec"
+  platform device: name = 13010000.spi
+    path = /devices/platform/soc/13010000.spi
+    type = "spi", modalias = "of:NspiT(null)Ccdns,qspi-nor", driver = "cadence-qspi"
+  platform device: name = regulatory.0
+    path = /devices/platform/regulatory.0
+    type = "", modalias = "platform:regulatory", driver = ""
+  platform device: name = 29590000.hdmi
+    path = /devices/platform/soc/29590000.hdmi
+    type = "hdmi", modalias = "of:NhdmiT(null)Cstarfive,jh7110-hdmiCinno,hdmi", driver = "innohdmi-starfive"
+  platform device: name = 13060000.mailbox
+    path = /devices/platform/soc/13060000.mailbox
+    type = "mailbox", modalias = "of:NmailboxT(null)Cstarfive,mail_box", driver = ""
+  platform device: name = 1600c000.trng
+    path = /devices/platform/soc/1600c000.trng
+    type = "trng", modalias = "of:NtrngT(null)Cstarfive,jh7110-trng", driver = "starfive-trng"
+  platform device: name = soc:snd-card6
+    path = /devices/platform/soc/soc:snd-card6
+    type = "snd-card6", modalias = "of:Nsnd-card6T(null)Csimple-audio-card", driver = ""
+  platform device: name = 120e0000.tmon
+    path = /devices/platform/soc/120e0000.tmon
+    type = "tmon", modalias = "of:NtmonT(null)Cstarfive,jh7110-temp", driver = "sfctemp"
+  platform device: name = 295c0000.clock-controller
+    path = /devices/platform/soc/295c0000.clock-controller
+    type = "clock-controller", modalias = "of:Nclock-controllerT(null)Cstarfive,jh7110-clk-vout", driver = "clk-starfive-jh7110-vout"
+  platform device: name = 13020000.reset-controller
+    path = /devices/platform/soc/13020000.reset-controller
+    type = "reset-controller", modalias = "of:Nreset-controllerT(null)Cstarfive,jh7110-reset", driver = "jh7110-reset"
+  platform device: name = soc:pwmdac-transmitter
+    path = /devices/platform/soc/soc:pwmdac-transmitter
+    type = "pwmdac-transmitter", modalias = "of:Npwmdac-transmitterT(null)Cstarfive,jh7110-pwmdac-dit", driver = "pwmdac-dit"
+  platform device: name = 18000000.gpu
+    path = /devices/platform/soc/18000000.gpu
+    type = "gpu", modalias = "of:NgpuT(null)Cimg-gpu", driver = ""
+  platform device: name = soc:starfive,jh7110-cpufreq
+    path = /devices/platform/soc/soc:starfive,jh7110-cpufreq
+    type = "starfive,jh7110-cpufreq", modalias = "of:Nstarfive,jh7110-cpufreqT(null)Cstarfive,jh7110-cpufreq", driver = ""
+  platform device: name = soc:snd-card4
+    path = /devices/platform/soc/soc:snd-card4
+    type = "snd-card4", modalias = "of:Nsnd-card4T(null)Csimple-audio-card", driver = ""
+  platform device: name = 120b0000.i2stx_4ch0
+    path = /devices/platform/soc/120b0000.i2stx_4ch0
+    type = "i2stx_4ch0", modalias = "of:Ni2stx_4ch0T(null)Cstarfive,jh7110-i2stx-4ch0Csnps,designware-i2s", driver = "starfive-i2s"
+  platform device: name = serial8250
+    path = /devices/platform/serial8250
+    type = "", modalias = "platform:serial8250", driver = "serial8250"
+  platform device: name = 10210000.multi-phyctrl
+    path = /devices/platform/soc/10210000.multi-phyctrl
+    type = "multi-phyctrl", modalias = "of:Nmulti-phyctrlT(null)Cstarfive,phyctrl", driver = ""
+  platform device: name = cpufreq-dt
+    path = /devices/platform/cpufreq-dt
+    type = "", modalias = "platform:cpufreq-dt", driver = "cpufreq-dt"
+  platform device: name = 13030000.sys_syscon
+    path = /devices/platform/soc/13030000.sys_syscon
+    type = "sys_syscon", modalias = "of:Nsys_sysconT(null)Csyscon", driver = ""
+  platform device: name = 295d0000.mipi
+    path = /devices/platform/soc/295d0000.mipi
+    type = "mipi", modalias = "of:NmipiT(null)Cstarfive,jh7110-mipi_dsiCcdns,dsi", driver = "cdns-dsi"
+  platform device: name = c0110000.e24
+    path = /devices/platform/soc/c0110000.e24
+    type = "e24", modalias = "of:Ne24T(null)Cstarfive,e24", driver = ""
+  platform device: name = soc:snd-card2
+    path = /devices/platform/soc/soc:snd-card2
+    type = "snd-card2", modalias = "of:Nsnd-card2T(null)Csimple-audio-card", driver = ""
+  platform device: name = 10000000.serial
+    path = /devices/platform/soc/10000000.serial
+    type = "serial", modalias = "of:NserialT(null)Csnps,dw-apb-uart", driver = "dw-apb-uart"
+  platform device: name = 10220000.pcie1-phyctrl
+    path = /devices/platform/soc/10220000.pcie1-phyctrl
+    type = "pcie1-phyctrl", modalias = "of:Npcie1-phyctrlT(null)Cstarfive,phyctrl", driver = ""
+  platform device: name = 13090000.jpu
+    path = /devices/platform/soc/13090000.jpu
+    type = "jpu", modalias = "of:NjpuT(null)Cstarfive,jpu", driver = "cnm_jpu"
+  platform device: name = 19800000.vin_sysctl
+    path = /devices/platform/soc/19800000.vin_sysctl
+    type = "vin_sysctl", modalias = "of:Nvin_sysctlT(null)Cstarfive,jh7110-vin", driver = "jh7110-vin"
+  platform device: name = 13040000.gpio
+    path = /devices/platform/soc/13040000.gpio
+    type = "gpio", modalias = "of:NgpioT(null)Cstarfive,jh7110-sys-pinctrl", driver = "starfive_jh7110-pinctrl"
+  platform device: name = 13070000.wdog
+    path = /devices/platform/soc/13070000.wdog
+    type = "wdog", modalias = "of:NwdogT(null)Cstarfive,jh7110-wdt", driver = "starfive-wdt"
+  platform device: name = 10240000.stg_syscon
+    path = /devices/platform/soc/10240000.stg_syscon
+    type = "stg_syscon", modalias = "of:Nstg_sysconT(null)Csyscon", driver = ""
+>> pci.8: of_platform
+sysfs: no such bus: of_platform
+>> pci.9: vm
+sysfs: no such bus: vm
+>> pci.10: virtio
+sysfs: no such bus: virtio
+>> pci.11: ibmebus
+sysfs: no such bus: ibmebus
+>> pci.12: uisvirtpci
+sysfs: no such bus: uisvirtpci
+>> pci.13: mmc
+  mmc device: name = mmc1:59b4
+    path = /devices/platform/soc/16020000.sdio1/mmc_host/mmc1/mmc1:59b4
+    driver = "mmcblk"
+    index = 1
+    type = "SD"
+>> pci.14: sdio
+sysfs: no such bus: sdio
+>> pci.15: nd
+sysfs: no such bus: nd
+>> pci.16: visorbus
+sysfs: no such bus: visorbus
+>> pci.17: mdio
+  mdio device: name = stmmac-0:01
+    path = /devices/platform/soc/16030000.ethernet/mdio_bus/stmmac-0/stmmac-0:01
+  mdio device: name = stmmac-1:00
+    path = /devices/platform/soc/16040000.ethernet/mdio_bus/stmmac-1/stmmac-1:00
+  mdio device: name = stmmac-0:00
+    path = /devices/platform/soc/16030000.ethernet/mdio_bus/stmmac-0/stmmac-0:00
+  mdio device: name = stmmac-1:03
+    path = /devices/platform/soc/16040000.ethernet/mdio_bus/stmmac-1/stmmac-1:03
+>> monitor.1: ddc
+>> monitor.2: bios
+>> monitor.3: pci
+>> monitor.4: internal db
+>> monitor.5: prom
+>> pcmcia.1: sysfs drivers
+>> pcmcia.2: pcmcia
+sysfs: no such bus: pcmcia
+>> pcmcia.3: pcmcia ctrl
+sysfs: no such class: pcmcia_socket
+>> serial.1: read info
+----- /proc/tty/driver/serial -----
+  0: uart:16550A mmio:0x10000000 irq:17 tx:15253 rx:0 RTS|DTR
+  1: uart:unknown port:00000000 irq:0
+  2: uart:unknown port:00000000 irq:0
+  3: uart:unknown port:00000000 irq:0
+  4: uart:unknown port:00000000 irq:0
+  5: uart:unknown port:00000000 irq:0
+----- /proc/tty/driver/serial end -----
+----- serial info -----
+----- serial info end -----
+>> serial.2: build list
+>> misc.5: misc data
+----- misc resources -----
+irq:0  1 (        5) "PLIC  69 Edge      timer@13050000.ch0"
+irq:0  2 (        5) "PLIC  70 Edge      timer@13050000.ch1"
+irq:0  3 (        5) "PLIC  71 Edge      timer@13050000.ch2"
+irq:0  4 (        5) "PLIC  72 Edge      timer@13050000.ch3"
+irq:0  5 (    45504) "INTC   5 Edge      riscv-timer"
+irq:0  6 (        0) "PLIC   1 Edge      l2_ecc"
+irq:0  7 (        1) "PLIC   3 Edge      l2_ecc"
+irq:0  8 (        1) "PLIC   4 Edge      l2_ecc"
+irq:0 10 (        0) "PLIC   2 Edge      l2_ecc"
+irq:0 11 (      288) "PLIC  25 Edge      13010000.spi"
+irq:0 12 (        0) "PLIC  68 Edge      13070000.wdog"
+irq:0 15 (        0) "PLIC  12 Edge      rtc_starfive"
+irq:0 16 (     1532) "PLIC 111 Edge      17030000.power-controller"
+irq:0 17 (      983) "PLIC  32 Edge      ttyS0"
+irq:0 18 (        0) "PLIC  73 Edge      dw_axi_dmac_platform"
+irq:0 21 (       62) "PLIC  81 Edge      120e0000.tmon"
+irq:0 22 (        3) "PLIC  30 Edge      1600c000.trng"
+irq:0 23 (        0) "PLIC  29 Edge      pl08xdmac"
+irq:0 24 (       22) "PLIC  28 Edge      16000000.crypto"
+irq:0 25 (        0) "PLIC  35 Edge      10030000.i2c"
+irq:0 26 (       11) "PLIC  37 Edge      10050000.i2c"
+irq:0 27 (     6700) "PLIC  50 Edge      12050000.i2c"
+irq:0 28 (        2) "PLIC  51 Edge      12060000.i2c"
+irq:0 29 (       98) "PLIC  74 Edge      dw-mci"
+irq:0 30 (    44749) "PLIC  75 Edge      dw-mci"
+irq:0 31 (        0) "PLIC  92 Edge      vin_axiwr_irq"
+irq:0 32 (        0) "PLIC  87 Edge      vin_isp_irq"
+irq:0 35 (        0) "PLIC  90 Edge      vin_isp_irq_csiline"
+irq:0 36 (        0) "PLIC  14 Edge      JPU_CODEC_IRQ"
+irq:0 37 (        0) "PLIC  13 Edge      130a0000.vpu_dec"
+irq:0 38 (        0) "PLIC  15 Edge      VPU_CODEC_IRQ"
+irq:0 39 (     1214) "PLIC   7 Edge      end0"
+irq:0 40 (        0) "PLIC   6 Edge      end0"
+irq:0 41 (        0) "PLIC   5 Edge      end0"
+irq:0 42 (        0) "PLIC  78 Edge      end1"
+irq:0 43 (        0) "PLIC  77 Edge      end1"
+irq:0 44 (        0) "PLIC  76 Edge      end1"
+irq:0 46 (        0) "PLIC  38 Edge      pl022"
+irq:0 51 (        0) "PLIC  95 Edge      29400000.dc8200"
+irq:0 52 (        1) "PLIC  98 Edge      295d0000.mipi"
+irq:0 53 (        0) "PLIC  99 Edge      29590000.hdmi"
+irq:0 55 (        0) "PLIC 108 Edge      10100000.usb"
+irq:0 56 (        0) "PLIC 110 Edge      10100000.usb"
+irq:0 58 (      140) "PCIe MSI 524288 Edge      xhci_hcd"
+----- misc resources end -----
+>> parallel.1: pp mod
+----- exec: "/sbin/modprobe parport_pc" -----
+  modprobe: FATAL: Module parport_pc not found in directory /lib/modules/5.15.0-starfive
+----- return code: ? -----
+----- exec: "/sbin/modprobe lp" -----
+  modprobe: FATAL: Module lp not found in directory /lib/modules/5.15.0-starfive
+----- return code: ? -----
+>> parallel.2.1: lp read info
+>> parallel.2.2: lp read info
+>> parallel.2.3: lp read info
+----- parallel info -----
+----- parallel info end -----
+>> block.1: block modules
+----- exec: "/sbin/modprobe ide-cd_mod " -----
+  modprobe: FATAL: Module ide-cd_mod not found in directory /lib/modules/5.15.0-starfive
+----- return code: ? -----
+----- exec: "/sbin/modprobe ide-disk " -----
+  modprobe: FATAL: Module ide-disk not found in directory /lib/modules/5.15.0-starfive
+----- return code: ? -----
+----- exec: "/sbin/modprobe sr_mod " -----
+----- return code: ? -----
+----- exec: "/sbin/modprobe sd_mod " -----
+----- return code: ? -----
+----- exec: "/sbin/modprobe st " -----
+  modprobe: FATAL: Module st not found in directory /lib/modules/5.15.0-starfive
+----- return code: ? -----
+>> block.2: sysfs drivers
+>> block.3: cdrom
+----- /proc/sys/dev/cdrom/info -----
+drive name:	
+drive speed:	
+drive # of slots:
+Can close tray:	
+Can open tray:	
+Can lock tray:	
+Can change speed:
+Can select disk:
+Can read multisession:
+Can read MCN:	
+Reports media changed:
+Can play audio:	
+Can write CD-R:	
+Can write CD-RW:
+Can read DVD:	
+Can write DVD-R:
+Can write DVD-RAM:
+Can read MRW:	
+Can write MRW:	
+Can write RAM:	
+----- /proc/sys/dev/cdrom/info end -----
+>> block.4: partition
+----- /proc/partitions -----
+    31        0        256 mtdblock0
+    31        1       3072 mtdblock1
+    31        2       1024 mtdblock2
+   179        0   30533632 mmcblk1
+   179        1       2048 mmcblk1p1
+   179        2       4096 mmcblk1p2
+   179        3     102400 mmcblk1p3
+   179        4   30423007 mmcblk1p4
+----- /proc/partitions end -----
+disks:
+  mtdblock0
+  mtdblock1
+  mtdblock2
+  mmcblk1
+partitions:
+  mmcblk1p1
+  mmcblk1p2
+  mmcblk1p3
+  mmcblk1p4
+>> block.5: get sysfs block dev data
+-----  lsscsi -----
+-----  lsscsi end -----
+  block: name = loop1, path = /class/block/loop1
+    dev = 7:1
+    range = 1
+  block: name = mmcblk1p3, path = /class/block/mmcblk1p3
+    dev = 179:3
+  block: name = mmcblk1p1, path = /class/block/mmcblk1p1
+    dev = 179:1
+  block: name = loop6, path = /class/block/loop6
+    dev = 7:6
+    range = 1
+  block: name = mtdblock2, path = /class/block/mtdblock2
+    dev = 31:2
+    range = 1
+    block device: bus = mtd, bus_id = mtd2 driver = (null)
+      path = /devices/platform/soc/13010000.spi/spi_master/spi0/spi0.0/mtd/mtd2
+>> block.5: /dev/mtdblock2
+>> block.5.1: /dev/mtdblock2 geo
+  dev = /dev/mtdblock2, fd = 3
+  open ok, fd = 3
+  geo failed: Inappropriate ioctl for device
+/dev/mtdblock2: ioctl(block size) ok
+/dev/mtdblock2: ioctl(disk size) ok
+  block: name = loop4, path = /class/block/loop4
+    dev = 7:4
+    range = 1
+  block: name = mtdblock0, path = /class/block/mtdblock0
+    dev = 31:0
+    range = 1
+    block device: bus = mtd, bus_id = mtd0 driver = (null)
+      path = /devices/platform/soc/13010000.spi/spi_master/spi0/spi0.0/mtd/mtd0
+>> block.5: /dev/mtdblock0
+>> block.5.1: /dev/mtdblock0 geo
+  dev = /dev/mtdblock0, fd = 3
+  open ok, fd = 3
+  geo failed: Inappropriate ioctl for device
+/dev/mtdblock0: ioctl(block size) ok
+/dev/mtdblock0: ioctl(disk size) ok
+  block: name = loop2, path = /class/block/loop2
+    dev = 7:2
+    range = 1
+  block: name = mmcblk1p4, path = /class/block/mmcblk1p4
+    dev = 179:4
+  block: name = loop0, path = /class/block/loop0
+    dev = 7:0
+    range = 1
+  block: name = mmcblk1p2, path = /class/block/mmcblk1p2
+    dev = 179:2
+  block: name = mmcblk1, path = /class/block/mmcblk1
+    dev = 179:0
+    range = 8
+    block device: bus = mmc, bus_id = mmc1:59b4 driver = mmcblk
+      path = /devices/platform/soc/16020000.sdio1/mmc_host/mmc1/mmc1:59b4
+>> block.5: /dev/mmcblk1
+>> block.5.1: /dev/mmcblk1 geo
+  dev = /dev/mmcblk1, fd = 3
+  open ok, fd = 3
+/dev/mmcblk1: ioctl(geo) ok
+/dev/mmcblk1: ioctl(block size) ok
+/dev/mmcblk1: ioctl(disk size) ok
+  block: name = loop7, path = /class/block/loop7
+    dev = 7:7
+    range = 1
+  block: name = loop5, path = /class/block/loop5
+    dev = 7:5
+    range = 1
+  block: name = mtdblock1, path = /class/block/mtdblock1
+    dev = 31:1
+    range = 1
+    block device: bus = mtd, bus_id = mtd1 driver = (null)
+      path = /devices/platform/soc/13010000.spi/spi_master/spi0/spi0.0/mtd/mtd1
+>> block.5: /dev/mtdblock1
+>> block.5.1: /dev/mtdblock1 geo
+  dev = /dev/mtdblock1, fd = 3
+  open ok, fd = 3
+  geo failed: Inappropriate ioctl for device
+/dev/mtdblock1: ioctl(block size) ok
+/dev/mtdblock1: ioctl(disk size) ok
+  block: name = loop3, path = /class/block/loop3
+    dev = 7:3
+    range = 1
+>> scsi.1: scsi modules
+----- exec: "/sbin/modprobe sg " -----
+  modprobe: FATAL: Module sg not found in directory /lib/modules/5.15.0-starfive
+----- return code: ? -----
+>> scsi.2: scsi tape
+sysfs: no such class: scsi_tape
+>> scsi.3: scsi generic
+sysfs: no such class: scsi_generic
+>> usb.1: sysfs drivers
+>> usb.2: usb
+  usb dev: /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1
+  usb dev: /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1
+  usb dev: /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb2
+  usb dev: /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4
+  usb dev: /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.2
+  usb device: name = 1-1.4:1.0
+    path = /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4/1-1.4:1.0
+    modalias = "usb:v062Ap5918d0102dc00dsc00dp00ic03isc01ip01in00"
+    bInterfaceNumber = 0
+    bInterfaceClass = 3
+    bInterfaceSubClass = 1
+    bInterfaceProtocol = 1
+    if: 1-1.4:1.0 @ /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4
+    bDeviceClass = 0
+    bDeviceSubClass = 0
+    bDeviceProtocol = 0
+    idVendor = 0x062a
+    idProduct = 0x5918
+    manufacturer = "MOSART Semi."
+    product = "2.4G Keyboard Mouse"
+    bcdDevice = 0102
+    speed = "12"
+  usb device: name = usb1
+    path = /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1
+  usb device: name = 1-1
+    path = /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1
+  usb device: name = 1-1.4:1.1
+    path = /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4/1-1.4:1.1
+    modalias = "usb:v062Ap5918d0102dc00dsc00dp00ic03isc01ip02in01"
+    bInterfaceNumber = 1
+    bInterfaceClass = 3
+    bInterfaceSubClass = 1
+    bInterfaceProtocol = 2
+    if: 1-1.4:1.1 @ /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4
+    bDeviceClass = 0
+    bDeviceSubClass = 0
+    bDeviceProtocol = 0
+    idVendor = 0x062a
+    idProduct = 0x5918
+    manufacturer = "MOSART Semi."
+    product = "2.4G Keyboard Mouse"
+    bcdDevice = 0102
+    speed = "12"
+  usb device: name = usb2
+    path = /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb2
+  usb device: name = 1-1.2:1.0
+    path = /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.2/1-1.2:1.0
+    modalias = "usb:v0BDAp8179d0000dc00dsc00dp00icFFiscFFipFFin00"
+    bInterfaceNumber = 0
+    bInterfaceClass = 255
+    bInterfaceSubClass = 255
+    bInterfaceProtocol = 255
+    if: 1-1.2:1.0 @ /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.2
+    bDeviceClass = 0
+    bDeviceSubClass = 0
+    bDeviceProtocol = 0
+    idVendor = 0x0bda
+    idProduct = 0x8179
+    manufacturer = "Realtek"
+    product = "802.11n NIC"
+    serial = "00E04C0001"
+    bcdDevice = 0000
+    speed = "480"
+  usb device: name = 1-1.4
+    path = /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4
+  usb device: name = 1-0:1.0
+    path = /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-0:1.0
+    modalias = "usb:v1D6Bp0002d0515dc09dsc00dp01ic09isc00ip00in00"
+    bInterfaceNumber = 0
+    bInterfaceClass = 9
+    bInterfaceSubClass = 0
+    bInterfaceProtocol = 0
+    if: 1-0:1.0 @ /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1
+    bDeviceClass = 9
+    bDeviceSubClass = 0
+    bDeviceProtocol = 1
+    idVendor = 0x1d6b
+    idProduct = 0x0002
+    manufacturer = "Linux 5.15.0-starfive xhci-hcd"
+    product = "xHCI Host Controller"
+    serial = "0000:01:00.0"
+    bcdDevice = 0515
+    speed = "480"
+  usb device: name = 1-1.2
+    path = /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.2
+  usb device: name = 1-1:1.0
+    path = /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1:1.0
+    modalias = "usb:v2109p3431d0420dc09dsc00dp01ic09isc00ip00in00"
+    bInterfaceNumber = 0
+    bInterfaceClass = 9
+    bInterfaceSubClass = 0
+    bInterfaceProtocol = 0
+    if: 1-1:1.0 @ /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1
+    bDeviceClass = 9
+    bDeviceSubClass = 0
+    bDeviceProtocol = 1
+    idVendor = 0x2109
+    idProduct = 0x3431
+    product = "USB2.0 Hub"
+    bcdDevice = 0420
+    speed = "480"
+  usb device: name = 2-0:1.0
+    path = /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb2/2-0:1.0
+    modalias = "usb:v1D6Bp0003d0515dc09dsc00dp03ic09isc00ip00in00"
+    bInterfaceNumber = 0
+    bInterfaceClass = 9
+    bInterfaceSubClass = 0
+    bInterfaceProtocol = 0
+    if: 2-0:1.0 @ /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb2
+    bDeviceClass = 9
+    bDeviceSubClass = 0
+    bDeviceProtocol = 3
+    idVendor = 0x1d6b
+    idProduct = 0x0003
+    manufacturer = "Linux 5.15.0-starfive xhci-hcd"
+    product = "xHCI Host Controller"
+    serial = "0000:01:00.0"
+    bcdDevice = 0515
+    speed = "5000"
+>> usb.3.1: joydev mod
+----- exec: "/sbin/modprobe joydev " -----
+  modprobe: FATAL: Module joydev not found in directory /lib/modules/5.15.0-starfive
+----- return code: ? -----
+>> usb.3.2: evdev mod
+----- exec: "/sbin/modprobe evdev " -----
+----- return code: ? -----
+>> usb.3.3: input
+  input: name = input3, path = /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4/1-1.4:1.1/0003:062A:5918.0002/input/input3
+    no dev - ignored
+  input: name = event3, path = /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4/1-1.4:1.1/0003:062A:5918.0002/input/input3/event3
+    dev = 13:67
+    input device: bus = hid, bus_id = 0003:062A:5918.0002 driver = hid-generic
+      path = /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4/1-1.4:1.1/0003:062A:5918.0002
+  input: name = input1, path = /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4/1-1.4:1.1/0003:062A:5918.0002/input/input1
+    no dev - ignored
+  input: name = event1, path = /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4/1-1.4:1.1/0003:062A:5918.0002/input/input1/event1
+    dev = 13:65
+    input device: bus = hid, bus_id = 0003:062A:5918.0002 driver = hid-generic
+      path = /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4/1-1.4:1.1/0003:062A:5918.0002
+  input: name = input4, path = /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4/1-1.4:1.1/0003:062A:5918.0002/input/input4
+    no dev - ignored
+  input: name = event4, path = /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4/1-1.4:1.1/0003:062A:5918.0002/input/input4/event4
+    dev = 13:68
+    input device: bus = hid, bus_id = 0003:062A:5918.0002 driver = hid-generic
+      path = /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4/1-1.4:1.1/0003:062A:5918.0002
+  input: name = input2, path = /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4/1-1.4:1.1/0003:062A:5918.0002/input/input2
+    no dev - ignored
+  input: name = event2, path = /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4/1-1.4:1.1/0003:062A:5918.0002/input/input2/event2
+    dev = 13:66
+    input device: bus = hid, bus_id = 0003:062A:5918.0002 driver = hid-generic
+      path = /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4/1-1.4:1.1/0003:062A:5918.0002
+  input: name = input0, path = /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4/1-1.4:1.0/0003:062A:5918.0001/input/input0
+    no dev - ignored
+  input: name = event0, path = /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4/1-1.4:1.0/0003:062A:5918.0001/input/input0/event0
+    dev = 13:64
+    input device: bus = hid, bus_id = 0003:062A:5918.0001 driver = hid-generic
+      path = /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4/1-1.4:1.0/0003:062A:5918.0001
+>> usb.3.4: lp
+sysfs: no such class: usb
+>> usb.3.5: serial
+>> modem.1: serial
+******  started child process 1256 (15s/120s)  ******
+******  stopped child process 1256 (120s)  ******
+>> mouse.2: serial
+******  started child process 1257 (20s/20s)  ******
+******  stopped child process 1257 (20s)  ******
+>> input.1: joydev mod
+----- exec: "/sbin/modprobe joydev " -----
+  modprobe: FATAL: Module joydev not found in directory /lib/modules/5.15.0-starfive
+----- return code: ? -----
+>> input.1.1: evdev mod
+----- exec: "/sbin/modprobe evdev " -----
+----- return code: ? -----
+>> input.2: input
+----- /proc/bus/input/devices -----
+  I: Bus=0003 Vendor=062a Product=5918 Version=0110
+  N: Name="MOSART Semi. 2.4G Keyboard Mouse"
+  P: Phys=usb-0000:01:00.0-1.4/input0
+  S: Sysfs=/devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4/1-1.4:1.0/0003:062A:5918.0001/input/input0
+  U: Uniq=
+  H: Handlers=kbd leds event0 
+  B: PROP=0
+  B: EV=120013
+  B: KEY=1000000000007 ff9f207ac14057ff febeffdfffefffff fffffffffffffffe
+  B: MSC=10
+  B: LED=7
+  
+  I: Bus=0003 Vendor=062a Product=5918 Version=0110
+  N: Name="MOSART Semi. 2.4G Keyboard Mouse"
+  P: Phys=usb-0000:01:00.0-1.4/input1
+  S: Sysfs=/devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4/1-1.4:1.1/0003:062A:5918.0002/input/input1
+  U: Uniq=
+  H: Handlers=event1 
+  B: PROP=0
+  B: EV=17
+  B: KEY=1f0000 0 0 0 0
+  B: REL=1943
+  B: MSC=10
+  
+  I: Bus=0003 Vendor=062a Product=5918 Version=0110
+  N: Name="MOSART Semi. 2.4G Keyboard Mouse Consumer Control"
+  P: Phys=usb-0000:01:00.0-1.4/input1
+  S: Sysfs=/devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4/1-1.4:1.1/0003:062A:5918.0002/input/input2
+  U: Uniq=
+  H: Handlers=kbd event2 
+  B: PROP=0
+  B: EV=1f
+  B: KEY=3f000303ff 0 0 483ffff17aff32d bfd4444600000000 1 130ff38b17c000 677bfad9415fed 19ed68000004400 10000002
+  B: REL=1040
+  B: ABS=100000000
+  B: MSC=10
+  
+  I: Bus=0003 Vendor=062a Product=5918 Version=0110
+  N: Name="MOSART Semi. 2.4G Keyboard Mouse System Control"
+  P: Phys=usb-0000:01:00.0-1.4/input1
+  S: Sysfs=/devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4/1-1.4:1.1/0003:062A:5918.0002/input/input3
+  U: Uniq=
+  H: Handlers=kbd event3 
+  B: PROP=0
+  B: EV=13
+  B: KEY=c000 10000000000000 0
+  B: MSC=10
+  
+  I: Bus=0003 Vendor=062a Product=5918 Version=0110
+  N: Name="MOSART Semi. 2.4G Keyboard Mouse"
+  P: Phys=usb-0000:01:00.0-1.4/input1
+  S: Sysfs=/devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4/1-1.4:1.1/0003:062A:5918.0002/input/input4
+  U: Uniq=
+  H: Handlers=event4 
+  B: PROP=0
+  B: EV=9
+  B: ABS=10000000000
+  
+----- /proc/bus/input/devices end -----
+bus = 3, name = MOSART Semi. 2.4G Keyboard Mouse
+  handlers = kbd leds event0
+  key = 0001000000000007ff9f207ac14057fffebeffdfffeffffffffffffffffffffe
+  mouse buttons = 0
+  mouse wheels = 0
+  is_mouse = 0
+  is_joystick = 0
+bus = 3, name = MOSART Semi. 2.4G Keyboard Mouse
+  handlers = event1
+  key = 00000000001f00000000000000000000000000000000000000000000000000000000000000000000
+  rel = 0000000000001943
+  mouse buttons = 5
+  mouse wheels = 4
+  is_mouse = 0
+  is_joystick = 0
+bus = 3, name = MOSART Semi. 2.4G Keyboard Mouse Consumer Control
+  handlers = kbd event2
+  key = 0000003f000303ff000000000000000000000000000000000483ffff17aff32dbfd4444600000000000000000000000100130ff38b17c00000677bfad9415fed019ed680000044000000000010000002
+  rel = 0000000000001040
+  abs = 0000000100000000
+  mouse buttons = 0
+  mouse wheels = 2
+  is_mouse = 0
+  is_joystick = 0
+bus = 3, name = MOSART Semi. 2.4G Keyboard Mouse System Control
+  handlers = kbd event3
+  key = 000000000000c00000100000000000000000000000000000
+  mouse buttons = 0
+  mouse wheels = 0
+  is_mouse = 0
+  is_joystick = 0
+bus = 3, name = MOSART Semi. 2.4G Keyboard Mouse
+  handlers = event4
+  abs = 0000010000000000
+  mouse buttons = 0
+  mouse wheels = 0
+  is_mouse = 0
+  is_joystick = 0
+>> kbd.2: uml
+>> cpu.1: cpuinfo
+----- /proc/cpuinfo -----
+  processor	: 0
+  hart		: 1
+  isa		: rv64imafdc
+  mmu		: sv39
+  isa-ext		: 
+  uarch		: sifive,u74-mc
+  
+  processor	: 1
+  hart		: 2
+  isa		: rv64imafdc
+  mmu		: sv39
+  isa-ext		: 
+  uarch		: sifive,u74-mc
+  
+  processor	: 2
+  hart		: 3
+  isa		: rv64imafdc
+  mmu		: sv39
+  isa-ext		: 
+  uarch		: sifive,u74-mc
+  
+  processor	: 3
+  hart		: 4
+  isa		: rv64imafdc
+  mmu		: sv39
+  isa-ext		: 
+  uarch		: sifive,u74-mc
+  
+----- /proc/cpuinfo end -----
+>> kbd.3: serial console
+>> fb.1: read info
+>> net.1: get network data
+  net interface: name = lo, path = /class/net/lo
+    type = 772
+    carrier = 1
+    hw_addr = 00:00:00:00:00:00
+  lo: ethtool permanent hw address[6]: 00:00:00:00:00:00
+    GDRVINFO ethtool error: Operation not supported
+    ethtool private flags: 0
+  net interface: name = end1, path = /class/net/end1
+    type = 1
+    carrier = 0
+    hw_addr = 6c:cf:39:00:15:20
+    net device: path = /devices/platform/soc/16040000.ethernet
+    net driver: name = starfive-eth-plat, path = /bus/platform/drivers/starfive-eth-plat
+  end1: ethtool permanent hw address[6]: 6c:cf:39:00:15:20
+    ethtool private flags: 0
+  net interface: name = sit0, path = /class/net/sit0
+    type = 776
+    hw_addr = 00:00:00:00
+  sit0: ethtool permanent hw address[4]: 00:00:00:00
+    ethtool private flags: 0
+  net interface: name = end0, path = /class/net/end0
+    type = 1
+    carrier = 1
+    hw_addr = 6c:cf:39:00:15:1f
+    net device: path = /devices/platform/soc/16030000.ethernet
+    net driver: name = starfive-eth-plat, path = /bus/platform/drivers/starfive-eth-plat
+  end0: ethtool permanent hw address[6]: 6c:cf:39:00:15:1f
+    ethtool private flags: 0
+  sit0: GLINK ethtool error: Operation not supported
+>> pppoe.1: looking for pppoe
+>> pppoe.2: discovery
+Attempt number 1
+end1: Sending PADI packet
+end0: Sending PADI packet
+Timeout waiting for PADO packets
+Attempt number 2
+end1: Sending PADI packet
+end0: Sending PADI packet
+Timeout waiting for PADO packets
+>> wlan.1: detecting wlan features
+>> isdn.1: list
+>> dsl.1: list
+>> int.2: cdrom
+>> int.3: media
+>> int.4.1: /dev/mtdblock2
+  read_block0: 512 bytes (4s, 999989us)
+>> int.4.2: /dev/mtdblock0
+  read_block0: 512 bytes (4s, 999989us)
+>> int.4.3: /dev/mmcblk1
+  read_block0: 512 bytes (4s, 999990us)
+>> int.4.4: /dev/mtdblock1
+  read_block0: 512 bytes (4s, 999989us)
+>> int.4: floppy
+>> int.6: mouse
+>> int.7: hdb
+>> int.7.1: modules
+>> int.8: usbscsi
+>> int.9: hotplug
+>> int.10: modem
+>> int.11: wlan
+>> int.12: udev
+-----  udevinfo -----
+-----  udevinfo end -----
+>> int.13: device names
+>> int.16: parent
+  prop read: rdCR.n_7QNeEnh23 (failed)
+  old prop read: rdCR.n_7QNeEnh23 (failed)
+  prop read: rdCR.CxwsZFjVASF (failed)
+  old prop read: rdCR.CxwsZFjVASF (failed)
+  prop read: VCu0.m2lGPNk7Xc4 (failed)
+  old prop read: VCu0.m2lGPNk7Xc4 (failed)
+  prop read: qLht.B6k4rFN72K8 (failed)
+  old prop read: qLht.B6k4rFN72K8 (failed)
+  prop read: OeVk.TfPFe67fIBB (failed)
+  old prop read: OeVk.TfPFe67fIBB (failed)
+  prop read: 24Ml.TAOITtdfnIE (failed)
+  old prop read: 24Ml.TAOITtdfnIE (failed)
+  prop read: A2ZI.TfPFe67fIBB (failed)
+  old prop read: A2ZI.TfPFe67fIBB (failed)
+  prop read: Ah69._NN+DZ1HDn4 (failed)
+  old prop read: Ah69._NN+DZ1HDn4 (failed)
+  prop read: SjmH.Fxp0d3BezAE (failed)
+  old prop read: SjmH.Fxp0d3BezAE (failed)
+  prop read: YMG9.Fxp0d3BezAE (failed)
+  old prop read: YMG9.Fxp0d3BezAE (failed)
+  prop read: kLao.Fxp0d3BezAE (failed)
+  old prop read: kLao.Fxp0d3BezAE (failed)
+  prop read: 685D.SE1wIdpsiiC (failed)
+  old prop read: 685D.SE1wIdpsiiC (failed)
+  prop read: ZJLH.SE1wIdpsiiC (failed)
+  old prop read: ZJLH.SE1wIdpsiiC (failed)
+  prop read: 0VbL.SE1wIdpsiiC (failed)
+  old prop read: 0VbL.SE1wIdpsiiC (failed)
+  prop read: TgrP.SE1wIdpsiiC (failed)
+  old prop read: TgrP.SE1wIdpsiiC (failed)
+  prop read: +XWD.Fxp0d3BezAE (failed)
+  old prop read: +XWD.Fxp0d3BezAE (failed)
+  prop read: 33sj.GchIzoe7V_C (failed)
+  old prop read: 33sj.GchIzoe7V_C (failed)
+  prop read: WE6o.BGmidvn63W1 (failed)
+  old prop read: WE6o.BGmidvn63W1 (failed)
+  prop read: BobO.oZbePCs9xO2 (failed)
+  old prop read: BobO.oZbePCs9xO2 (failed)
+  prop read: k4bc.kNaPe9SZft4 (failed)
+  old prop read: k4bc.kNaPe9SZft4 (failed)
+  prop read: ADDn.mUqILwxEtWB (failed)
+  old prop read: ADDn.mUqILwxEtWB (failed)
+  prop read: pBe4.djic47EFb5E (failed)
+  old prop read: pBe4.djic47EFb5E (failed)
+  prop read: rdCR.j8NaKXDZtZ6 (failed)
+  old prop read: rdCR.j8NaKXDZtZ6 (failed)
+  prop read: rdCR.j8NaKXDZtZ6 (failed)
+  old prop read: rdCR.j8NaKXDZtZ6 (failed)
+  prop read: rdCR.j8NaKXDZtZ6 (failed)
+  old prop read: rdCR.j8NaKXDZtZ6 (failed)
+  prop read: rdCR.j8NaKXDZtZ6 (failed)
+  old prop read: rdCR.j8NaKXDZtZ6 (failed)
+  prop read: Fyby.5lXXuQkv_C5 (failed)
+  old prop read: Fyby.5lXXuQkv_C5 (failed)
+  prop read: ZsBS.GQNx7L4uPNA (failed)
+  old prop read: ZsBS.GQNx7L4uPNA (failed)
+  prop read: Yh3R.ndpeucax6V1 (failed)
+  old prop read: Yh3R.ndpeucax6V1 (failed)
+  prop read: wl2P.nfEXJulusj6 (failed)
+  old prop read: wl2P.nfEXJulusj6 (failed)
+  prop read: 5WpM.ndpeucax6V1 (failed)
+  old prop read: 5WpM.ndpeucax6V1 (failed)
+----- kernel log -----
+  <7>[    7.070123]     TERM=linux
+  <7>[    7.070139]     stmmaceth=chain_mode:1
+  <7>[    7.070158]     selinux=0
+  <6>[    7.621849] starfive-eth-plat 16030000.ethernet end0: renamed from eth0
+  <6>[    7.685680] starfive-eth-plat 16040000.ethernet end1: renamed from eth1
+  <6>[    8.087356] EXT4-fs (mmcblk1p4): mounted filesystem with ordered data mode. Opts: (null). Quota mode: disabled.
+  <30>[    8.875037] systemd[1]: System time before build time, advancing clock.
+  <30>[    8.961737] systemd[1]: systemd 252.6-1 running in system mode (+PAM +AUDIT +SELINUX +APPARMOR +IMA +SMACK +SECCOMP +GCRYPT -GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +IPTC +KMOD +LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY +P11KIT +QRENCODE +TPM2 +BZIP2 +LZ4 +XZ +ZLIB +ZSTD -BPF_FRAMEWORK -XKBCOMMON +UTMP +SYSVINIT default-hierarchy=unified)
+  <30>[    8.993996] systemd[1]: Detected architecture riscv64.
+  <30>[    9.013322] systemd[1]: Hostname set to <visionfive2>.
+  <30>[    9.879948] systemd[1]: Queued start job for default target graphical.target.
+  <30>[    9.890204] systemd[1]: Created slice system-getty.slice - Slice /system/getty.
+  <30>[    9.898551] systemd[1]: Created slice system-modprobe.slice - Slice /system/modprobe.
+  <30>[    9.907850] systemd[1]: Created slice system-serial\x2dgetty.slice - Slice /system/serial-getty.
+  <30>[    9.917976] systemd[1]: Created slice system-systemd\x2dfsck.slice - Slice /system/systemd-fsck.
+  <30>[    9.927860] systemd[1]: Created slice user.slice - User and Session Slice.
+  <30>[    9.935879] systemd[1]: Started systemd-ask-password-wall.path - Forward Password Requests to Wall Directory Watch.
+  <30>[    9.947752] systemd[1]: proc-sys-fs-binfmt_misc.automount - Arbitrary Executable File Formats File System Automount Point was skipped because of an unmet condition check (ConditionPathExists=/proc/sys/fs/binfmt_misc).
+  <30>[    9.968386] systemd[1]: Reached target integritysetup.target - Local Integrity Protected Volumes.
+  <30>[    9.978583] systemd[1]: Reached target nss-user-lookup.target - User and Group Name Lookups.
+  <30>[    9.988356] systemd[1]: Reached target slices.target - Slice Units.
+  <30>[    9.995965] systemd[1]: Reached target swap.target - Swaps.
+  <30>[   10.002914] systemd[1]: Reached target veritysetup.target - Local Verity Protected Volumes.
+  <30>[   10.019913] systemd[1]: Listening on rpcbind.socket - RPCbind Server Activation Socket.
+  <30>[   10.029284] systemd[1]: Listening on systemd-fsckd.socket - fsck to fsckd communication Socket.
+  <30>[   10.039158] systemd[1]: Listening on systemd-initctl.socket - initctl Compatibility Named Pipe.
+  <30>[   10.055707] systemd[1]: systemd-journald-audit.socket - Journal Audit Socket was skipped because of an unmet condition check (ConditionSecurity=audit).
+  <30>[   10.070015] systemd[1]: Listening on systemd-journald-dev-log.socket - Journal Socket (/dev/log).
+  <30>[   10.080237] systemd[1]: Listening on systemd-journald.socket - Journal Socket.
+  <30>[   10.088783] systemd[1]: Listening on systemd-udevd-control.socket - udev Control Socket.
+  <30>[   10.098136] systemd[1]: Listening on systemd-udevd-kernel.socket - udev Kernel Socket.
+  <30>[   10.109048] systemd[1]: Mounting dev-hugepages.mount - Huge Pages File System...
+  <30>[   10.119255] systemd[1]: Mounting dev-mqueue.mount - POSIX Message Queue File System...
+  <30>[   10.130006] systemd[1]: Mounting sys-kernel-debug.mount - Kernel Debug File System...
+  <30>[   10.138992] systemd[1]: sys-kernel-tracing.mount - Kernel Trace File System was skipped because of an unmet condition check (ConditionPathExists=/sys/kernel/tracing).
+  <30>[   10.158131] systemd[1]: Starting keyboard-setup.service - Set the console keyboard layout...
+  <30>[   10.167753] systemd[1]: kmod-static-nodes.service - Create List of Static Device Nodes was skipped because of an unmet condition check (ConditionFileNotEmpty=/lib/modules/5.15.0-starfive/modules.devname).
+  <30>[   10.189666] systemd[1]: Starting modprobe@configfs.service - Load Kernel Module configfs...
+  <30>[   10.202342] systemd[1]: Starting modprobe@dm_mod.service - Load Kernel Module dm_mod...
+  <30>[   10.214690] systemd[1]: Starting modprobe@drm.service - Load Kernel Module drm...
+  <30>[   10.226044] systemd[1]: Starting modprobe@efi_pstore.service - Load Kernel Module efi_pstore...
+  <30>[   10.239092] systemd[1]: Starting modprobe@fuse.service - Load Kernel Module fuse...
+  <30>[   10.250972] systemd[1]: Starting modprobe@loop.service - Load Kernel Module loop...
+  <30>[   10.260647] systemd[1]: systemd-fsck-root.service - File System Check on Root Device was skipped because of an unmet condition check (ConditionPathExists=!/run/initramfs/fsck-root).
+  <30>[   10.282012] systemd[1]: Starting systemd-journald.service - Journal Service...
+  <30>[   10.303000] systemd[1]: Starting systemd-modules-load.service - Load Kernel Modules...
+  <30>[   10.316611] systemd[1]: Starting systemd-remount-fs.service - Remount Root and Kernel File Systems...
+  <30>[   10.339657] systemd[1]: Starting systemd-udev-trigger.service - Coldplug All udev Devices...
+  <6>[   10.351902] EXT4-fs (mmcblk1p4): re-mounted. Opts: errors=remount-ro. Quota mode: disabled.
+  <30>[   10.355041] systemd[1]: Mounted dev-hugepages.mount - Huge Pages File System.
+  <30>[   10.373219] systemd[1]: Mounted dev-mqueue.mount - POSIX Message Queue File System.
+  <30>[   10.382813] systemd[1]: Mounted sys-kernel-debug.mount - Kernel Debug File System.
+  <30>[   10.392143] systemd[1]: modprobe@configfs.service: Deactivated successfully.
+  <30>[   10.401163] systemd[1]: Finished modprobe@configfs.service - Load Kernel Module configfs.
+  <30>[   10.418504] systemd[1]: modprobe@dm_mod.service: Deactivated successfully.
+  <30>[   10.427264] systemd[1]: Finished modprobe@dm_mod.service - Load Kernel Module dm_mod.
+  <30>[   10.436588] systemd[1]: Started systemd-journald.service - Journal Service.
+  <46>[   10.511832] systemd-journald[270]: Received client request to flush runtime journal.
+  <44>[   10.573651] systemd-journald[270]: File /var/log/journal/77152986637e432bb431b785d3fe6e5c/system.journal corrupted or uncleanly shut down, renaming and replacing.
+  <4>[   12.429823] venc: loading out-of-tree module taints kernel.
+  <6>[   12.457836] SUCCESS alloc_chrdev_region
+  <6>[   12.465810] cnm_jpu 13090000.jpu: init device.
+  <6>[   12.474026] vdec 130a0000.vpu_dec: device init.
+  <6>[   12.478592] SUCCESS alloc_chrdev_region
+  <5>[   13.693615] random: crng init done
+  <46>[   13.792869] systemd-journald[270]: Oldest entry in /var/log/journal/77152986637e432bb431b785d3fe6e5c/system.journal is older than the configured file retention duration (1month), suggesting rotation.
+  <46>[   13.811188] systemd-journald[270]: /var/log/journal/77152986637e432bb431b785d3fe6e5c/system.journal: Journal header limits reached or header out-of-date, rotating.
+  <6>[   16.645493] starfive-eth-plat 16030000.ethernet end0: PHY [stmmac-0:00] driver [YT8531 Gigabit Ethernet] (irq=POLL)
+  <6>[   16.664376] starfive-eth-plat 16030000.ethernet end0: Register MEM_TYPE_PAGE_POOL RxQ-0
+  <6>[   16.672662] dwmac4: Master AXI performs fixed burst length
+  <6>[   16.678204] starfive-eth-plat 16030000.ethernet end0: No Safety Features support found
+  <6>[   16.686197] starfive-eth-plat 16030000.ethernet end0: IEEE 1588-2008 Advanced Timestamp supported
+  <6>[   16.707413] starfive-eth-plat 16030000.ethernet end0: configuring for phy/rgmii-id link mode
+  <6>[   16.745607] starfive-eth-plat 16040000.ethernet end1: PHY [stmmac-1:00] driver [YT8512B Ethernet] (irq=POLL)
+  <6>[   16.756043] starfive-eth-plat 16040000.ethernet end1: Register MEM_TYPE_PAGE_POOL RxQ-0
+  <6>[   16.764365] dwmac4: Master AXI performs fixed burst length
+  <6>[   16.769891] starfive-eth-plat 16040000.ethernet end1: No Safety Features support found
+  <6>[   16.777871] starfive-eth-plat 16040000.ethernet end1: IEEE 1588-2008 Advanced Timestamp supported
+  <6>[   16.787165] starfive-eth-plat 16040000.ethernet end1: configuring for phy/rgmii-id link mode
+  <6>[   19.846462] starfive-eth-plat 16030000.ethernet end0: Link is Up - 1Gbps/Full - flow control rx/tx
+  <6>[   19.855643] IPv6: ADDRCONF(NETDEV_CHANGE): end0: link becomes ready
+  <6>[   35.124049] mipi_0p9: disabling
+----- kernel log end -----
+----- /proc/modules -----
+  jpu 24576 0 - Live 0xffffffff01792000 (O)
+  vdec 32768 0 - Live 0xffffffff01782000 (O)
+  venc 28672 0 - Live 0xffffffff01773000 (O)
+----- /proc/modules end -----
+  used irqs: 1,2,3,4,5,6,7,8,10,11,12,15,16,17,18,21,22,23,24,25,26,27,28,29,30,31,32,35,36,37,38,39,40,41,42,43,44,46,51,52,53,55,56,58
+=========== end debug info ============
+01: None 00.0: 10107 System
+  [Created at sys.64]
+  Unique ID: rdCR.n_7QNeEnh23
+  Hardware Class: system
+  Model: "System"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+06: None 00.0: 10102 Main Memory
+  [Created at memory.74]
+  Unique ID: rdCR.CxwsZFjVASF
+  Hardware Class: memory
+  Model: "Main Memory"
+  Memory Range: 0x00000000-0x1ef5d1fff (rw)
+  Memory Size: 7 GB + 512 MB
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+07: PCI 100.0: 0c03 USB Controller (XHCI)
+  [Created at pci.386]
+  Unique ID: VCu0.m2lGPNk7Xc4
+  Parent ID: qLht.B6k4rFN72K8
+  SysFS ID: /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0
+  SysFS BusID: 0000:01:00.0
+  Hardware Class: usb controller
+  Model: "VIA VL805/806 xHCI USB 3.0 Controller"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0x3483 "VL805/806 xHCI USB 3.0 Controller"
+  SubVendor: pci 0x1106 "VIA Technologies, Inc."
+  SubDevice: pci 0x3483 
+  Revision: 0x01
+  Driver: "xhci_hcd"
+  Memory Range: 0x30000000-0x30000fff (rw,non-prefetchable)
+  IRQ: 58 (140 events)
+  Module Alias: "pci:v00001106d00003483sv00001106sd00003483bc0Csc03i30"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #8 (PCI bridge)
+
+08: PCI 00.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: qLht.B6k4rFN72K8
+  SysFS ID: /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0
+  SysFS BusID: 0000:00:00.0
+  Hardware Class: bridge
+  Model: "PLDA XpressRich-AXI Ref Design"
+  Vendor: pci 0x1556 "PLDA"
+  Device: pci 0x1111 "XpressRich-AXI Ref Design"
+  Revision: 0x02
+  Module Alias: "pci:v00001556d00001111sv00000000sd00000000bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+09: None 00.0: 0200 Ethernet controller
+  [Created at pci.1030]
+  Unique ID: OeVk.TfPFe67fIBB
+  SysFS ID: /devices/platform/soc/16030000.ethernet
+  SysFS BusID: 16030000.ethernet
+  Hardware Class: network
+  Model: "ARM Ethernet controller"
+  Device: "ARM Ethernet controller"
+  Driver: "starfive-eth-plat"
+  Device File: end0
+  HW Address: 6c:cf:39:00:15:1f
+  Permanent HW Address: 6c:cf:39:00:15:1f
+  Link detected: yes
+  Module Alias: "of:NethernetT(null)Cstarfive,dwmacCsnps,dwmac-5.10a"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+10: None 00.0: 0c03 USB Controller (UHCI)
+  [Created at pci.1082]
+  Unique ID: 24Ml.TAOITtdfnIE
+  SysFS ID: /devices/platform/soc/10210000.usbdrd/10100000.usb
+  SysFS BusID: 10100000.usb
+  Hardware Class: usb controller
+  Model: "ARM USB controller"
+  Device: "ARM USB controller"
+  Driver: "cdns-usb3"
+  Module Alias: "of:NusbT(null)Ccdns,usb3"
+  Driver Info #0:
+    Driver Status: uhci-hcd is not active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+11: None 00.0: 0200 Ethernet controller
+  [Created at pci.1030]
+  Unique ID: A2ZI.TfPFe67fIBB
+  SysFS ID: /devices/platform/soc/16040000.ethernet
+  SysFS BusID: 16040000.ethernet
+  Hardware Class: network
+  Model: "ARM Ethernet controller"
+  Device: "ARM Ethernet controller"
+  Driver: "starfive-eth-plat"
+  Device File: end1
+  HW Address: 6c:cf:39:00:15:20
+  Permanent HW Address: 6c:cf:39:00:15:20
+  Link detected: no
+  Module Alias: "of:NethernetT(null)Cstarfive,dwmacCsnps,dwmac-5.10a"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+12: MMC 01.0: 11700 MMC Controller
+  [Created at pci.1903]
+  Unique ID: Ah69._NN+DZ1HDn4
+  SysFS ID: /devices/platform/soc/16020000.sdio1/mmc_host/mmc1/mmc1:59b4
+  SysFS BusID: mmc1:59b4
+  Model: "SD Controller 1"
+  Vendor: int 0x6015 
+  Device: int 0x0001 "SD Controller 1"
+  Driver: "mmcblk"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+13: None 00.0: 10600 Disk
+  [Created at block.255]
+  Unique ID: SjmH.Fxp0d3BezAE
+  SysFS ID: /class/block/mtdblock2
+  SysFS BusID: mtd2
+  SysFS Device Link: /devices/platform/soc/13010000.spi/spi_master/spi0/spi0.0/mtd/mtd2
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "spi-nor"
+  Device File: /dev/mtdblock2
+  Device Number: block 31:2
+  Size: 2048 sectors a 512 bytes
+  Capacity: 0 GB (1048576 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+14: None 00.0: 10600 Disk
+  [Created at block.255]
+  Unique ID: YMG9.Fxp0d3BezAE
+  SysFS ID: /class/block/mtdblock0
+  SysFS BusID: mtd0
+  SysFS Device Link: /devices/platform/soc/13010000.spi/spi_master/spi0/spi0.0/mtd/mtd0
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "spi-nor"
+  Device File: /dev/mtdblock0
+  Device Number: block 31:0
+  Size: 512 sectors a 512 bytes
+  Capacity: 0 GB (262144 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+15: None 00.0: 10600 Disk
+  [Created at block.255]
+  Unique ID: kLao.Fxp0d3BezAE
+  Parent ID: Ah69._NN+DZ1HDn4
+  SysFS ID: /class/block/mmcblk1
+  SysFS BusID: mmc1:59b4
+  SysFS Device Link: /devices/platform/soc/16020000.sdio1/mmc_host/mmc1/mmc1:59b4
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "dwmmc_starfive", "mmcblk"
+  Device File: /dev/mmcblk1
+  Device Number: block 179:0-179:7
+  Geometry (Logical): CHS 954176/4/16
+  Size: 61067264 sectors a 512 bytes
+  Capacity: 29 GB (31266439168 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #12 (MMC Controller)
+
+16: None 00.0: 11300 Partition
+  [Created at block.445]
+  Unique ID: 685D.SE1wIdpsiiC
+  Parent ID: kLao.Fxp0d3BezAE
+  SysFS ID: /class/block/mmcblk1/mmcblk1p1
+  Hardware Class: partition
+  Model: "Partition"
+  Device File: /dev/mmcblk1p1
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #15 (Disk)
+
+17: None 00.0: 11300 Partition
+  [Created at block.445]
+  Unique ID: ZJLH.SE1wIdpsiiC
+  Parent ID: kLao.Fxp0d3BezAE
+  SysFS ID: /class/block/mmcblk1/mmcblk1p2
+  Hardware Class: partition
+  Model: "Partition"
+  Device File: /dev/mmcblk1p2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #15 (Disk)
+
+18: None 00.0: 11300 Partition
+  [Created at block.445]
+  Unique ID: 0VbL.SE1wIdpsiiC
+  Parent ID: kLao.Fxp0d3BezAE
+  SysFS ID: /class/block/mmcblk1/mmcblk1p3
+  Hardware Class: partition
+  Model: "Partition"
+  Device File: /dev/mmcblk1p3
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #15 (Disk)
+
+19: None 00.0: 11300 Partition
+  [Created at block.445]
+  Unique ID: TgrP.SE1wIdpsiiC
+  Parent ID: kLao.Fxp0d3BezAE
+  SysFS ID: /class/block/mmcblk1/mmcblk1p4
+  Hardware Class: partition
+  Model: "Partition"
+  Device File: /dev/mmcblk1p4
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #15 (Disk)
+
+20: None 00.0: 10600 Disk
+  [Created at block.255]
+  Unique ID: +XWD.Fxp0d3BezAE
+  SysFS ID: /class/block/mtdblock1
+  SysFS BusID: mtd1
+  SysFS Device Link: /devices/platform/soc/13010000.spi/spi_master/spi0/spi0.0/mtd/mtd1
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "spi-nor"
+  Device File: /dev/mtdblock1
+  Device Number: block 31:1
+  Size: 6144 sectors a 512 bytes
+  Capacity: 0 GB (3145728 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+21: USB 00.0: 10800 Keyboard
+  [Created at usb.122]
+  Unique ID: 33sj.GchIzoe7V_C
+  Parent ID: ADDn.mUqILwxEtWB
+  SysFS ID: /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4/1-1.4:1.0
+  SysFS BusID: 1-1.4:1.0
+  Hardware Class: keyboard
+  Model: "MosArt 2.4G Keyboard Mouse"
+  Hotplug: USB
+  Vendor: usb 0x062a "MosArt Semiconductor Corp."
+  Device: usb 0x5918 "2.4G Keyboard Mouse"
+  Revision: "1.02"
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Device File: /dev/input/event0
+  Device Number: char 13:64
+  Speed: 12 Mbps
+  Module Alias: "usb:v062Ap5918d0102dc00dsc00dp00ic03isc01ip01in00"
+  Driver Info #0:
+    XkbRules: xfree86
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #25 (Hub)
+
+22: USB 00.1: 10503 USB Mouse
+  [Created at usb.122]
+  Unique ID: WE6o.BGmidvn63W1
+  Parent ID: ADDn.mUqILwxEtWB
+  SysFS ID: /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4/1-1.4:1.1
+  SysFS BusID: 1-1.4:1.1
+  Hardware Class: mouse
+  Model: "MosArt 2.4G Keyboard Mouse"
+  Hotplug: USB
+  Vendor: usb 0x062a "MosArt Semiconductor Corp."
+  Device: usb 0x5918 "2.4G Keyboard Mouse"
+  Revision: "1.02"
+  Compatible to: int 0x0200 0x0001 "Generic USB Mouse"
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Device File: /dev/input/event3
+  Device Number: char 13:67
+  Speed: 12 Mbps
+  Module Alias: "usb:v062Ap5918d0102dc00dsc00dp00ic03isc01ip02in01"
+  Driver Info #0:
+    XFree86 Protocol: explorerps/2
+    GPM Protocol: exps2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #25 (Hub)
+
+23: USB 00.0: 0000 Unclassified device
+  [Created at usb.122]
+  Unique ID: BobO.oZbePCs9xO2
+  Parent ID: ADDn.mUqILwxEtWB
+  SysFS ID: /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.2/1-1.2:1.0
+  SysFS BusID: 1-1.2:1.0
+  Hardware Class: unknown
+  Model: "Realtek RTL8188EUS 802.11n Wireless Network Adapter"
+  Hotplug: USB
+  Vendor: usb 0x0bda "Realtek Semiconductor Corp."
+  Device: usb 0x8179 "RTL8188EUS 802.11n Wireless Network Adapter"
+  Serial ID: "00E04C0001"
+  Speed: 480 Mbps
+  Module Alias: "usb:v0BDAp8179d0000dc00dsc00dp00icFFiscFFipFFin00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #25 (Hub)
+
+24: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: k4bc.kNaPe9SZft4
+  Parent ID: VCu0.m2lGPNk7Xc4
+  SysFS ID: /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "5.15"
+  Serial ID: "0000:01:00.0"
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0515dc09dsc00dp01ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #7 (USB Controller)
+
+25: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: ADDn.mUqILwxEtWB
+  Parent ID: k4bc.kNaPe9SZft4
+  SysFS ID: /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1:1.0
+  SysFS BusID: 1-1:1.0
+  Hardware Class: hub
+  Model: "VIA Hub"
+  Hotplug: USB
+  Vendor: usb 0x2109 "VIA Labs, Inc."
+  Device: usb 0x3431 "Hub"
+  Revision: "4.20"
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v2109p3431d0420dc09dsc00dp01ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #24 (Hub)
+
+26: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: pBe4.djic47EFb5E
+  Parent ID: VCu0.m2lGPNk7Xc4
+  SysFS ID: /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb2/2-0:1.0
+  SysFS BusID: 2-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 3.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0003 "3.0 root hub"
+  Revision: "5.15"
+  Serial ID: "0000:01:00.0"
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Module Alias: "usb:v1D6Bp0003d0515dc09dsc00dp03ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #7 (USB Controller)
+
+27: None 00.0: 10103 CPU
+  [Created at cpu.710]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: RISC-V
+  Vendor: "sifive,u74-mc"
+  Model: 0.0.0 "rv64imafdc"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+28: None 00.0: 10103 CPU
+  [Created at cpu.710]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: RISC-V
+  Vendor: "sifive,u74-mc"
+  Model: 0.0.0 "rv64imafdc"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+29: None 00.0: 10103 CPU
+  [Created at cpu.710]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: RISC-V
+  Vendor: "sifive,u74-mc"
+  Model: 0.0.0 "rv64imafdc"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+30: None 00.0: 10103 CPU
+  [Created at cpu.710]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: RISC-V
+  Vendor: "sifive,u74-mc"
+  Model: 0.0.0 "rv64imafdc"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+31: Serial 00.0: 10801 Console
+  [Created at kbd.180]
+  Unique ID: Fyby.5lXXuQkv_C5
+  Hardware Class: keyboard
+  Model: "serial console"
+  Device: "serial console"
+  Device File: /dev/ttyS0
+  Speed: 115.2 kbps
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+32: None 00.0: 10700 Loopback
+  [Created at net.126]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+33: None 01.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: Yh3R.ndpeucax6V1
+  Parent ID: A2ZI.TfPFe67fIBB
+  SysFS ID: /class/net/end1
+  SysFS Device Link: /devices/platform/soc/16040000.ethernet
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "starfive-eth-plat"
+  Device File: end1
+  HW Address: 6c:cf:39:00:15:20
+  Permanent HW Address: 6c:cf:39:00:15:20
+  Link detected: no
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #11 (Ethernet controller)
+
+34: None 00.0: 10781 Network Interface
+  [Created at net.126]
+  Unique ID: wl2P.nfEXJulusj6
+  SysFS ID: /class/net/sit0
+  Hardware Class: network interface
+  Model: "Network Interface"
+  Device File: sit0
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+35: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: 5WpM.ndpeucax6V1
+  Parent ID: OeVk.TfPFe67fIBB
+  SysFS ID: /class/net/end0
+  SysFS Device Link: /devices/platform/soc/16030000.ethernet
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "starfive-eth-plat"
+  Device File: end0
+  HW Address: 6c:cf:39:00:15:1f
+  Permanent HW Address: 6c:cf:39:00:15:1f
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #9 (Ethernet controller)

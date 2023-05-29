@@ -1,0 +1,488 @@
+[    0.000000] Linux version 5.15.0-starfive (sw_buildbot@mdcsw02) (riscv64-unknown-linux-gnu-gcc (GCC) 10.2.0, GNU ld (GNU Binutils) 2.35) #1 SMP Sun Mar 26 12:29:48 EDT 2023
+[    0.000000] OF: fdt: Ignoring memory range 0x40000000 - 0x40200000
+[    0.000000] Machine model: StarFive VisionFive V2
+[    0.000000] earlycon: uart0 at MMIO32 0x0000000010000000 (options '115200')
+[    0.000000] printk: bootconsole [uart0] enabled
+[    0.000000] efi: UEFI not found.
+[    0.000000] Reserved memory: created CMA memory pool at 0x0000000080000000, size 512 MiB
+[    0.000000] OF: reserved mem: initialized node linux,cma, compatible id shared-dma-pool
+[    0.000000] Zone ranges:
+[    0.000000]   DMA32    [mem 0x0000000040200000-0x00000000ffffffff]
+[    0.000000]   Normal   [mem 0x0000000100000000-0x000000023fffffff]
+[    0.000000] Movable zone start for each node
+[    0.000000] Early memory node ranges
+[    0.000000]   node   0: [mem 0x0000000040200000-0x00000000c010ffff]
+[    0.000000]   node   0: [mem 0x00000000c0110000-0x00000000c01fffff]
+[    0.000000]   node   0: [mem 0x00000000c0200000-0x000000023fffffff]
+[    0.000000] Initmem setup node 0 [mem 0x0000000040200000-0x000000023fffffff]
+[    0.000000] SBI specification v1.0 detected
+[    0.000000] SBI implementation ID=0x1 Version=0x10002
+[    0.000000] SBI TIME extension detected
+[    0.000000] SBI IPI extension detected
+[    0.000000] SBI RFENCE extension detected
+[    0.000000] SBI SRST extension detected
+[    0.000000] SBI v0.2 HSM extension detected
+[    0.000000] CPU with hartid=0 is not available
+[    0.000000] CPU with hartid=0 is not available
+[    0.000000] riscv: base ISA extensions acdfim
+[    0.000000] riscv: ELF capabilities acdfim
+[    0.000000] percpu: Embedded 18 pages/cpu s33960 r8192 d31576 u73728
+[    0.000000] pcpu-alloc: s33960 r8192 d31576 u73728 alloc=18*4096
+[    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+[    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 2067975
+[    0.000000] Kernel command line: root=/dev/mmcblk1p4 root=/dev/mmcblk1p4 rw console=tty0 console=ttyS0,115200 earlycon rootwait stmmaceth=chain_mode:1 selinux=0
+[    0.000000] Unknown command line parameters: stmmaceth=chain_mode:1 selinux=0
+[    0.000000] Dentry cache hash table entries: 1048576 (order: 11, 8388608 bytes, linear)
+[    0.000000] Inode-cache hash table entries: 524288 (order: 10, 4194304 bytes, linear)
+[    0.000000] mem auto-init: stack:off, heap alloc:off, heap free:off
+[    0.000000] software IO TLB: mapped [mem 0x00000000fbfff000-0x00000000fffff000] (64MB)
+[    0.000000] Memory: 7575272K/8386560K available (10396K kernel code, 5013K rwdata, 4096K rodata, 2197K init, 412K bss, 287000K reserved, 524288K cma-reserved)
+[    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+[    0.000000] rcu: Hierarchical RCU implementation.
+[    0.000000] rcu: 	RCU restricting CPUs from NR_CPUS=8 to nr_cpu_ids=4.
+[    0.000000] rcu: 	RCU debug extended QS entry/exit.
+[    0.000000] 	Tracing variant of Tasks RCU enabled.
+[    0.000000] rcu: RCU calculated value of scheduler-enlistment delay is 10 jiffies.
+[    0.000000] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=4
+[    0.000000] NR_IRQS: 64, nr_irqs: 64, preallocated irqs: 0
+[    0.000000] CPU with hartid=0 is not available
+[    0.000000] riscv-intc: unable to find hart id for /cpus/cpu@0/interrupt-controller
+[    0.000000] riscv-intc: 64 local interrupts mapped
+[    0.000000] plic: plic@c000000: mapped 136 interrupts with 4 handlers for 9 contexts.
+[    0.000000] random: get_random_bytes called from start_kernel+0x4d0/0x6ea with crng_init=0
+[    0.000000] riscv_timer_init_dt: Registering clocksource cpuid [0] hartid [1]
+[    0.000000] clocksource: riscv_clocksource: mask: 0xffffffffffffffff max_cycles: 0x1d854df40, max_idle_ns: 881590404240 ns
+[    0.000001] sched_clock: 64 bits at 4MHz, resolution 250ns, wraps every 2199023255500ns
+[    0.008992] clocksource: timer@13050000.ch0: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 79635851949 ns
+[    0.020315] clocksource: timer@13050000.ch1: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 79635851949 ns
+[    0.031636] clocksource: timer@13050000.ch2: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 79635851949 ns
+[    0.042958] clocksource: timer@13050000.ch3: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 79635851949 ns
+[    0.054491] Console: colour dummy device 80x25
+[    0.060730] printk: console [tty0] enabled
+[    0.065286] Calibrating delay loop (skipped), value calculated using timer frequency.. 8.00 BogoMIPS (lpj=40000)
+[    0.076508] pid_max: default: 32768 minimum: 301
+[    0.081859] Mount-cache hash table entries: 16384 (order: 5, 131072 bytes, linear)
+[    0.090372] Mountpoint-cache hash table entries: 16384 (order: 5, 131072 bytes, linear)
+[    0.100658] ASID allocator disabled
+[    0.104599] rcu: Hierarchical SRCU implementation.
+[    0.110051] EFI services will not be available.
+[    0.115443] smp: Bringing up secondary CPUs ...
+[    0.122071] smp: Brought up 1 node, 4 CPUs
+[    0.128511] devtmpfs: initialized
+[    0.139940] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+[    0.150809] futex hash table entries: 1024 (order: 4, 65536 bytes, linear)
+[    0.172172] pinctrl core: initialized pinctrl subsystem
+[    0.178823] NET: Registered PF_NETLINK/PF_ROUTE protocol family
+[    0.186046] thermal_sys: Registered thermal governor 'step_wise'
+[    0.186384] cpuidle: using governor menu
+[    0.219273] platform soc:dsi-output: Fixing up cyclic dependency with 29400000.dc8200
+[    0.228451] platform 295d0000.mipi: Fixing up cyclic dependency with soc:dsi-output
+[    0.237303] platform 29590000.hdmi: Fixing up cyclic dependency with 29400000.dc8200
+[    0.258317] HugeTLB registered 1.00 GiB page size, pre-allocated 0 pages
+[    0.265702] HugeTLB registered 2.00 MiB page size, pre-allocated 0 pages
+[    0.276352] vgaarb: loaded
+[    0.279581] SCSI subsystem initialized
+[    0.283878] libata version 3.00 loaded.
+[    0.284059] usbcore: registered new interface driver usbfs
+[    0.290133] usbcore: registered new interface driver hub
+[    0.296086] usbcore: registered new device driver usb
+[    0.301925] mc: Linux media interface: v0.10
+[    0.306659] videodev: Linux video capture interface: v2.00
+[    0.312899] Advanced Linux Sound Architecture Driver Initialized.
+[    0.319999] Bluetooth: Core ver 2.22
+[    0.323957] NET: Registered PF_BLUETOOTH protocol family
+[    0.329813] Bluetooth: HCI device and connection manager initialized
+[    0.336811] Bluetooth: HCI socket layer initialized
+[    0.342202] Bluetooth: L2CAP socket layer initialized
+[    0.347773] Bluetooth: SCO socket layer initialized
+[    0.353475] clocksource: Switched to clocksource riscv_clocksource
+[    0.367659] NET: Registered PF_INET protocol family
+[    0.374063] IP idents hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+[    0.390145] tcp_listen_portaddr_hash hash table entries: 4096 (order: 5, 163840 bytes, linear)
+[    0.399893] TCP established hash table entries: 65536 (order: 7, 524288 bytes, linear)
+[    0.409455] TCP bind hash table entries: 65536 (order: 9, 2097152 bytes, linear)
+[    0.419637] TCP: Hash tables configured (established 65536 bind 65536)
+[    0.427142] UDP hash table entries: 4096 (order: 6, 393216 bytes, linear)
+[    0.435022] UDP-Lite hash table entries: 4096 (order: 6, 393216 bytes, linear)
+[    0.443598] NET: Registered PF_UNIX/PF_LOCAL protocol family
+[    0.450536] RPC: Registered named UNIX socket transport module.
+[    0.457080] RPC: Registered udp transport module.
+[    0.462255] RPC: Registered tcp transport module.
+[    0.467438] RPC: Registered tcp NFSv4.1 backchannel transport module.
+[    0.475272] PCI: CLS 0 bytes, default 64
+[    0.480556] Initialise system trusted keyrings
+[    0.483669] Unpacking initramfs...
+[    0.485614] workingset: timestamp_bits=62 max_order=21 bucket_order=0
+[    0.502842] NFS: Registering the id_resolver key type
+[    0.508469] Key type id_resolver registered
+[    0.513085] Key type id_legacy registered
+[    0.517625] nfs4filelayout_init: NFSv4 File Layout Driver Registering...
+[    0.525038] nfs4flexfilelayout_init: NFSv4 Flexfile Layout Driver Registering...
+[    0.533241] ntfs: driver 2.1.32 [Flags: R/W].
+[    0.538357] jffs2: version 2.2. (NAND) \xc2\xa9 2001-2006 Red Hat, Inc.
+[    0.547496] fuse: init (API version 7.34)
+[    0.592010] NET: Registered PF_ALG protocol family
+[    0.597354] Key type asymmetric registered
+[    0.601871] Asymmetric key parser 'x509' registered
+[    0.607366] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 249)
+[    0.615545] io scheduler mq-deadline registered
+[    0.620544] io scheduler kyber registered
+[    0.627849] start plist test
+[    0.632306] end plist test
+[    0.729315] clk-starfive-jh7110 13020000.clock-controller: starfive JH7110 clkgen init successfully.
+[    0.740601] L2CACHE: DataError @ 0x00000000.080400F8
+[    0.746172] L2CACHE: DataFail @ 0x00000000.0804005B
+[    0.751638] L2CACHE: No. of Banks in the cache: 8
+[    0.756852] L2CACHE: No. of ways per bank: 16
+[    0.761662] L2CACHE: Sets per bank: 256
+[    0.765916] L2CACHE: Bytes per cache block: 64
+[    0.770828] L2CACHE: Index of the largest way enabled: 15
+[    0.777122] jh7110-pmu 17030000.power-controller: registered 8 power domains
+[    0.848724] Serial: 8250/16550 driver, 6 ports, IRQ sharing disabled
+[    0.859485] @@#########################@@
+[    0.869824] @@ dev ptr:ffffffe0bfefe800/1500/1
+[    0.875036] PVR_K:  1: Read BVNC 36.50.54.182 from HW device registers
+[    0.882319] PVR_K:  1: RGX Device registered BVNC 36.50.54.182 with 1 core in the system
+[    1.357787] Freeing initrd memory: 14284K
+[    1.362452] pvrsrvkm 18000000.gpu: Direct firmware load for rgx.fw.36.50.54.182 failed with error -2
+[    1.372712] pvrsrvkm 18000000.gpu: Direct firmware load for rgx.fw.36.50p.54.182 failed with error -2
+[    1.383010] pvrsrvkm 18000000.gpu: Direct firmware load for rgx.fw failed with error -2
+[    1.391873] PVR_K:(Fatal):     1: All RGX Firmware image loads failed for 'rgx.fw.36.50.54.182' (PVRSRV_ERROR_NOT_FOUND) [1599]
+[    1.404578] PVR_K:(Error):     1: RGXInit: InitFirmware failed (275) [1556]
+[    1.412270] PVR_K:(Error):     1: RGXInit() failed (PVRSRV_ERROR_NOT_FOUND) in PVRSRVCommonDeviceInitialise() [2156]
+[    1.423899] PVR_K:(Error):     1: PVRSRVDeviceFinalise() failed (PVRSRV_ERROR_NOT_INITIALISED) in PVRSRVCommonDeviceInitialise() [2170]
+[    1.437369] [drm:pvr_drm_load] *ERROR* device (____ptrval____) initialisation failed (err=-19)
+[    1.456757] loop: module loaded
+[    1.462702] spi-nor spi0.0: gd25lq128d (16384 Kbytes)
+[    1.486676] 3 fixed-partitions partitions found on MTD device 13010000.spi.0
+[    1.494558] Creating 3 MTD partitions on "13010000.spi.0":
+[    1.500624] 0x000000000000-0x000000040000 : "spl"
+[    1.507616] 0x000000100000-0x000000400000 : "uboot"
+[    1.514592] 0x000000f00000-0x000001000000 : "data"
+[    1.522615] libphy: Fixed MDIO Bus: probed
+[    1.528582] CAN device driver interface
+[    1.533386] starfive-eth-plat 16030000.ethernet: force_sf_dma_mode is ignored if force_thresh_dma_mode is set.
+[    1.544776] starfive-eth-plat 16030000.ethernet: User ID: 0x41, Synopsys ID: 0x52
+[    1.553036] starfive-eth-plat 16030000.ethernet: 	DWMAC4/5
+[    1.559103] starfive-eth-plat 16030000.ethernet: DMA HW capability register supported
+[    1.567748] starfive-eth-plat 16030000.ethernet: RX Checksum Offload Engine supported
+[    1.576390] starfive-eth-plat 16030000.ethernet: Wake-Up On Lan supported
+[    1.583941] starfive-eth-plat 16030000.ethernet: TSO supported
+[    1.590374] starfive-eth-plat 16030000.ethernet: Enable RX Mitigation via HW Watchdog Timer
+[    1.599603] starfive-eth-plat 16030000.ethernet: Enabled Flow TC (entries=1)
+[    1.607389] starfive-eth-plat 16030000.ethernet: TSO feature enabled
+[    1.614397] starfive-eth-plat 16030000.ethernet: Using 40 bits DMA width
+[    1.875014] libphy: stmmac: probed
+[    1.878791] YT8531 Gigabit Ethernet stmmac-0:00: attached PHY driver (mii_bus:phy_addr=stmmac-0:00, irq=POLL)
+[    1.889748] YT8531 Gigabit Ethernet stmmac-0:01: attached PHY driver (mii_bus:phy_addr=stmmac-0:01, irq=POLL)
+[    1.901930] starfive-eth-plat 16040000.ethernet: force_sf_dma_mode is ignored if force_thresh_dma_mode is set.
+[    1.913341] starfive-eth-plat 16040000.ethernet: User ID: 0x41, Synopsys ID: 0x52
+[    1.921624] starfive-eth-plat 16040000.ethernet: 	DWMAC4/5
+[    1.927692] starfive-eth-plat 16040000.ethernet: DMA HW capability register supported
+[    1.936334] starfive-eth-plat 16040000.ethernet: RX Checksum Offload Engine supported
+[    1.944981] starfive-eth-plat 16040000.ethernet: Wake-Up On Lan supported
+[    1.952519] starfive-eth-plat 16040000.ethernet: TSO supported
+[    1.958970] starfive-eth-plat 16040000.ethernet: Enable RX Mitigation via HW Watchdog Timer
+[    1.968207] starfive-eth-plat 16040000.ethernet: Enabled Flow TC (entries=1)
+[    1.975985] starfive-eth-plat 16040000.ethernet: TSO feature enabled
+[    1.982982] starfive-eth-plat 16040000.ethernet: Using 40 bits DMA width
+[    2.243048] libphy: stmmac: probed
+[    2.246867] YT8512B Ethernet stmmac-1:00: attached PHY driver (mii_bus:phy_addr=stmmac-1:00, irq=POLL)
+[    2.257167] YT8512B Ethernet stmmac-1:03: attached PHY driver (mii_bus:phy_addr=stmmac-1:03, irq=POLL)
+[    2.269064] Intel(R) Wireless WiFi driver for Linux
+[    2.276540] cdns3-starfive 10210000.usbdrd: usb mode 2 2.0 probe success
+[    2.284763] usbcore: registered new interface driver uas
+[    2.290666] usbcore: registered new interface driver usb-storage
+[    2.313929] starfive-rtc 17040000.rtc: registered as rtc0
+[    2.319897] starfive-rtc 17040000.rtc: setting system clock to 2001-01-01T00:00:00 UTC (978307200)
+[    2.329951] i2c_dev: i2c /dev entries driver
+[    2.334923] usbcore: registered new interface driver uvcvideo
+[    2.353503] thermal thermal_zone0: failed to read out thermal zone (-110)
+[    2.361302] starfive-wdt 13070000.wdog: Heartbeat: timeout=15, count/2=180000000 (0aba9500)
+[    2.371077] Bluetooth: HCI UART driver ver 2.3
+[    2.376009] Bluetooth: HCI UART protocol H4 registered
+[    2.382350] sdhci: Secure Digital Host Controller Interface driver
+[    2.389202] sdhci: Copyright(c) Pierre Ossman
+[    2.394052] Synopsys Designware Multimedia Card Interface Driver
+[    2.400988] sdhci-pltfm: SDHCI platform and OF driver helper
+[    2.408041] jh7110-sec 16000000.crypto: Unable to request sec_m dma channel in DMA channel
+[    2.417197] jh7110-sec 16000000.crypto: Cannot initial dma chan
+[    2.424035] usbcore: registered new interface driver usbhid
+[    2.430190] usbhid: USB HID core driver
+[    2.434618] riscv-pmu-sbi: SBI PMU extension is available
+[    2.440595] riscv-pmu-sbi: 16 firmware and 4 hardware counters
+[    2.447051] riscv-pmu-sbi: Perf sampling/filtering is not supported as sscof extension is not available
+[    2.457802] usbcore: registered new interface driver snd-usb-audio
+[    2.473434] NET: Registered PF_INET6 protocol family
+[    2.480352] Segment Routing with IPv6
+[    2.484448] In-situ OAM (IOAM) with IPv6
+[    2.488890] sit: IPv6, IPv4 and MPLS over IPv4 tunneling driver
+[    2.496056] NET: Registered PF_PACKET protocol family
+[    2.501639] can: controller area network core
+[    2.506548] NET: Registered PF_CAN protocol family
+[    2.511839] can: raw protocol
+[    2.515130] can: broadcast manager protocol
+[    2.519755] can: netlink gateway - max_hops=1
+[    2.524841] Bluetooth: RFCOMM TTY layer initialized
+[    2.530237] Bluetooth: RFCOMM socket layer initialized
+[    2.535955] Bluetooth: RFCOMM ver 1.11
+[    2.540106] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+[    2.545974] Bluetooth: BNEP filters: protocol multicast
+[    2.551744] Bluetooth: BNEP socket layer initialized
+[    2.557282] lib80211: common routines for IEEE802.11 drivers
+[    2.563533] lib80211_crypt: registered algorithm 'NULL'
+[    2.563548] lib80211_crypt: registered algorithm 'WEP'
+[    2.563563] lib80211_crypt: registered algorithm 'CCMP'
+[    2.563576] lib80211_crypt: registered algorithm 'TKIP'
+[    2.563716] 9pnet: Installing 9P2000 support
+[    2.568481] Key type dns_resolver registered
+[    2.574025] Loading compiled-in X.509 certificates
+[    2.616399] starfive_jh7110-pinctrl 13040000.gpio: SiFive GPIO chip registered 64 GPIOs
+[    2.626008] starfive_jh7110-pinctrl 17020000.gpio: SiFive GPIO chip registered 4 GPIOs
+[    2.634993] pl08xdmac 16008000.sec_dma: initialized 8 virtual memcpy channels
+[    2.642877] pl08xdmac 16008000.sec_dma: initialized 16 virtual slave channels
+[    2.652536] debugfs: Directory '16008000.sec_dma' with parent 'dmaengine' already present!
+[    2.661713] pl08xdmac 16008000.sec_dma: DMA: PL080 rev0 at 0x16008000 irq 23
+[    2.669747] ssp-pl022 10060000.spi: ARM PL022 driver for StarFive SoC platform, device ID: 0x00041022
+[    2.679966] ssp-pl022 10060000.spi: mapped registers from 0x0000000010060000 to (____ptrval____)
+[    2.690122] ssp-pl022 10060000.spi: Requested frequency: 10000000 Hz is unsupported,select by default 8250000 Hz
+[    2.701754] ssp-pl022 10060000.spi: will use autosuspend for runtime pm, delay 100ms
+[    2.711659] i2c 2-0045: Fixing up cyclic dependency with 295d0000.mipi
+[    2.719145] seeed_panel 2-0045: Unknown Atmel firmware revision: 0x00
+[    2.726476] tinker_ft5406 2-0038: Address = 0x38
+[    2.731568] tinker_ft5406 2-0038: width = 800, height = 480, reverse = 1
+[    2.739106] tinker_ft5406 2-0038: i2c read error, -121
+[    2.744794] tinker_ft5406 2-0038: Checking touch ic failed
+[    2.750844] tinker_ft5406: probe of 2-0038 failed with error -121
+[    2.757773] i2c 2-0019: Fixing up cyclic dependency with 295d0000.mipi
+[    2.765881] Goodix-TS 2-0014: supply AVDD28 not found, using dummy regulator
+[    2.773816] Goodix-TS 2-0014: supply VDDIO not found, using dummy regulator
+[    2.893630] Goodix-TS 2-0014: i2c test failed attempt 1: -121
+[    2.933629] Goodix-TS 2-0014: i2c test failed attempt 2: -121
+[    2.973494] Goodix-TS 2-0014: I2C communication failure: -121
+[    2.980004] Goodix-TS: probe of 2-0014 failed with error -121
+[    2.987384] at24 5-0050: supply vcc not found, using dummy regulator
+[    2.995199] at24 5-0050: 512 byte 24c04 EEPROM, writable, 16 bytes/write
+[    3.004506] axp15060-regulator 5-0036: Register mipi_0p9 done! vol range:900 ~ 900 mV
+[    3.014634] axp15060-regulator 5-0036: Register hdmi_1p8 done! vol range:1800 ~ 1800 mV
+[    3.024988] axp15060-regulator 5-0036: Register hdmi_0p9 done! vol range:900 ~ 900 mV
+[    3.035187] axp15060-regulator 5-0036: Register cpu_vdd done! vol range:500 ~ 1540 mV
+[    3.044652] i2c 6-0010: Fixing up cyclic dependency with 19800000.vin_sysctl
+[    3.052830] imx219 6-0010: supply VANA not found, using dummy regulator
+[    3.060279] imx219 6-0010: supply VDIG not found, using dummy regulator
+[    3.067645] imx219 6-0010: supply VDDL not found, using dummy regulator
+[    3.082435] imx219 6-0010: failed to read chip id 219
+[    3.088234] imx219: probe of 6-0010 failed with error -5
+[    3.096752] pcie_plda 2b000000.pcie: host bridge /soc/pcie@2B000000 ranges:
+[    3.104516] pcie_plda 2b000000.pcie:      MEM 0x0030000000..0x0037ffffff -> 0x0030000000
+[    3.113451] pcie_plda 2b000000.pcie:      MEM 0x0900000000..0x093fffffff -> 0x0900000000
+[    3.122435] ATR entry: 0x0940000000 -> 0x0000000000 [0x0010000000] (param: 0x000001)
+[    3.131012] ATR entry: 0x0030000000 -> 0x0030000000 [0x0008000000] (param: 0x000000)
+[    3.139588] ATR entry: 0x0900000000 -> 0x0900000000 [0x0040000000] (param: 0x000000)
+[    3.493570] pcie_plda 2b000000.pcie: Port link up.
+[    3.499023] pcie_plda 2b000000.pcie: PCI host bridge to bus 0000:00
+[    3.505960] pci_bus 0000:00: root bus resource [bus 00-ff]
+[    3.512016] pci_bus 0000:00: root bus resource [mem 0x30000000-0x37ffffff]
+[    3.519618] pci_bus 0000:00: root bus resource [mem 0x900000000-0x93fffffff pref]
+[    3.527916] pci 0000:00:00.0: [1556:1111] type 01 class 0x060400
+[    3.534560] pci 0000:00:00.0: reg 0x10: [mem 0x00000000-0xffffffff 64bit pref]
+[    3.542593] pci 0000:00:00.0: supports D1 D2
+[    3.547314] pci 0000:00:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+[    3.558241] pci 0000:00:00.0: bridge configuration invalid ([bus 00-00]), reconfiguring
+[    3.567241] pci 0000:01:00.0: [1106:3483] type 00 class 0x0c0330
+[    3.573898] pci 0000:01:00.0: reg 0x10: [mem 0x00000000-0x00000fff 64bit]
+[    3.581464] pci 0000:01:00.0: PME# supported from D0 D3cold
+[    3.591061] pci_bus 0000:01: busn_res: [bus 01-ff] end is updated to 01
+[    3.598403] pci 0000:00:00.0: BAR 0: no space for [mem size 0x100000000 64bit pref]
+[    3.606869] pci 0000:00:00.0: BAR 0: failed to assign [mem size 0x100000000 64bit pref]
+[    3.615722] pci 0000:00:00.0: BAR 8: assigned [mem 0x30000000-0x300fffff]
+[    3.623206] pci 0000:01:00.0: BAR 0: assigned [mem 0x30000000-0x30000fff 64bit]
+[    3.631302] pci 0000:00:00.0: PCI bridge to [bus 01]
+[    3.636789] pci 0000:00:00.0:   bridge window [mem 0x30000000-0x300fffff]
+[    3.644389] pci 0000:00:00.0: enabling device (0000 -> 0002)
+[    3.650630] pci 0000:01:00.0: enabling device (0000 -> 0002)
+[    3.656915] pci 0000:01:00.0: quirk_usb_early_handoff+0x0/0x9d4 took 12241 usecs
+[    3.665302] xhci_hcd 0000:01:00.0: xHCI Host Controller
+[    3.671084] xhci_hcd 0000:01:00.0: new USB bus registered, assigned bus number 1
+[    3.679669] xhci_hcd 0000:01:00.0: hcc params 0x002841eb hci version 0x100 quirks 0x0000040000000890
+[    3.689852] pcie_plda 2b000000.pcie: msi#0 address_hi 0x0 address_lo 0x190
+[    3.697911] xhci_hcd 0000:01:00.0: xHCI Host Controller
+[    3.703717] xhci_hcd 0000:01:00.0: new USB bus registered, assigned bus number 2
+[    3.711878] xhci_hcd 0000:01:00.0: Host supports USB 3.0 SuperSpeed
+[    3.719555] hub 1-0:1.0: USB hub found
+[    3.723747] hub 1-0:1.0: 1 port detected
+[    3.729154] hub 2-0:1.0: USB hub found
+[    3.733329] hub 2-0:1.0: 4 ports detected
+[    3.740692] pcie_plda 2c000000.pcie: host bridge /soc/pcie@2C000000 ranges:
+[    3.748436] pcie_plda 2c000000.pcie:      MEM 0x0038000000..0x003fffffff -> 0x0038000000
+[    3.757398] pcie_plda 2c000000.pcie:      MEM 0x0980000000..0x09bfffffff -> 0x0980000000
+[    3.766392] ATR entry: 0x09c0000000 -> 0x0000000000 [0x0010000000] (param: 0x000001)
+[    3.774964] ATR entry: 0x0038000000 -> 0x0038000000 [0x0008000000] (param: 0x000000)
+[    3.783530] ATR entry: 0x0980000000 -> 0x0980000000 [0x0040000000] (param: 0x000000)
+[    3.943519] usb usb2-port2: over-current condition
+[    4.043495] usb 1-1: new high-speed USB device number 2 using xhci_hcd
+[    4.103521] usb usb2-port4: over-current condition
+[    4.213635] pcie_plda 2c000000.pcie: Port link down, exit.
+[    4.233764] clk-starfive-jh7110-vout 295c0000.clock-controller: starfive JH7110 clk_vout init successfully.
+[    4.244771] hub 1-1:1.0: USB hub found
+[    4.249089] hub 1-1:1.0: 4 ports detected
+[    4.256419] clk-starfive-jh7110-isp 19810000.clock-controller: starfive JH7110 clk_isp init successfully.
+[    4.267671] dw_axi_dmac_platform 16050000.dma-controller: DesignWare AXI DMA Controller, 4 channels
+[    4.278715] printk: console [ttyS0] disabled
+[    4.303694] 10000000.serial: ttyS0 at MMIO 0x10000000 (irq = 17, base_baud = 1500000) is a 16550A
+[    4.313549] printk: console [ttyS0] enabled
+[    4.322336] printk: bootconsole [uart0] disabled
+[    4.332619] jh7110-vin 19800000.vin_sysctl: stfcamss probe enter!
+[    4.340876] jh7110-vin 19800000.vin_sysctl: stfcamss probe success!
+[    4.359201] dwmmc_starfive 16010000.sdio0: IDMAC supports 32-bit address mode.
+[    4.360825] dwmmc_starfive 16020000.sdio1: IDMAC supports 32-bit address mode.
+[    4.366682] dwmmc_starfive 16010000.sdio0: Using internal DMA controller.
+[    4.374012] dwmmc_starfive 16020000.sdio1: Using internal DMA controller.
+[    4.380797] dwmmc_starfive 16010000.sdio0: Version ID is 290a
+[    4.387687] dwmmc_starfive 16020000.sdio1: Version ID is 290a
+[    4.387799] dwmmc_starfive 16020000.sdio1: DW MMC controller at irq 30,32 bit host data width,32 deep fifo
+[    4.393591] dwmmc_starfive 16010000.sdio0: DW MMC controller at irq 29,32 bit host data width,32 deep fifo
+[    4.399648] mmc_host mmc1: card is polling.
+[    4.409404] mmc_host mmc0: card is non-removable.
+[    4.420104] jh7110-sec 16000000.crypto: will run requests pump with realtime priority
+[    4.440685] jh7110-sec 16000000.crypto: Initialized
+[    4.446258] starfive-i2s 120b0000.i2stx_4ch0:  designware: play supported
+[    4.453051] starfive-i2s 120b0000.i2stx_4ch0: designware: i2s master mode supported
+[    4.460831] sf-mipi-dphy-tx 295e0000.mipi-dphy: sf_dphy_probe begin
+[    4.467118] sf-mipi-dphy-tx 295e0000.mipi-dphy: ===> sf_dphy_probe enter, 445 
+[    4.474429] sf-mipi-dphy-tx 295e0000.mipi-dphy: control ECO
+[    4.480015] sf-mipi-dphy-tx 295e0000.mipi-dphy: supply mipi_1p8 not found, using dummy regulator
+[    4.489002] sf-mipi-dphy-tx 295e0000.mipi-dphy: sf_dphy_probe end
+[    4.495209] cdns-dsi 295d0000.mipi: dsi_sys_clk = 297000000
+[    4.500951] cdns-dsi 295d0000.mipi: starfive dsi bind end
+[    4.507774] of_cfs_init
+[    4.510248] of_cfs_init: OK
+[    4.513402] starfive-pwmdac 100b0000.pwmdac: clk_apb0 = 49500000, clk_pwmdac_apb = 49500000, clk_pwmdac_core = 4068493
+[    4.524433] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[    4.643504] mmc_host mmc1: Bus speed (slot 0) = 198000000Hz (slot req 400000Hz, actual 399193HZ div = 248)
+[    4.643513] mmc_host mmc0: Bus speed (slot 0) = 198000000Hz (slot req 400000Hz, actual 399193HZ div = 248)
+[    4.650974] cfg80211: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+[    4.669719] platform regulatory.0: Direct firmware load for regulatory.db failed with error -2
+[    4.678435] cfg80211: failed to load regulatory.db
+[    4.872144] starfive soc:display-subsystem: bound 29400000.dc8200 (ops 0xffffffff81076f60)
+[    4.880667] innohdmi-starfive 29590000.hdmi: inno hdmi bind begin
+[    4.888579] random: fast init done
+[    4.893113] innohdmi-starfive 29590000.hdmi: [drm:inno_hdmi_bind] registered Inno HDMI I2C bus driver success
+[    4.903953] innohdmi-starfive 29590000.hdmi: HDMI&AUDIO register done.
+[    4.910700] innohdmi-starfive 29590000.hdmi: inno hdmi bind end
+[    4.916777] starfive soc:display-subsystem: bound 29590000.hdmi (ops 0xffffffff81077cf8)
+[    4.925044] vs-simple-encoder soc:dsi-output: encoder_bind begin
+[    4.931236] no panel, -517
+[    4.934095] vs-simple-encoder soc:dsi-output: encoder_bind error
+[    4.940247] starfive soc:display-subsystem: bound soc:dsi-output (ops 0xffffffff81077940)
+[    4.950486] [drm] Initialized starfive 1.0.0 20191101 for soc:display-subsystem on minor 0
+[    4.959149] starfive soc:display-subsystem: [drm] Cannot find any crtc or sizes
+[    4.966664] mmc_host mmc1: Bus speed (slot 0) = 198000000Hz (slot req 50000000Hz, actual 49500000HZ div = 2)
+[    4.967167] starfive soc:display-subsystem: [drm] Cannot find any crtc or sizes
+[    4.976790] mmc1: new high speed SDHC card at address 59b4
+[    4.984177] starfive soc:display-subsystem: [drm] Cannot find any crtc or sizes
+[    4.991428] mmcblk1: mmc1:59b4 SDU1  29.1 GiB 
+[    5.008770]  mmcblk1: p1 p2 p3 p4
+[    5.123568] mmc_host mmc0: Bus speed (slot 0) = 198000000Hz (slot req 300000Hz, actual 300000HZ div = 330)
+[    5.163576] usb 1-1.2: new high-speed USB device number 3 using xhci_hcd
+[    5.563582] mmc_host mmc0: Bus speed (slot 0) = 198000000Hz (slot req 200000Hz, actual 200000HZ div = 495)
+[    6.013516] mmc_host mmc0: Bus speed (slot 0) = 198000000Hz (slot req 100000Hz, actual 100000HZ div = 990)
+[    6.073538] usb 1-1.4: new full-speed USB device number 4 using xhci_hcd
+[    6.223642] input: MOSART Semi. 2.4G Keyboard Mouse as /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4/1-1.4:1.0/0003:062A:5918.0001/input/input0
+[    6.304231] hid-generic 0003:062A:5918.0001: input: USB HID v1.10 Keyboard [MOSART Semi. 2.4G Keyboard Mouse] on usb-0000:01:00.0-1.4/input0
+[    6.328728] input: MOSART Semi. 2.4G Keyboard Mouse as /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4/1-1.4:1.1/0003:062A:5918.0002/input/input1
+[    6.345706] input: MOSART Semi. 2.4G Keyboard Mouse Consumer Control as /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4/1-1.4:1.1/0003:062A:5918.0002/input/input2
+[    6.433801] input: MOSART Semi. 2.4G Keyboard Mouse System Control as /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4/1-1.4:1.1/0003:062A:5918.0002/input/input3
+[    6.451985] input: MOSART Semi. 2.4G Keyboard Mouse as /devices/platform/soc/2b000000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4/1-1.4:1.1/0003:062A:5918.0002/input/input4
+[    6.468754] hid-generic 0003:062A:5918.0002: input: USB HID v1.10 Mouse [MOSART Semi. 2.4G Keyboard Mouse] on usb-0000:01:00.0-1.4/input1
+[    7.043593] ALSA device list:
+[    7.046612]   #0: Starfive-PWMDAC-Sound-Card
+[    7.050937]   #1: Starfive-HDMI-Sound-Card
+[    7.060018] Freeing unused kernel image (initmem) memory: 2196K
+[    7.066345] Run /init as init process
+[    7.070065]   with arguments:
+[    7.070080]     /init
+[    7.070094]   with environment:
+[    7.070110]     HOME=/
+[    7.070123]     TERM=linux
+[    7.070139]     stmmaceth=chain_mode:1
+[    7.070158]     selinux=0
+[    7.621849] starfive-eth-plat 16030000.ethernet end0: renamed from eth0
+[    7.685680] starfive-eth-plat 16040000.ethernet end1: renamed from eth1
+[    8.087356] EXT4-fs (mmcblk1p4): mounted filesystem with ordered data mode. Opts: (null). Quota mode: disabled.
+[    8.875037] systemd[1]: System time before build time, advancing clock.
+[    8.961737] systemd[1]: systemd 252.6-1 running in system mode (+PAM +AUDIT +SELINUX +APPARMOR +IMA +SMACK +SECCOMP +GCRYPT -GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +IPTC +KMOD +LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY +P11KIT +QRENCODE +TPM2 +BZIP2 +LZ4 +XZ +ZLIB +ZSTD -BPF_FRAMEWORK -XKBCOMMON +UTMP +SYSVINIT default-hierarchy=unified)
+[    8.993996] systemd[1]: Detected architecture riscv64.
+[    9.013322] systemd[1]: Hostname set to <visionfive2>.
+[    9.879948] systemd[1]: Queued start job for default target graphical.target.
+[    9.890204] systemd[1]: Created slice system-getty.slice - Slice /system/getty.
+[    9.898551] systemd[1]: Created slice system-modprobe.slice - Slice /system/modprobe.
+[    9.907850] systemd[1]: Created slice system-serial\x2dgetty.slice - Slice /system/serial-getty.
+[    9.917976] systemd[1]: Created slice system-systemd\x2dfsck.slice - Slice /system/systemd-fsck.
+[    9.927860] systemd[1]: Created slice user.slice - User and Session Slice.
+[    9.935879] systemd[1]: Started systemd-ask-password-wall.path - Forward Password Requests to Wall Directory Watch.
+[    9.947752] systemd[1]: proc-sys-fs-binfmt_misc.automount - Arbitrary Executable File Formats File System Automount Point was skipped because of an unmet condition check (ConditionPathExists=/proc/sys/fs/binfmt_misc).
+[    9.968386] systemd[1]: Reached target integritysetup.target - Local Integrity Protected Volumes.
+[    9.978583] systemd[1]: Reached target nss-user-lookup.target - User and Group Name Lookups.
+[    9.988356] systemd[1]: Reached target slices.target - Slice Units.
+[    9.995965] systemd[1]: Reached target swap.target - Swaps.
+[   10.002914] systemd[1]: Reached target veritysetup.target - Local Verity Protected Volumes.
+[   10.019913] systemd[1]: Listening on rpcbind.socket - RPCbind Server Activation Socket.
+[   10.029284] systemd[1]: Listening on systemd-fsckd.socket - fsck to fsckd communication Socket.
+[   10.039158] systemd[1]: Listening on systemd-initctl.socket - initctl Compatibility Named Pipe.
+[   10.055707] systemd[1]: systemd-journald-audit.socket - Journal Audit Socket was skipped because of an unmet condition check (ConditionSecurity=audit).
+[   10.070015] systemd[1]: Listening on systemd-journald-dev-log.socket - Journal Socket (/dev/log).
+[   10.080237] systemd[1]: Listening on systemd-journald.socket - Journal Socket.
+[   10.088783] systemd[1]: Listening on systemd-udevd-control.socket - udev Control Socket.
+[   10.098136] systemd[1]: Listening on systemd-udevd-kernel.socket - udev Kernel Socket.
+[   10.109048] systemd[1]: Mounting dev-hugepages.mount - Huge Pages File System...
+[   10.119255] systemd[1]: Mounting dev-mqueue.mount - POSIX Message Queue File System...
+[   10.130006] systemd[1]: Mounting sys-kernel-debug.mount - Kernel Debug File System...
+[   10.138992] systemd[1]: sys-kernel-tracing.mount - Kernel Trace File System was skipped because of an unmet condition check (ConditionPathExists=/sys/kernel/tracing).
+[   10.158131] systemd[1]: Starting keyboard-setup.service - Set the console keyboard layout...
+[   10.167753] systemd[1]: kmod-static-nodes.service - Create List of Static Device Nodes was skipped because of an unmet condition check (ConditionFileNotEmpty=/lib/modules/5.15.0-starfive/modules.devname).
+[   10.189666] systemd[1]: Starting modprobe@configfs.service - Load Kernel Module configfs...
+[   10.202342] systemd[1]: Starting modprobe@dm_mod.service - Load Kernel Module dm_mod...
+[   10.214690] systemd[1]: Starting modprobe@drm.service - Load Kernel Module drm...
+[   10.226044] systemd[1]: Starting modprobe@efi_pstore.service - Load Kernel Module efi_pstore...
+[   10.239092] systemd[1]: Starting modprobe@fuse.service - Load Kernel Module fuse...
+[   10.250972] systemd[1]: Starting modprobe@loop.service - Load Kernel Module loop...
+[   10.260647] systemd[1]: systemd-fsck-root.service - File System Check on Root Device was skipped because of an unmet condition check (ConditionPathExists=!/run/initramfs/fsck-root).
+[   10.282012] systemd[1]: Starting systemd-journald.service - Journal Service...
+[   10.303000] systemd[1]: Starting systemd-modules-load.service - Load Kernel Modules...
+[   10.316611] systemd[1]: Starting systemd-remount-fs.service - Remount Root and Kernel File Systems...
+[   10.339657] systemd[1]: Starting systemd-udev-trigger.service - Coldplug All udev Devices...
+[   10.351902] EXT4-fs (mmcblk1p4): re-mounted. Opts: errors=remount-ro. Quota mode: disabled.
+[   10.355041] systemd[1]: Mounted dev-hugepages.mount - Huge Pages File System.
+[   10.373219] systemd[1]: Mounted dev-mqueue.mount - POSIX Message Queue File System.
+[   10.382813] systemd[1]: Mounted sys-kernel-debug.mount - Kernel Debug File System.
+[   10.392143] systemd[1]: modprobe@configfs.service: Deactivated successfully.
+[   10.401163] systemd[1]: Finished modprobe@configfs.service - Load Kernel Module configfs.
+[   10.418504] systemd[1]: modprobe@dm_mod.service: Deactivated successfully.
+[   10.427264] systemd[1]: Finished modprobe@dm_mod.service - Load Kernel Module dm_mod.
+[   10.436588] systemd[1]: Started systemd-journald.service - Journal Service.
+[   10.511832] systemd-journald[270]: Received client request to flush runtime journal.
+[   10.573651] systemd-journald[270]: File /var/log/journal/77152986637e432bb431b785d3fe6e5c/system.journal corrupted or uncleanly shut down, renaming and replacing.
+[   12.429823] venc: loading out-of-tree module taints kernel.
+[   12.457836] SUCCESS alloc_chrdev_region
+[   12.465810] cnm_jpu 13090000.jpu: init device.
+[   12.474026] vdec 130a0000.vpu_dec: device init.
+[   12.478592] SUCCESS alloc_chrdev_region
+[   13.693615] random: crng init done
+[   13.792869] systemd-journald[270]: Oldest entry in /var/log/journal/77152986637e432bb431b785d3fe6e5c/system.journal is older than the configured file retention duration (1month), suggesting rotation.
+[   13.811188] systemd-journald[270]: /var/log/journal/77152986637e432bb431b785d3fe6e5c/system.journal: Journal header limits reached or header out-of-date, rotating.
+[   16.645493] starfive-eth-plat 16030000.ethernet end0: PHY [stmmac-0:00] driver [YT8531 Gigabit Ethernet] (irq=POLL)
+[   16.664376] starfive-eth-plat 16030000.ethernet end0: Register MEM_TYPE_PAGE_POOL RxQ-0
+[   16.672662] dwmac4: Master AXI performs fixed burst length
+[   16.678204] starfive-eth-plat 16030000.ethernet end0: No Safety Features support found
+[   16.686197] starfive-eth-plat 16030000.ethernet end0: IEEE 1588-2008 Advanced Timestamp supported
+[   16.707413] starfive-eth-plat 16030000.ethernet end0: configuring for phy/rgmii-id link mode
+[   16.745607] starfive-eth-plat 16040000.ethernet end1: PHY [stmmac-1:00] driver [YT8512B Ethernet] (irq=POLL)
+[   16.756043] starfive-eth-plat 16040000.ethernet end1: Register MEM_TYPE_PAGE_POOL RxQ-0
+[   16.764365] dwmac4: Master AXI performs fixed burst length
+[   16.769891] starfive-eth-plat 16040000.ethernet end1: No Safety Features support found
+[   16.777871] starfive-eth-plat 16040000.ethernet end1: IEEE 1588-2008 Advanced Timestamp supported
+[   16.787165] starfive-eth-plat 16040000.ethernet end1: configuring for phy/rgmii-id link mode
+[   19.846462] starfive-eth-plat 16030000.ethernet end0: Link is Up - 1Gbps/Full - flow control rx/tx
+[   19.855643] IPv6: ADDRCONF(NETDEV_CHANGE): end0: link becomes ready
+[   35.124049] mipi_0p9: disabling

@@ -1,0 +1,2 @@
+physcpubind: 0 1 2 3 
+No NUMA support available on this system.

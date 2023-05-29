@@ -1,0 +1,2872 @@
+==>  /proc/device-tree/mipitx_dphy_txbytehs/#clock-cells
+==>  /proc/device-tree/mipitx_dphy_txbytehs/clock-frequency
+==>  /proc/device-tree/mipitx_dphy_txbytehs/compatible
+fixed-clock
+==>  /proc/device-tree/mipitx_dphy_txbytehs/phandle
+==>  /proc/device-tree/mipitx_dphy_txbytehs/name
+mipitx_dphy_txbytehs
+==>  /proc/device-tree/#address-cells
+==>  /proc/device-tree/osc/#clock-cells
+==>  /proc/device-tree/osc/clock-frequency
+==>  /proc/device-tree/osc/compatible
+fixed-clock
+==>  /proc/device-tree/osc/phandle
+==>  /proc/device-tree/osc/name
+==>  /proc/device-tree/mipitx_dphy_rxesc/#clock-cells
+==>  /proc/device-tree/mipitx_dphy_rxesc/clock-frequency
+==>  /proc/device-tree/mipitx_dphy_rxesc/compatible
+fixed-clock
+==>  /proc/device-tree/mipitx_dphy_rxesc/phandle
+==>  /proc/device-tree/mipitx_dphy_rxesc/name
+mipitx_dphy_rxesc
+==>  /proc/device-tree/mclk_ext/#clock-cells
+==>  /proc/device-tree/mclk_ext/clock-frequency
+==>  /proc/device-tree/mclk_ext/compatible
+fixed-clock
+==>  /proc/device-tree/mclk_ext/phandle
+==>  /proc/device-tree/mclk_ext/name
+mclk_ext
+==>  /proc/device-tree/memory@40000000/device_type
+memory
+==>  /proc/device-tree/memory@40000000/reg
+==>  /proc/device-tree/memory@40000000/name
+memory
+==>  /proc/device-tree/model
+StarFive VisionFive V2
+==>  /proc/device-tree/serial-number
+VF7110A1-2247-D008E000-00000216
+==>  /proc/device-tree/soc/spi@12070000/arm,primecell-periphid
+==>  /proc/device-tree/soc/spi@12070000/#address-cells
+==>  /proc/device-tree/soc/spi@12070000/num-cs
+==>  /proc/device-tree/soc/spi@12070000/clock-names
+apb_pclk
+==>  /proc/device-tree/soc/spi@12070000/resets
+==>  /proc/device-tree/soc/spi@12070000/interrupts
+==>  /proc/device-tree/soc/spi@12070000/clocks
+==>  /proc/device-tree/soc/spi@12070000/#size-cells
+==>  /proc/device-tree/soc/spi@12070000/compatible
+arm,pl022
+arm,primecell
+==>  /proc/device-tree/soc/spi@12070000/status
+disabled
+==>  /proc/device-tree/soc/spi@12070000/reg
+==>  /proc/device-tree/soc/spi@12070000/reset-names
+rst_apb
+==>  /proc/device-tree/soc/spi@12070000/name
+==>  /proc/device-tree/soc/dsi-output/ports/port@0/endpoint/remote-endpoint
+==>  /proc/device-tree/soc/dsi-output/ports/port@0/endpoint/phandle
+==>  /proc/device-tree/soc/dsi-output/ports/port@0/endpoint/name
+endpoint
+==>  /proc/device-tree/soc/dsi-output/ports/port@0/reg
+==>  /proc/device-tree/soc/dsi-output/ports/port@0/name
+port
+==>  /proc/device-tree/soc/dsi-output/ports/#address-cells
+==>  /proc/device-tree/soc/dsi-output/ports/#size-cells
+==>  /proc/device-tree/soc/dsi-output/ports/port@1/endpoint/remote-endpoint
+==>  /proc/device-tree/soc/dsi-output/ports/port@1/endpoint/phandle
+==>  /proc/device-tree/soc/dsi-output/ports/port@1/endpoint/name
+endpoint
+==>  /proc/device-tree/soc/dsi-output/ports/port@1/reg
+==>  /proc/device-tree/soc/dsi-output/ports/port@1/name
+port
+==>  /proc/device-tree/soc/dsi-output/ports/name
+ports
+==>  /proc/device-tree/soc/dsi-output/compatible
+starfive,jh7110-display-encoder
+verisilicon,dsi-encoder
+==>  /proc/device-tree/soc/dsi-output/status
+okay
+==>  /proc/device-tree/soc/dsi-output/name
+dsi-output
+==>  /proc/device-tree/soc/hdmi@29590000/pinctrl-names
+default
+==>  /proc/device-tree/soc/hdmi@29590000/pinctrl-0
+==>  /proc/device-tree/soc/hdmi@29590000/clock-names
+sysclk
+mclk
+bclk
+pclk
+==>  /proc/device-tree/soc/hdmi@29590000/port/#address-cells
+==>  /proc/device-tree/soc/hdmi@29590000/port/#size-cells
+==>  /proc/device-tree/soc/hdmi@29590000/port/endpoint@0/remote-endpoint
+==>  /proc/device-tree/soc/hdmi@29590000/port/endpoint@0/reg
+==>  /proc/device-tree/soc/hdmi@29590000/port/endpoint@0/phandle
+==>  /proc/device-tree/soc/hdmi@29590000/port/endpoint@0/name
+endpoint
+==>  /proc/device-tree/soc/hdmi@29590000/port/name
+port
+==>  /proc/device-tree/soc/hdmi@29590000/resets
+==>  /proc/device-tree/soc/hdmi@29590000/interrupts
+==>  /proc/device-tree/soc/hdmi@29590000/clocks
+==>  /proc/device-tree/soc/hdmi@29590000/#sound-dai-cells
+==>  /proc/device-tree/soc/hdmi@29590000/compatible
+starfive,jh7110-hdmi
+inno,hdmi
+==>  /proc/device-tree/soc/hdmi@29590000/status
+okay
+==>  /proc/device-tree/soc/hdmi@29590000/reg
+==>  /proc/device-tree/soc/hdmi@29590000/phandle
+==>  /proc/device-tree/soc/hdmi@29590000/reset-names
+hdmi_tx
+==>  /proc/device-tree/soc/hdmi@29590000/name
+hdmi
+==>  /proc/device-tree/soc/gpio@17020000/reg-names
+control
+==>  /proc/device-tree/soc/gpio@17020000/resets
+==>  /proc/device-tree/soc/gpio@17020000/interrupts
+==>  /proc/device-tree/soc/gpio@17020000/compatible
+starfive,jh7110-aon-pinctrl
+==>  /proc/device-tree/soc/gpio@17020000/status
+okay
+==>  /proc/device-tree/soc/gpio@17020000/reg
+==>  /proc/device-tree/soc/gpio@17020000/phandle
+==>  /proc/device-tree/soc/gpio@17020000/#gpio-cells
+==>  /proc/device-tree/soc/gpio@17020000/ngpios
+==>  /proc/device-tree/soc/gpio@17020000/name
+gpio
+==>  /proc/device-tree/soc/gpio@17020000/interrupt-controller
+==>  /proc/device-tree/soc/dc8200@29400000/verisilicon,dss-syscon
+==>  /proc/device-tree/soc/dc8200@29400000/clock-names
+noc_disp
+vout_src
+top_vout_axi
+top_vout_ahb
+pix_clk
+vout_pix1
+axi_clk
+core_clk
+vout_ahb
+vout_top_axi
+vout_top_lcd
+hdmitx0_pixelclk
+dc8200_pix0
+dc8200_pix0_out
+dc8200_pix1_out
+==>  /proc/device-tree/soc/dc8200@29400000/port/#address-cells
+==>  /proc/device-tree/soc/dc8200@29400000/port/endpoint@1/remote-endpoint
+==>  /proc/device-tree/soc/dc8200@29400000/port/endpoint@1/reg
+==>  /proc/device-tree/soc/dc8200@29400000/port/endpoint@1/phandle
+==>  /proc/device-tree/soc/dc8200@29400000/port/endpoint@1/name
+endpoint
+==>  /proc/device-tree/soc/dc8200@29400000/port/#size-cells
+==>  /proc/device-tree/soc/dc8200@29400000/port/endpoint@2/remote-endpoint
+==>  /proc/device-tree/soc/dc8200@29400000/port/endpoint@2/reg
+==>  /proc/device-tree/soc/dc8200@29400000/port/endpoint@2/phandle
+==>  /proc/device-tree/soc/dc8200@29400000/port/endpoint@2/name
+endpoint
+==>  /proc/device-tree/soc/dc8200@29400000/port/endpoint@0/remote-endpoint
+==>  /proc/device-tree/soc/dc8200@29400000/port/endpoint@0/reg
+==>  /proc/device-tree/soc/dc8200@29400000/port/endpoint@0/phandle
+==>  /proc/device-tree/soc/dc8200@29400000/port/endpoint@0/name
+endpoint
+==>  /proc/device-tree/soc/dc8200@29400000/port/name
+port
+==>  /proc/device-tree/soc/dc8200@29400000/resets
+==>  /proc/device-tree/soc/dc8200@29400000/interrupts
+==>  /proc/device-tree/soc/dc8200@29400000/clocks
+==>  /proc/device-tree/soc/dc8200@29400000/compatible
+starfive,jh7110-dc8200
+verisilicon,dc8200
+==>  /proc/device-tree/soc/dc8200@29400000/status
+okay
+==>  /proc/device-tree/soc/dc8200@29400000/reg
+==>  /proc/device-tree/soc/dc8200@29400000/reset-names
+rst_vout_src
+rst_axi
+rst_ahb
+rst_core
+rst_noc_disp
+==>  /proc/device-tree/soc/dc8200@29400000/name
+dc8200
+==>  /proc/device-tree/soc/serial@10020000/reg-io-width
+==>  /proc/device-tree/soc/serial@10020000/clock-names
+baudclk
+apb_pclk
+==>  /proc/device-tree/soc/serial@10020000/resets
+==>  /proc/device-tree/soc/serial@10020000/interrupts
+==>  /proc/device-tree/soc/serial@10020000/clocks
+==>  /proc/device-tree/soc/serial@10020000/compatible
+snps,dw-apb-uart
+==>  /proc/device-tree/soc/serial@10020000/status
+disabled
+==>  /proc/device-tree/soc/serial@10020000/reg
+==>  /proc/device-tree/soc/serial@10020000/reg-shift
+==>  /proc/device-tree/soc/serial@10020000/name
+serial
+==>  /proc/device-tree/soc/vin_sysctl@19800000/power-domains
+==>  /proc/device-tree/soc/vin_sysctl@19800000/clock-names
+clk_apb_func
+clk_pclk
+clk_sys_clk
+clk_wrapper_clk_c
+clk_dvp_inv
+clk_axiwr
+clk_mipi_rx0_pxl
+clk_pixel_clk_if0
+clk_pixel_clk_if1
+clk_pixel_clk_if2
+clk_pixel_clk_if3
+clk_m31dphy_cfgclk_in
+clk_m31dphy_refclk_in
+clk_m31dphy_txclkesc_lan0
+clk_ispcore_2x
+clk_isp_axi
+==>  /proc/device-tree/soc/vin_sysctl@19800000/reg-names
+csi2rx
+vclk
+vrst
+sctrl
+trst
+syscrg
+==>  /proc/device-tree/soc/vin_sysctl@19800000/ports/#address-cells
+==>  /proc/device-tree/soc/vin_sysctl@19800000/ports/#size-cells
+==>  /proc/device-tree/soc/vin_sysctl@19800000/ports/port@1/#address-cells
+==>  /proc/device-tree/soc/vin_sysctl@19800000/ports/port@1/#size-cells
+==>  /proc/device-tree/soc/vin_sysctl@19800000/ports/port@1/reg
+==>  /proc/device-tree/soc/vin_sysctl@19800000/ports/port@1/endpoint@0/data-lanes
+==>  /proc/device-tree/soc/vin_sysctl@19800000/ports/port@1/endpoint@0/clock-lanes
+==>  /proc/device-tree/soc/vin_sysctl@19800000/ports/port@1/endpoint@0/remote-endpoint
+==>  /proc/device-tree/soc/vin_sysctl@19800000/ports/port@1/endpoint@0/bus-type
+==>  /proc/device-tree/soc/vin_sysctl@19800000/ports/port@1/endpoint@0/status
+okay
+==>  /proc/device-tree/soc/vin_sysctl@19800000/ports/port@1/endpoint@0/lane-polarities
+==>  /proc/device-tree/soc/vin_sysctl@19800000/ports/port@1/endpoint@0/reg
+==>  /proc/device-tree/soc/vin_sysctl@19800000/ports/port@1/endpoint@0/phandle
+==>  /proc/device-tree/soc/vin_sysctl@19800000/ports/port@1/endpoint@0/name
+endpoint
+==>  /proc/device-tree/soc/vin_sysctl@19800000/ports/port@1/name
+port
+==>  /proc/device-tree/soc/vin_sysctl@19800000/ports/name
+ports
+==>  /proc/device-tree/soc/vin_sysctl@19800000/resets
+==>  /proc/device-tree/soc/vin_sysctl@19800000/interrupts
+==>  /proc/device-tree/soc/vin_sysctl@19800000/clocks
+==>  /proc/device-tree/soc/vin_sysctl@19800000/starfive,aon-syscon
+==>  /proc/device-tree/soc/vin_sysctl@19800000/compatible
+starfive,jh7110-vin
+==>  /proc/device-tree/soc/vin_sysctl@19800000/status
+okay
+==>  /proc/device-tree/soc/vin_sysctl@19800000/reg
+==>  /proc/device-tree/soc/vin_sysctl@19800000/reset-names
+rst_wrapper_p
+rst_wrapper_c
+rst_pclk
+rst_sys_clk
+rst_axird
+rst_axiwr
+rst_pixel_clk_if0
+rst_pixel_clk_if1
+rst_pixel_clk_if2
+rst_pixel_clk_if3
+rst_m31dphy_hw
+rst_m31dphy_b09_always_on
+rst_isp_top_n
+rst_isp_top_axi
+==>  /proc/device-tree/soc/vin_sysctl@19800000/name
+vin_sysctl
+==>  /proc/device-tree/soc/clock-controller@295C0000/power-domains
+==>  /proc/device-tree/soc/clock-controller@295C0000/clock-names
+hdmitx0_pixelclk
+mipitx_dphy_rxesc
+mipitx_dphy_txbytehs
+vout_src
+vout_top_ahb
+==>  /proc/device-tree/soc/clock-controller@295C0000/reg-names
+vout
+==>  /proc/device-tree/soc/clock-controller@295C0000/resets
+==>  /proc/device-tree/soc/clock-controller@295C0000/clocks
+==>  /proc/device-tree/soc/clock-controller@295C0000/#clock-cells
+==>  /proc/device-tree/soc/clock-controller@295C0000/compatible
+starfive,jh7110-clk-vout
+==>  /proc/device-tree/soc/clock-controller@295C0000/status
+okay
+==>  /proc/device-tree/soc/clock-controller@295C0000/reg
+==>  /proc/device-tree/soc/clock-controller@295C0000/phandle
+==>  /proc/device-tree/soc/clock-controller@295C0000/reset-names
+vout_src
+==>  /proc/device-tree/soc/clock-controller@295C0000/name
+clock-controller
+==>  /proc/device-tree/soc/i2c@10050000/pinctrl-names
+default
+==>  /proc/device-tree/soc/i2c@10050000/#address-cells
+==>  /proc/device-tree/soc/i2c@10050000/i2c-sda-hold-time-ns
+==>  /proc/device-tree/soc/i2c@10050000/pinctrl-0
+==>  /proc/device-tree/soc/i2c@10050000/clock-names
+pclk
+==>  /proc/device-tree/soc/i2c@10050000/tinker_ft5406@38/compatible
+tinker_ft5406
+==>  /proc/device-tree/soc/i2c@10050000/tinker_ft5406@38/reg
+==>  /proc/device-tree/soc/i2c@10050000/tinker_ft5406@38/name
+tinker_ft5406
+==>  /proc/device-tree/soc/i2c@10050000/i2c-scl-falling-time-ns
+==>  /proc/device-tree/soc/i2c@10050000/i2c-sda-falling-time-ns
+==>  /proc/device-tree/soc/i2c@10050000/touchscreen@14/irq-gpios
+==>  /proc/device-tree/soc/i2c@10050000/touchscreen@14/reset-gpios
+==>  /proc/device-tree/soc/i2c@10050000/touchscreen@14/compatible
+goodix,gt911
+==>  /proc/device-tree/soc/i2c@10050000/touchscreen@14/reg
+==>  /proc/device-tree/soc/i2c@10050000/touchscreen@14/name
+touchscreen
+==>  /proc/device-tree/soc/i2c@10050000/resets
+==>  /proc/device-tree/soc/i2c@10050000/interrupts
+==>  /proc/device-tree/soc/i2c@10050000/auto_calc_scl_lhcnt
+==>  /proc/device-tree/soc/i2c@10050000/clocks
+==>  /proc/device-tree/soc/i2c@10050000/#size-cells
+==>  /proc/device-tree/soc/i2c@10050000/clock-frequency
+==>  /proc/device-tree/soc/i2c@10050000/panel_radxa@19/port/endpoint/remote-endpoint
+==>  /proc/device-tree/soc/i2c@10050000/panel_radxa@19/port/endpoint/phandle
+==>  /proc/device-tree/soc/i2c@10050000/panel_radxa@19/port/endpoint/name
+endpoint
+==>  /proc/device-tree/soc/i2c@10050000/panel_radxa@19/port/name
+port
+==>  /proc/device-tree/soc/i2c@10050000/panel_radxa@19/enable-gpio
+==>  /proc/device-tree/soc/i2c@10050000/panel_radxa@19/reset-gpio
+==>  /proc/device-tree/soc/i2c@10050000/panel_radxa@19/compatible
+starfive_jadard
+==>  /proc/device-tree/soc/i2c@10050000/panel_radxa@19/reg
+==>  /proc/device-tree/soc/i2c@10050000/panel_radxa@19/name
+panel_radxa
+==>  /proc/device-tree/soc/i2c@10050000/compatible
+snps,designware-i2c
+==>  /proc/device-tree/soc/i2c@10050000/status
+okay
+==>  /proc/device-tree/soc/i2c@10050000/reg
+==>  /proc/device-tree/soc/i2c@10050000/seeed_plane_i2c@45/port/endpoint/remote-endpoint
+==>  /proc/device-tree/soc/i2c@10050000/seeed_plane_i2c@45/port/endpoint/phandle
+==>  /proc/device-tree/soc/i2c@10050000/seeed_plane_i2c@45/port/endpoint/name
+endpoint
+==>  /proc/device-tree/soc/i2c@10050000/seeed_plane_i2c@45/port/name
+port
+==>  /proc/device-tree/soc/i2c@10050000/seeed_plane_i2c@45/compatible
+seeed_panel
+==>  /proc/device-tree/soc/i2c@10050000/seeed_plane_i2c@45/reg
+==>  /proc/device-tree/soc/i2c@10050000/seeed_plane_i2c@45/name
+seeed_plane_i2c
+==>  /proc/device-tree/soc/i2c@10050000/name
+==>  /proc/device-tree/soc/serial@12000000/reg-io-width
+==>  /proc/device-tree/soc/serial@12000000/clock-names
+baudclk
+apb_pclk
+==>  /proc/device-tree/soc/serial@12000000/resets
+==>  /proc/device-tree/soc/serial@12000000/interrupts
+==>  /proc/device-tree/soc/serial@12000000/clocks
+==>  /proc/device-tree/soc/serial@12000000/compatible
+snps,dw-apb-uart
+==>  /proc/device-tree/soc/serial@12000000/status
+disabled
+==>  /proc/device-tree/soc/serial@12000000/reg
+==>  /proc/device-tree/soc/serial@12000000/reg-shift
+==>  /proc/device-tree/soc/serial@12000000/name
+serial
+==>  /proc/device-tree/soc/#address-cells
+==>  /proc/device-tree/soc/mailbox_client@0/compatible
+starfive,mailbox-test
+==>  /proc/device-tree/soc/mailbox_client@0/status
+okay
+==>  /proc/device-tree/soc/mailbox_client@0/mboxes
+==>  /proc/device-tree/soc/mailbox_client@0/mbox-names
+==>  /proc/device-tree/soc/mailbox_client@0/name
+mailbox_client
+==>  /proc/device-tree/soc/clint@2000000/reg-names
+control
+==>  /proc/device-tree/soc/clint@2000000/interrupts-extended
+==>  /proc/device-tree/soc/clint@2000000/compatible
+riscv,clint0
+==>  /proc/device-tree/soc/clint@2000000/#interrupt-cells
+==>  /proc/device-tree/soc/clint@2000000/reg
+==>  /proc/device-tree/soc/clint@2000000/name
+clint
+==>  /proc/device-tree/soc/i2c@12030000/#address-cells
+==>  /proc/device-tree/soc/i2c@12030000/clock-names
+pclk
+==>  /proc/device-tree/soc/i2c@12030000/resets
+==>  /proc/device-tree/soc/i2c@12030000/interrupts
+==>  /proc/device-tree/soc/i2c@12030000/clocks
+==>  /proc/device-tree/soc/i2c@12030000/#size-cells
+==>  /proc/device-tree/soc/i2c@12030000/compatible
+snps,designware-i2c
+==>  /proc/device-tree/soc/i2c@12030000/status
+disabled
+==>  /proc/device-tree/soc/i2c@12030000/reg
+==>  /proc/device-tree/soc/i2c@12030000/name
+==>  /proc/device-tree/soc/dma-controller@16050000/snps,data-width
+==>  /proc/device-tree/soc/dma-controller@16050000/snps,priority
+==>  /proc/device-tree/soc/dma-controller@16050000/clock-names
+core-clk
+cfgr-clk
+stg_clk
+==>  /proc/device-tree/soc/dma-controller@16050000/resets
+==>  /proc/device-tree/soc/dma-controller@16050000/interrupts
+==>  /proc/device-tree/soc/dma-controller@16050000/snps,num-hs-if
+==>  /proc/device-tree/soc/dma-controller@16050000/clocks
+==>  /proc/device-tree/soc/dma-controller@16050000/snps,axi-max-burst-len
+==>  /proc/device-tree/soc/dma-controller@16050000/snps,dma-masters
+==>  /proc/device-tree/soc/dma-controller@16050000/compatible
+starfive,jh7110-dma
+snps,axi-dma-1.01a
+==>  /proc/device-tree/soc/dma-controller@16050000/status
+okay
+==>  /proc/device-tree/soc/dma-controller@16050000/snps,block-size
+==>  /proc/device-tree/soc/dma-controller@16050000/reg
+==>  /proc/device-tree/soc/dma-controller@16050000/phandle
+==>  /proc/device-tree/soc/dma-controller@16050000/reset-names
+rst_axi
+rst_ahb
+rst_stg
+==>  /proc/device-tree/soc/dma-controller@16050000/dma-channels
+==>  /proc/device-tree/soc/dma-controller@16050000/#dma-cells
+==>  /proc/device-tree/soc/dma-controller@16050000/name
+dma-controller
+==>  /proc/device-tree/soc/starfive,jh7110-cpufreq/clock-names
+cpu_clk
+==>  /proc/device-tree/soc/starfive,jh7110-cpufreq/clocks
+==>  /proc/device-tree/soc/starfive,jh7110-cpufreq/compatible
+starfive,jh7110-cpufreq
+==>  /proc/device-tree/soc/starfive,jh7110-cpufreq/name
+starfive,jh7110-cpufreq
+==>  /proc/device-tree/soc/sdio1@16020000/fifo-depth
+==>  /proc/device-tree/soc/sdio1@16020000/pinctrl-names
+default
+==>  /proc/device-tree/soc/sdio1@16020000/data-addr
+==>  /proc/device-tree/soc/sdio1@16020000/pinctrl-0
+==>  /proc/device-tree/soc/sdio1@16020000/clock-names
+==>  /proc/device-tree/soc/sdio1@16020000/cap-sd-highspeed
+==>  /proc/device-tree/soc/sdio1@16020000/no-mmc
+==>  /proc/device-tree/soc/sdio1@16020000/bus-width
+==>  /proc/device-tree/soc/sdio1@16020000/starfive,sys-syscon
+==>  /proc/device-tree/soc/sdio1@16020000/no-sdio
+==>  /proc/device-tree/soc/sdio1@16020000/resets
+==>  /proc/device-tree/soc/sdio1@16020000/card-detect-delay
+==>  /proc/device-tree/soc/sdio1@16020000/interrupts
+==>  /proc/device-tree/soc/sdio1@16020000/clocks
+==>  /proc/device-tree/soc/sdio1@16020000/broken-cd
+==>  /proc/device-tree/soc/sdio1@16020000/compatible
+starfive,jh7110-sdio
+==>  /proc/device-tree/soc/sdio1@16020000/post-power-on-delay-ms
+==>  /proc/device-tree/soc/sdio1@16020000/status
+okay
+==>  /proc/device-tree/soc/sdio1@16020000/fifo-watermark-aligned
+==>  /proc/device-tree/soc/sdio1@16020000/reg
+==>  /proc/device-tree/soc/sdio1@16020000/max-frequency
+==>  /proc/device-tree/soc/sdio1@16020000/reset-names
+reset
+==>  /proc/device-tree/soc/sdio1@16020000/name
+sdio1
+==>  /proc/device-tree/soc/pwm@120d0000/pinctrl-names
+default
+==>  /proc/device-tree/soc/pwm@120d0000/pinctrl-0
+==>  /proc/device-tree/soc/pwm@120d0000/reg-names
+control
+==>  /proc/device-tree/soc/pwm@120d0000/starfive,approx-freq
+==>  /proc/device-tree/soc/pwm@120d0000/resets
+==>  /proc/device-tree/soc/pwm@120d0000/clocks
+==>  /proc/device-tree/soc/pwm@120d0000/#pwm-cells
+==>  /proc/device-tree/soc/pwm@120d0000/compatible
+starfive,jh7110-pwm
+==>  /proc/device-tree/soc/pwm@120d0000/status
+okay
+==>  /proc/device-tree/soc/pwm@120d0000/reg
+==>  /proc/device-tree/soc/pwm@120d0000/starfive,npwm
+==>  /proc/device-tree/soc/pwm@120d0000/name
+==>  /proc/device-tree/soc/timer@13050000/clock-names
+timer0
+timer1
+timer2
+timer3
+apb_clk
+==>  /proc/device-tree/soc/timer@13050000/resets
+==>  /proc/device-tree/soc/timer@13050000/interrupts
+==>  /proc/device-tree/soc/timer@13050000/clocks
+==>  /proc/device-tree/soc/timer@13050000/clock-frequency
+==>  /proc/device-tree/soc/timer@13050000/compatible
+starfive,jh7110-timers
+==>  /proc/device-tree/soc/timer@13050000/status
+okay
+==>  /proc/device-tree/soc/timer@13050000/interrupt-names
+timer0
+timer1
+timer2
+timer3
+==>  /proc/device-tree/soc/timer@13050000/reg
+==>  /proc/device-tree/soc/timer@13050000/reset-names
+timer0
+timer1
+timer2
+timer3
+apb_rst
+==>  /proc/device-tree/soc/timer@13050000/name
+timer
+==>  /proc/device-tree/soc/plic@c000000/reg-names
+control
+==>  /proc/device-tree/soc/plic@c000000/interrupts-extended
+==>  /proc/device-tree/soc/plic@c000000/compatible
+riscv,plic0
+==>  /proc/device-tree/soc/plic@c000000/#interrupt-cells
+==>  /proc/device-tree/soc/plic@c000000/reg
+==>  /proc/device-tree/soc/plic@c000000/phandle
+==>  /proc/device-tree/soc/plic@c000000/riscv,ndev
+==>  /proc/device-tree/soc/plic@c000000/riscv,max-priority
+==>  /proc/device-tree/soc/plic@c000000/name
+plic
+==>  /proc/device-tree/soc/plic@c000000/interrupt-controller
+==>  /proc/device-tree/soc/spi@10060000/arm,primecell-periphid
+==>  /proc/device-tree/soc/spi@10060000/pinctrl-names
+default
+==>  /proc/device-tree/soc/spi@10060000/#address-cells
+==>  /proc/device-tree/soc/spi@10060000/num-cs
+==>  /proc/device-tree/soc/spi@10060000/pinctrl-0
+==>  /proc/device-tree/soc/spi@10060000/clock-names
+apb_pclk
+==>  /proc/device-tree/soc/spi@10060000/resets
+==>  /proc/device-tree/soc/spi@10060000/interrupts
+==>  /proc/device-tree/soc/spi@10060000/clocks
+==>  /proc/device-tree/soc/spi@10060000/#size-cells
+==>  /proc/device-tree/soc/spi@10060000/spi@0/spi-max-frequency
+==>  /proc/device-tree/soc/spi@10060000/spi@0/pl022,com-mode
+==>  /proc/device-tree/soc/spi@10060000/spi@0/compatible
+rohm,dh2228fv
+==>  /proc/device-tree/soc/spi@10060000/spi@0/status
+okay
+==>  /proc/device-tree/soc/spi@10060000/spi@0/reg
+==>  /proc/device-tree/soc/spi@10060000/spi@0/name
+==>  /proc/device-tree/soc/spi@10060000/compatible
+arm,pl022
+arm,primecell
+==>  /proc/device-tree/soc/spi@10060000/status
+okay
+==>  /proc/device-tree/soc/spi@10060000/reg
+==>  /proc/device-tree/soc/spi@10060000/reset-names
+rst_apb
+==>  /proc/device-tree/soc/spi@10060000/name
+==>  /proc/device-tree/soc/pdm@100d0000/clock-names
+pdm_mclk
+pdm_apb
+clk_mclk
+mclk_ext
+==>  /proc/device-tree/soc/pdm@100d0000/reg-names
+==>  /proc/device-tree/soc/pdm@100d0000/resets
+==>  /proc/device-tree/soc/pdm@100d0000/clocks
+==>  /proc/device-tree/soc/pdm@100d0000/#sound-dai-cells
+==>  /proc/device-tree/soc/pdm@100d0000/compatible
+starfive,jh7110-pdm
+==>  /proc/device-tree/soc/pdm@100d0000/reg
+==>  /proc/device-tree/soc/pdm@100d0000/reset-names
+pdm_dmic
+pdm_apb
+==>  /proc/device-tree/soc/pdm@100d0000/name
+==>  /proc/device-tree/soc/pwmdac@100b0000/pinctrl-names
+default
+==>  /proc/device-tree/soc/pwmdac@100b0000/pinctrl-0
+==>  /proc/device-tree/soc/pwmdac@100b0000/clock-names
+apb0
+pwmdac-apb
+pwmdac-core
+==>  /proc/device-tree/soc/pwmdac@100b0000/resets
+==>  /proc/device-tree/soc/pwmdac@100b0000/clocks
+==>  /proc/device-tree/soc/pwmdac@100b0000/dma-names
+==>  /proc/device-tree/soc/pwmdac@100b0000/#sound-dai-cells
+==>  /proc/device-tree/soc/pwmdac@100b0000/compatible
+starfive,jh7110-pwmdac
+==>  /proc/device-tree/soc/pwmdac@100b0000/status
+okay
+==>  /proc/device-tree/soc/pwmdac@100b0000/reg
+==>  /proc/device-tree/soc/pwmdac@100b0000/phandle
+==>  /proc/device-tree/soc/pwmdac@100b0000/dmas
+==>  /proc/device-tree/soc/pwmdac@100b0000/reset-names
+rst-apb
+==>  /proc/device-tree/soc/pwmdac@100b0000/name
+pwmdac
+==>  /proc/device-tree/soc/multi-phyctrl@10210000/compatible
+starfive,phyctrl
+==>  /proc/device-tree/soc/multi-phyctrl@10210000/reg
+==>  /proc/device-tree/soc/multi-phyctrl@10210000/phandle
+==>  /proc/device-tree/soc/multi-phyctrl@10210000/name
+multi-phyctrl
+==>  /proc/device-tree/soc/aon_syscon@17010000/compatible
+syscon
+==>  /proc/device-tree/soc/aon_syscon@17010000/reg
+==>  /proc/device-tree/soc/aon_syscon@17010000/phandle
+==>  /proc/device-tree/soc/aon_syscon@17010000/name
+aon_syscon
+==>  /proc/device-tree/soc/can@130d0000/syscon,can_or_canfd
+==>  /proc/device-tree/soc/can@130d0000/clock-names
+apb_clk
+core_clk
+timer_clk
+==>  /proc/device-tree/soc/can@130d0000/starfive,sys-syscon
+==>  /proc/device-tree/soc/can@130d0000/resets
+==>  /proc/device-tree/soc/can@130d0000/interrupts
+==>  /proc/device-tree/soc/can@130d0000/clocks
+==>  /proc/device-tree/soc/can@130d0000/compatible
+starfive,jh7110-can
+ipms,can
+==>  /proc/device-tree/soc/can@130d0000/status
+disabled
+==>  /proc/device-tree/soc/can@130d0000/frequency
+==>  /proc/device-tree/soc/can@130d0000/reg
+==>  /proc/device-tree/soc/can@130d0000/reset-names
+rst_apb
+rst_core
+rst_timer
+==>  /proc/device-tree/soc/can@130d0000/name
+==>  /proc/device-tree/soc/stmmac-axi-config/snps,wr_osr_lmt
+==>  /proc/device-tree/soc/stmmac-axi-config/phandle
+==>  /proc/device-tree/soc/stmmac-axi-config/snps,blen
+==>  /proc/device-tree/soc/stmmac-axi-config/snps,rd_osr_lmt
+==>  /proc/device-tree/soc/stmmac-axi-config/name
+stmmac-axi-config
+==>  /proc/device-tree/soc/snd-card5/simple-audio-card,name
+Starfive-TDM-Sound-Card
+==>  /proc/device-tree/soc/snd-card5/#address-cells
+==>  /proc/device-tree/soc/snd-card5/#size-cells
+==>  /proc/device-tree/soc/snd-card5/compatible
+simple-audio-card
+==>  /proc/device-tree/soc/snd-card5/name
+snd-card5
+==>  /proc/device-tree/soc/vpu_enc@130B0000/power-domains
+==>  /proc/device-tree/soc/vpu_enc@130B0000/clock-names
+axi_clk
+bpu_clk
+vce_clk
+apb_clk
+noc_bus
+==>  /proc/device-tree/soc/vpu_enc@130B0000/resets
+==>  /proc/device-tree/soc/vpu_enc@130B0000/interrupts
+==>  /proc/device-tree/soc/vpu_enc@130B0000/clocks
+==>  /proc/device-tree/soc/vpu_enc@130B0000/compatible
+starfive,venc
+==>  /proc/device-tree/soc/vpu_enc@130B0000/status
+okay
+==>  /proc/device-tree/soc/vpu_enc@130B0000/reg
+==>  /proc/device-tree/soc/vpu_enc@130B0000/starfive,venc_noc_ctrl
+==>  /proc/device-tree/soc/vpu_enc@130B0000/reset-names
+rst_axi
+rst_bpu
+rst_vce
+rst_apb
+rst_sram
+==>  /proc/device-tree/soc/vpu_enc@130B0000/name
+vpu_enc
+==>  /proc/device-tree/soc/crypto@16000000/clock-names
+sec_hclk
+sec_ahb
+==>  /proc/device-tree/soc/crypto@16000000/reg-names
+secreg
+secdma
+==>  /proc/device-tree/soc/crypto@16000000/resets
+==>  /proc/device-tree/soc/crypto@16000000/interrupts
+==>  /proc/device-tree/soc/crypto@16000000/enable-side-channel-mitigation
+true
+==>  /proc/device-tree/soc/crypto@16000000/clocks
+==>  /proc/device-tree/soc/crypto@16000000/enable-dma
+true
+==>  /proc/device-tree/soc/crypto@16000000/dma-names
+sec_m
+sec_p
+==>  /proc/device-tree/soc/crypto@16000000/compatible
+starfive,jh7110-sec
+==>  /proc/device-tree/soc/crypto@16000000/status
+okay
+==>  /proc/device-tree/soc/crypto@16000000/interrupt-names
+secirq
+dmairq
+==>  /proc/device-tree/soc/crypto@16000000/reg
+==>  /proc/device-tree/soc/crypto@16000000/dmas
+==>  /proc/device-tree/soc/crypto@16000000/reset-names
+sec_hre
+==>  /proc/device-tree/soc/crypto@16000000/name
+crypto
+==>  /proc/device-tree/soc/spi@12080000/arm,primecell-periphid
+==>  /proc/device-tree/soc/spi@12080000/#address-cells
+==>  /proc/device-tree/soc/spi@12080000/num-cs
+==>  /proc/device-tree/soc/spi@12080000/clock-names
+apb_pclk
+==>  /proc/device-tree/soc/spi@12080000/resets
+==>  /proc/device-tree/soc/spi@12080000/interrupts
+==>  /proc/device-tree/soc/spi@12080000/clocks
+==>  /proc/device-tree/soc/spi@12080000/#size-cells
+==>  /proc/device-tree/soc/spi@12080000/compatible
+arm,pl022
+arm,primecell
+==>  /proc/device-tree/soc/spi@12080000/status
+disabled
+==>  /proc/device-tree/soc/spi@12080000/reg
+==>  /proc/device-tree/soc/spi@12080000/reset-names
+rst_apb
+==>  /proc/device-tree/soc/spi@12080000/name
+==>  /proc/device-tree/soc/display-subsystem/ports
+==>  /proc/device-tree/soc/display-subsystem/compatible
+starfive,jh7110-display
+verisilicon,display-subsystem
+==>  /proc/device-tree/soc/display-subsystem/status
+okay
+==>  /proc/device-tree/soc/display-subsystem/name
+display-subsystem
+==>  /proc/device-tree/soc/sys_syscon@13030000/compatible
+syscon
+==>  /proc/device-tree/soc/sys_syscon@13030000/reg
+==>  /proc/device-tree/soc/sys_syscon@13030000/phandle
+==>  /proc/device-tree/soc/sys_syscon@13030000/name
+sys_syscon
+==>  /proc/device-tree/soc/rgb-output/ports/port@0/#address-cells
+==>  /proc/device-tree/soc/rgb-output/ports/port@0/#size-cells
+==>  /proc/device-tree/soc/rgb-output/ports/port@0/reg
+==>  /proc/device-tree/soc/rgb-output/ports/port@0/endpoint@0/remote-endpoint
+==>  /proc/device-tree/soc/rgb-output/ports/port@0/endpoint@0/reg
+==>  /proc/device-tree/soc/rgb-output/ports/port@0/endpoint@0/phandle
+==>  /proc/device-tree/soc/rgb-output/ports/port@0/endpoint@0/name
+endpoint
+==>  /proc/device-tree/soc/rgb-output/ports/port@0/name
+port
+==>  /proc/device-tree/soc/rgb-output/ports/#address-cells
+==>  /proc/device-tree/soc/rgb-output/ports/#size-cells
+==>  /proc/device-tree/soc/rgb-output/ports/name
+ports
+==>  /proc/device-tree/soc/rgb-output/compatible
+starfive,jh7110-rgb_output
+verisilicon,rgb-encoder
+==>  /proc/device-tree/soc/rgb-output/status
+disabled
+==>  /proc/device-tree/soc/rgb-output/name
+rgb-output
+==>  /proc/device-tree/soc/dmic_codec/#sound-dai-cells
+==>  /proc/device-tree/soc/dmic_codec/compatible
+dmic-codec
+==>  /proc/device-tree/soc/dmic_codec/status
+disabled
+==>  /proc/device-tree/soc/dmic_codec/name
+dmic_codec
+==>  /proc/device-tree/soc/clock-controller/clock-names
+gmac1_rmii_refin
+gmac1_rgmii_rxin
+i2stx_bclk_ext
+i2stx_lrck_ext
+i2srx_bclk_ext
+i2srx_lrck_ext
+tdm_ext
+mclk_ext
+jtag_tck_inner
+bist_apb
+clk_rtc
+gmac0_rmii_refin
+gmac0_rgmii_rxin
+==>  /proc/device-tree/soc/clock-controller/reg-names
+==>  /proc/device-tree/soc/clock-controller/starfive,sys-syscon
+==>  /proc/device-tree/soc/clock-controller/clocks
+==>  /proc/device-tree/soc/clock-controller/#clock-cells
+==>  /proc/device-tree/soc/clock-controller/compatible
+starfive,jh7110-clkgen
+==>  /proc/device-tree/soc/clock-controller/status
+okay
+==>  /proc/device-tree/soc/clock-controller/reg
+==>  /proc/device-tree/soc/clock-controller/phandle
+==>  /proc/device-tree/soc/clock-controller/name
+clock-controller
+==>  /proc/device-tree/soc/snd-card3/simple-audio-card,name
+Starfive-PWMDAC-Sound-Card
+==>  /proc/device-tree/soc/snd-card3/#address-cells
+==>  /proc/device-tree/soc/snd-card3/simple-audio-card,dai-link@0/format
+left_j
+==>  /proc/device-tree/soc/snd-card3/simple-audio-card,dai-link@0/cpu/phandle
+==>  /proc/device-tree/soc/snd-card3/simple-audio-card,dai-link@0/cpu/sound-dai
+==>  /proc/device-tree/soc/snd-card3/simple-audio-card,dai-link@0/cpu/name
+==>  /proc/device-tree/soc/snd-card3/simple-audio-card,dai-link@0/frame-master
+==>  /proc/device-tree/soc/snd-card3/simple-audio-card,dai-link@0/status
+okay
+==>  /proc/device-tree/soc/snd-card3/simple-audio-card,dai-link@0/codec/sound-dai
+==>  /proc/device-tree/soc/snd-card3/simple-audio-card,dai-link@0/codec/name
+codec
+==>  /proc/device-tree/soc/snd-card3/simple-audio-card,dai-link@0/bitclock-master
+==>  /proc/device-tree/soc/snd-card3/simple-audio-card,dai-link@0/reg
+==>  /proc/device-tree/soc/snd-card3/simple-audio-card,dai-link@0/name
+simple-audio-card,dai-link
+==>  /proc/device-tree/soc/snd-card3/#size-cells
+==>  /proc/device-tree/soc/snd-card3/compatible
+simple-audio-card
+==>  /proc/device-tree/soc/snd-card3/name
+snd-card3
+==>  /proc/device-tree/soc/thermal-zones/cpu-thermal/polling-delay
+==>  /proc/device-tree/soc/thermal-zones/cpu-thermal/trips/cpu_crit/temperature
+==>  /proc/device-tree/soc/thermal-zones/cpu-thermal/trips/cpu_crit/hysteresis
+==>  /proc/device-tree/soc/thermal-zones/cpu-thermal/trips/cpu_crit/type
+critical
+==>  /proc/device-tree/soc/thermal-zones/cpu-thermal/trips/cpu_crit/name
+cpu_crit
+==>  /proc/device-tree/soc/thermal-zones/cpu-thermal/trips/cpu_alert0/temperature
+==>  /proc/device-tree/soc/thermal-zones/cpu-thermal/trips/cpu_alert0/hysteresis
+==>  /proc/device-tree/soc/thermal-zones/cpu-thermal/trips/cpu_alert0/type
+passive
+==>  /proc/device-tree/soc/thermal-zones/cpu-thermal/trips/cpu_alert0/phandle
+==>  /proc/device-tree/soc/thermal-zones/cpu-thermal/trips/cpu_alert0/name
+cpu_alert0
+==>  /proc/device-tree/soc/thermal-zones/cpu-thermal/trips/name
+trips
+==>  /proc/device-tree/soc/thermal-zones/cpu-thermal/cooling-maps/map0/trip
+==>  /proc/device-tree/soc/thermal-zones/cpu-thermal/cooling-maps/map0/cooling-device
+==>  /proc/device-tree/soc/thermal-zones/cpu-thermal/cooling-maps/map0/name
+map0
+==>  /proc/device-tree/soc/thermal-zones/cpu-thermal/cooling-maps/name
+cooling-maps
+==>  /proc/device-tree/soc/thermal-zones/cpu-thermal/polling-delay-passive
+==>  /proc/device-tree/soc/thermal-zones/cpu-thermal/thermal-sensors
+==>  /proc/device-tree/soc/thermal-zones/cpu-thermal/name
+cpu-thermal
+==>  /proc/device-tree/soc/thermal-zones/name
+thermal-zones
+==>  /proc/device-tree/soc/serial@12010000/reg-io-width
+==>  /proc/device-tree/soc/serial@12010000/clock-names
+baudclk
+apb_pclk
+==>  /proc/device-tree/soc/serial@12010000/resets
+==>  /proc/device-tree/soc/serial@12010000/interrupts
+==>  /proc/device-tree/soc/serial@12010000/clocks
+==>  /proc/device-tree/soc/serial@12010000/compatible
+snps,dw-apb-uart
+==>  /proc/device-tree/soc/serial@12010000/status
+disabled
+==>  /proc/device-tree/soc/serial@12010000/reg
+==>  /proc/device-tree/soc/serial@12010000/reg-shift
+==>  /proc/device-tree/soc/serial@12010000/name
+serial
+==>  /proc/device-tree/soc/i2stx_4ch0@120b0000/pinctrl-names
+default
+==>  /proc/device-tree/soc/i2stx_4ch0@120b0000/pinctrl-0
+==>  /proc/device-tree/soc/i2stx_4ch0@120b0000/clock-names
+inner
+bclk-mst
+lrck-mst
+mclk
+bclk0
+lrck0
+i2s_apb
+mclk_ext
+==>  /proc/device-tree/soc/i2stx_4ch0@120b0000/resets
+==>  /proc/device-tree/soc/i2stx_4ch0@120b0000/clocks
+==>  /proc/device-tree/soc/i2stx_4ch0@120b0000/dma-names
+==>  /proc/device-tree/soc/i2stx_4ch0@120b0000/#sound-dai-cells
+==>  /proc/device-tree/soc/i2stx_4ch0@120b0000/compatible
+starfive,jh7110-i2stx-4ch0
+snps,designware-i2s
+==>  /proc/device-tree/soc/i2stx_4ch0@120b0000/status
+okay
+==>  /proc/device-tree/soc/i2stx_4ch0@120b0000/reg
+==>  /proc/device-tree/soc/i2stx_4ch0@120b0000/phandle
+==>  /proc/device-tree/soc/i2stx_4ch0@120b0000/dmas
+==>  /proc/device-tree/soc/i2stx_4ch0@120b0000/reset-names
+rst_apb
+rst_bclk
+==>  /proc/device-tree/soc/i2stx_4ch0@120b0000/name
+i2stx_4ch0
+==>  /proc/device-tree/soc/tmon@120e0000/clock-names
+sense
+==>  /proc/device-tree/soc/tmon@120e0000/resets
+==>  /proc/device-tree/soc/tmon@120e0000/interrupts
+==>  /proc/device-tree/soc/tmon@120e0000/clocks
+==>  /proc/device-tree/soc/tmon@120e0000/#thermal-sensor-cells
+==>  /proc/device-tree/soc/tmon@120e0000/compatible
+starfive,jh7110-temp
+==>  /proc/device-tree/soc/tmon@120e0000/status
+okay
+==>  /proc/device-tree/soc/tmon@120e0000/reg
+==>  /proc/device-tree/soc/tmon@120e0000/phandle
+==>  /proc/device-tree/soc/tmon@120e0000/reset-names
+sense
+==>  /proc/device-tree/soc/tmon@120e0000/name
+tmon
+==>  /proc/device-tree/soc/i2c@12040000/#address-cells
+==>  /proc/device-tree/soc/i2c@12040000/clock-names
+pclk
+==>  /proc/device-tree/soc/i2c@12040000/resets
+==>  /proc/device-tree/soc/i2c@12040000/interrupts
+==>  /proc/device-tree/soc/i2c@12040000/clocks
+==>  /proc/device-tree/soc/i2c@12040000/#size-cells
+==>  /proc/device-tree/soc/i2c@12040000/compatible
+snps,designware-i2c
+==>  /proc/device-tree/soc/i2c@12040000/status
+disabled
+==>  /proc/device-tree/soc/i2c@12040000/reg
+==>  /proc/device-tree/soc/i2c@12040000/name
+==>  /proc/device-tree/soc/mipi-dphy@295e0000/clock-names
+dphy_txesc
+==>  /proc/device-tree/soc/mipi-dphy@295e0000/resets
+==>  /proc/device-tree/soc/mipi-dphy@295e0000/clocks
+==>  /proc/device-tree/soc/mipi-dphy@295e0000/#phy-cells
+==>  /proc/device-tree/soc/mipi-dphy@295e0000/compatible
+starfive,jh7110-mipi-dphy-tx
+m31,mipi-dphy-tx
+==>  /proc/device-tree/soc/mipi-dphy@295e0000/status
+okay
+==>  /proc/device-tree/soc/mipi-dphy@295e0000/reg
+==>  /proc/device-tree/soc/mipi-dphy@295e0000/phandle
+==>  /proc/device-tree/soc/mipi-dphy@295e0000/reset-names
+dphy_sys
+dphy_txbytehs
+==>  /proc/device-tree/soc/mipi-dphy@295e0000/name
+mipi-dphy
+==>  /proc/device-tree/soc/#size-cells
+==>  /proc/device-tree/soc/snd-card1/simple-audio-card,name
+Starfive-HDMI-Sound-Card
+==>  /proc/device-tree/soc/snd-card1/#address-cells
+==>  /proc/device-tree/soc/snd-card1/simple-audio-card,dai-link@0/mclk-fs
+==>  /proc/device-tree/soc/snd-card1/simple-audio-card,dai-link@0/format
+==>  /proc/device-tree/soc/snd-card1/simple-audio-card,dai-link@0/cpu/phandle
+==>  /proc/device-tree/soc/snd-card1/simple-audio-card,dai-link@0/cpu/sound-dai
+==>  /proc/device-tree/soc/snd-card1/simple-audio-card,dai-link@0/cpu/name
+==>  /proc/device-tree/soc/snd-card1/simple-audio-card,dai-link@0/frame-master
+==>  /proc/device-tree/soc/snd-card1/simple-audio-card,dai-link@0/status
+okay
+==>  /proc/device-tree/soc/snd-card1/simple-audio-card,dai-link@0/codec/sound-dai
+==>  /proc/device-tree/soc/snd-card1/simple-audio-card,dai-link@0/codec/name
+codec
+==>  /proc/device-tree/soc/snd-card1/simple-audio-card,dai-link@0/bitclock-master
+==>  /proc/device-tree/soc/snd-card1/simple-audio-card,dai-link@0/reg
+==>  /proc/device-tree/soc/snd-card1/simple-audio-card,dai-link@0/name
+simple-audio-card,dai-link
+==>  /proc/device-tree/soc/snd-card1/#size-cells
+==>  /proc/device-tree/soc/snd-card1/compatible
+simple-audio-card
+==>  /proc/device-tree/soc/snd-card1/name
+snd-card1
+==>  /proc/device-tree/soc/i2stx@100c0000/dma-names
+==>  /proc/device-tree/soc/i2stx@100c0000/#sound-dai-cells
+==>  /proc/device-tree/soc/i2stx@100c0000/compatible
+snps,designware-i2stx
+==>  /proc/device-tree/soc/i2stx@100c0000/status
+disabled
+==>  /proc/device-tree/soc/i2stx@100c0000/interrupt-names
+==>  /proc/device-tree/soc/i2stx@100c0000/reg
+==>  /proc/device-tree/soc/i2stx@100c0000/dmas
+==>  /proc/device-tree/soc/i2stx@100c0000/name
+i2stx
+==>  /proc/device-tree/soc/#clock-cells
+==>  /proc/device-tree/soc/gpio@13040000/i2c5-pins/i2c5-pins-scl/starfive,pinmux
+==>  /proc/device-tree/soc/gpio@13040000/i2c5-pins/i2c5-pins-scl/starfive,pins
+==>  /proc/device-tree/soc/gpio@13040000/i2c5-pins/i2c5-pins-scl/starfive,pin-gpio-doen
+==>  /proc/device-tree/soc/gpio@13040000/i2c5-pins/i2c5-pins-scl/starfive,pin-gpio-dout
+==>  /proc/device-tree/soc/gpio@13040000/i2c5-pins/i2c5-pins-scl/starfive,pin-ioconfig
+==>  /proc/device-tree/soc/gpio@13040000/i2c5-pins/i2c5-pins-scl/starfive,pin-gpio-din
+==>  /proc/device-tree/soc/gpio@13040000/i2c5-pins/i2c5-pins-scl/name
+i2c5-pins-scl
+==>  /proc/device-tree/soc/gpio@13040000/i2c5-pins/i2c5-pins-sda/starfive,pinmux
+==>  /proc/device-tree/soc/gpio@13040000/i2c5-pins/i2c5-pins-sda/starfive,pins
+==>  /proc/device-tree/soc/gpio@13040000/i2c5-pins/i2c5-pins-sda/starfive,pin-gpio-doen
+==>  /proc/device-tree/soc/gpio@13040000/i2c5-pins/i2c5-pins-sda/starfive,pin-gpio-dout
+==>  /proc/device-tree/soc/gpio@13040000/i2c5-pins/i2c5-pins-sda/starfive,pin-ioconfig
+==>  /proc/device-tree/soc/gpio@13040000/i2c5-pins/i2c5-pins-sda/starfive,pin-gpio-din
+==>  /proc/device-tree/soc/gpio@13040000/i2c5-pins/i2c5-pins-sda/name
+i2c5-pins-sda
+==>  /proc/device-tree/soc/gpio@13040000/i2c5-pins/phandle
+==>  /proc/device-tree/soc/gpio@13040000/i2c5-pins/name
+i2c5-pins
+==>  /proc/device-tree/soc/gpio@13040000/inno_hdmi-pins/inno_hdmi-scl/starfive,pins
+==>  /proc/device-tree/soc/gpio@13040000/inno_hdmi-pins/inno_hdmi-scl/starfive,pin-gpio-doen
+==>  /proc/device-tree/soc/gpio@13040000/inno_hdmi-pins/inno_hdmi-scl/starfive,pin-gpio-dout
+==>  /proc/device-tree/soc/gpio@13040000/inno_hdmi-pins/inno_hdmi-scl/starfive,pin-ioconfig
+==>  /proc/device-tree/soc/gpio@13040000/inno_hdmi-pins/inno_hdmi-scl/starfive,pin-gpio-din
+==>  /proc/device-tree/soc/gpio@13040000/inno_hdmi-pins/inno_hdmi-scl/name
+inno_hdmi-scl
+==>  /proc/device-tree/soc/gpio@13040000/inno_hdmi-pins/inno_hdmi-sda/starfive,pins
+==>  /proc/device-tree/soc/gpio@13040000/inno_hdmi-pins/inno_hdmi-sda/starfive,pin-gpio-doen
+==>  /proc/device-tree/soc/gpio@13040000/inno_hdmi-pins/inno_hdmi-sda/starfive,pin-gpio-dout
+==>  /proc/device-tree/soc/gpio@13040000/inno_hdmi-pins/inno_hdmi-sda/starfive,pin-ioconfig
+==>  /proc/device-tree/soc/gpio@13040000/inno_hdmi-pins/inno_hdmi-sda/starfive,pin-gpio-din
+==>  /proc/device-tree/soc/gpio@13040000/inno_hdmi-pins/inno_hdmi-sda/name
+inno_hdmi-sda
+==>  /proc/device-tree/soc/gpio@13040000/inno_hdmi-pins/inno_hdmi-cec-pins/starfive,pins
+==>  /proc/device-tree/soc/gpio@13040000/inno_hdmi-pins/inno_hdmi-cec-pins/starfive,pin-gpio-doen
+==>  /proc/device-tree/soc/gpio@13040000/inno_hdmi-pins/inno_hdmi-cec-pins/starfive,pin-gpio-dout
+==>  /proc/device-tree/soc/gpio@13040000/inno_hdmi-pins/inno_hdmi-cec-pins/starfive,pin-ioconfig
+==>  /proc/device-tree/soc/gpio@13040000/inno_hdmi-pins/inno_hdmi-cec-pins/starfive,pin-gpio-din
+==>  /proc/device-tree/soc/gpio@13040000/inno_hdmi-pins/inno_hdmi-cec-pins/name
+inno_hdmi-cec-pins
+==>  /proc/device-tree/soc/gpio@13040000/inno_hdmi-pins/phandle
+==>  /proc/device-tree/soc/gpio@13040000/inno_hdmi-pins/inno_hdmi-hpd-pins/starfive,pins
+==>  /proc/device-tree/soc/gpio@13040000/inno_hdmi-pins/inno_hdmi-hpd-pins/starfive,pin-gpio-doen
+==>  /proc/device-tree/soc/gpio@13040000/inno_hdmi-pins/inno_hdmi-hpd-pins/starfive,pin-ioconfig
+==>  /proc/device-tree/soc/gpio@13040000/inno_hdmi-pins/inno_hdmi-hpd-pins/starfive,pin-gpio-din
+==>  /proc/device-tree/soc/gpio@13040000/inno_hdmi-pins/inno_hdmi-hpd-pins/name
+inno_hdmi-hpd-pins
+==>  /proc/device-tree/soc/gpio@13040000/inno_hdmi-pins/name
+inno_hdmi-pins
+==>  /proc/device-tree/soc/gpio@13040000/pcie1_clkreq_default/clkreq-pins/starfive,pinmux
+==>  /proc/device-tree/soc/gpio@13040000/pcie1_clkreq_default/clkreq-pins/starfive,pins
+==>  /proc/device-tree/soc/gpio@13040000/pcie1_clkreq_default/clkreq-pins/starfive,pin-gpio-doen
+==>  /proc/device-tree/soc/gpio@13040000/pcie1_clkreq_default/clkreq-pins/starfive,pin-ioconfig
+==>  /proc/device-tree/soc/gpio@13040000/pcie1_clkreq_default/clkreq-pins/name
+clkreq-pins
+==>  /proc/device-tree/soc/gpio@13040000/pcie1_clkreq_default/phandle
+==>  /proc/device-tree/soc/gpio@13040000/pcie1_clkreq_default/name
+pcie1_clkreq_default
+==>  /proc/device-tree/soc/gpio@13040000/pcie0_perst_active/phandle
+==>  /proc/device-tree/soc/gpio@13040000/pcie0_perst_active/name
+pcie0_perst_active
+==>  /proc/device-tree/soc/gpio@13040000/pcie0_perst_active/perst-pins/starfive,pinmux
+==>  /proc/device-tree/soc/gpio@13040000/pcie0_perst_active/perst-pins/starfive,pins
+==>  /proc/device-tree/soc/gpio@13040000/pcie0_perst_active/perst-pins/starfive,pin-gpio-doen
+==>  /proc/device-tree/soc/gpio@13040000/pcie0_perst_active/perst-pins/starfive,pin-gpio-dout
+==>  /proc/device-tree/soc/gpio@13040000/pcie0_perst_active/perst-pins/starfive,pin-ioconfig
+==>  /proc/device-tree/soc/gpio@13040000/pcie0_perst_active/perst-pins/name
+perst-pins
+==>  /proc/device-tree/soc/gpio@13040000/pcie1_wake_default/wake-pins/starfive,pinmux
+==>  /proc/device-tree/soc/gpio@13040000/pcie1_wake_default/wake-pins/starfive,pins
+==>  /proc/device-tree/soc/gpio@13040000/pcie1_wake_default/wake-pins/starfive,pin-gpio-doen
+==>  /proc/device-tree/soc/gpio@13040000/pcie1_wake_default/wake-pins/starfive,pin-ioconfig
+==>  /proc/device-tree/soc/gpio@13040000/pcie1_wake_default/wake-pins/name
+wake-pins
+==>  /proc/device-tree/soc/gpio@13040000/pcie1_wake_default/phandle
+==>  /proc/device-tree/soc/gpio@13040000/pcie1_wake_default/name
+pcie1_wake_default
+==>  /proc/device-tree/soc/gpio@13040000/reg-names
+control
+==>  /proc/device-tree/soc/gpio@13040000/i2srx-pins/i2srx-pins0/starfive,pinmux
+==>  /proc/device-tree/soc/gpio@13040000/i2srx-pins/i2srx-pins0/starfive,pins
+==>  /proc/device-tree/soc/gpio@13040000/i2srx-pins/i2srx-pins0/starfive,pin-gpio-doen
+==>  /proc/device-tree/soc/gpio@13040000/i2srx-pins/i2srx-pins0/starfive,pin-ioconfig
+==>  /proc/device-tree/soc/gpio@13040000/i2srx-pins/i2srx-pins0/starfive,pin-gpio-din
+==>  /proc/device-tree/soc/gpio@13040000/i2srx-pins/i2srx-pins0/name
+i2srx-pins0
+==>  /proc/device-tree/soc/gpio@13040000/i2srx-pins/phandle
+==>  /proc/device-tree/soc/gpio@13040000/i2srx-pins/name
+i2srx-pins
+==>  /proc/device-tree/soc/gpio@13040000/csi-pins/csi-pins-pwdn/starfive,pinmux
+==>  /proc/device-tree/soc/gpio@13040000/csi-pins/csi-pins-pwdn/starfive,pins
+==>  /proc/device-tree/soc/gpio@13040000/csi-pins/csi-pins-pwdn/starfive,pin-gpio-doen
+==>  /proc/device-tree/soc/gpio@13040000/csi-pins/csi-pins-pwdn/starfive,pin-gpio-dout
+==>  /proc/device-tree/soc/gpio@13040000/csi-pins/csi-pins-pwdn/starfive,pin-ioconfig
+==>  /proc/device-tree/soc/gpio@13040000/csi-pins/csi-pins-pwdn/name
+csi-pins-pwdn
+==>  /proc/device-tree/soc/gpio@13040000/csi-pins/phandle
+==>  /proc/device-tree/soc/gpio@13040000/csi-pins/name
+csi-pins
+==>  /proc/device-tree/soc/gpio@13040000/pcie0_perst_default/phandle
+==>  /proc/device-tree/soc/gpio@13040000/pcie0_perst_default/name
+pcie0_perst_default
+==>  /proc/device-tree/soc/gpio@13040000/pcie0_perst_default/perst-pins/starfive,pinmux
+==>  /proc/device-tree/soc/gpio@13040000/pcie0_perst_default/perst-pins/starfive,pins
+==>  /proc/device-tree/soc/gpio@13040000/pcie0_perst_default/perst-pins/starfive,pin-gpio-doen
+==>  /proc/device-tree/soc/gpio@13040000/pcie0_perst_default/perst-pins/starfive,pin-gpio-dout
+==>  /proc/device-tree/soc/gpio@13040000/pcie0_perst_default/perst-pins/starfive,pin-ioconfig
+==>  /proc/device-tree/soc/gpio@13040000/pcie0_perst_default/perst-pins/name
+perst-pins
+==>  /proc/device-tree/soc/gpio@13040000/i2s-clk0/i2s-clk0_lrclk/starfive,pinmux
+==>  /proc/device-tree/soc/gpio@13040000/i2s-clk0/i2s-clk0_lrclk/starfive,pins
+==>  /proc/device-tree/soc/gpio@13040000/i2s-clk0/i2s-clk0_lrclk/starfive,pin-gpio-doen
+==>  /proc/device-tree/soc/gpio@13040000/i2s-clk0/i2s-clk0_lrclk/starfive,pin-ioconfig
+==>  /proc/device-tree/soc/gpio@13040000/i2s-clk0/i2s-clk0_lrclk/starfive,pin-gpio-din
+==>  /proc/device-tree/soc/gpio@13040000/i2s-clk0/i2s-clk0_lrclk/name
+i2s-clk0_lrclk
+==>  /proc/device-tree/soc/gpio@13040000/i2s-clk0/i2s-clk0_bclk/starfive,pinmux
+==>  /proc/device-tree/soc/gpio@13040000/i2s-clk0/i2s-clk0_bclk/starfive,pins
+==>  /proc/device-tree/soc/gpio@13040000/i2s-clk0/i2s-clk0_bclk/starfive,pin-gpio-doen
+==>  /proc/device-tree/soc/gpio@13040000/i2s-clk0/i2s-clk0_bclk/starfive,pin-ioconfig
+==>  /proc/device-tree/soc/gpio@13040000/i2s-clk0/i2s-clk0_bclk/starfive,pin-gpio-din
+==>  /proc/device-tree/soc/gpio@13040000/i2s-clk0/i2s-clk0_bclk/name
+i2s-clk0_bclk
+==>  /proc/device-tree/soc/gpio@13040000/i2s-clk0/phandle
+==>  /proc/device-tree/soc/gpio@13040000/i2s-clk0/name
+i2s-clk0
+==>  /proc/device-tree/soc/gpio@13040000/resets
+==>  /proc/device-tree/soc/gpio@13040000/interrupts
+==>  /proc/device-tree/soc/gpio@13040000/clocks
+==>  /proc/device-tree/soc/gpio@13040000/pcie0_clkreq_default/clkreq-pins/starfive,pinmux
+==>  /proc/device-tree/soc/gpio@13040000/pcie0_clkreq_default/clkreq-pins/starfive,pins
+==>  /proc/device-tree/soc/gpio@13040000/pcie0_clkreq_default/clkreq-pins/starfive,pin-gpio-doen
+==>  /proc/device-tree/soc/gpio@13040000/pcie0_clkreq_default/clkreq-pins/starfive,pin-ioconfig
+==>  /proc/device-tree/soc/gpio@13040000/pcie0_clkreq_default/clkreq-pins/name
+clkreq-pins
+==>  /proc/device-tree/soc/gpio@13040000/pcie0_clkreq_default/phandle
+==>  /proc/device-tree/soc/gpio@13040000/pcie0_clkreq_default/name
+pcie0_clkreq_default
+==>  /proc/device-tree/soc/gpio@13040000/pwmdac0-pins/pwmdac0-pins-right/starfive,pinmux
+==>  /proc/device-tree/soc/gpio@13040000/pwmdac0-pins/pwmdac0-pins-right/starfive,pins
+==>  /proc/device-tree/soc/gpio@13040000/pwmdac0-pins/pwmdac0-pins-right/starfive,pin-gpio-doen
+==>  /proc/device-tree/soc/gpio@13040000/pwmdac0-pins/pwmdac0-pins-right/starfive,pin-gpio-dout
+==>  /proc/device-tree/soc/gpio@13040000/pwmdac0-pins/pwmdac0-pins-right/starfive,pin-ioconfig
+==>  /proc/device-tree/soc/gpio@13040000/pwmdac0-pins/pwmdac0-pins-right/name
+pwmdac0-pins-right
+==>  /proc/device-tree/soc/gpio@13040000/pwmdac0-pins/pwmdac0-pins-left/starfive,pinmux
+==>  /proc/device-tree/soc/gpio@13040000/pwmdac0-pins/pwmdac0-pins-left/starfive,pins
+==>  /proc/device-tree/soc/gpio@13040000/pwmdac0-pins/pwmdac0-pins-left/starfive,pin-gpio-doen
+==>  /proc/device-tree/soc/gpio@13040000/pwmdac0-pins/pwmdac0-pins-left/starfive,pin-gpio-dout
+==>  /proc/device-tree/soc/gpio@13040000/pwmdac0-pins/pwmdac0-pins-left/starfive,pin-ioconfig
+==>  /proc/device-tree/soc/gpio@13040000/pwmdac0-pins/pwmdac0-pins-left/name
+pwmdac0-pins-left
+==>  /proc/device-tree/soc/gpio@13040000/pwmdac0-pins/phandle
+==>  /proc/device-tree/soc/gpio@13040000/pwmdac0-pins/name
+pwmdac0-pins
+==>  /proc/device-tree/soc/gpio@13040000/i2c2-pins/i2c2-pins-scl/starfive,pins
+==>  /proc/device-tree/soc/gpio@13040000/i2c2-pins/i2c2-pins-scl/starfive,pin-gpio-doen
+==>  /proc/device-tree/soc/gpio@13040000/i2c2-pins/i2c2-pins-scl/starfive,pin-gpio-dout
+==>  /proc/device-tree/soc/gpio@13040000/i2c2-pins/i2c2-pins-scl/starfive,pin-ioconfig
+==>  /proc/device-tree/soc/gpio@13040000/i2c2-pins/i2c2-pins-scl/starfive,pin-gpio-din
+==>  /proc/device-tree/soc/gpio@13040000/i2c2-pins/i2c2-pins-scl/name
+i2c2-pins-scl
+==>  /proc/device-tree/soc/gpio@13040000/i2c2-pins/i2c2-pins-sda/starfive,pins
+==>  /proc/device-tree/soc/gpio@13040000/i2c2-pins/i2c2-pins-sda/starfive,pin-gpio-doen
+==>  /proc/device-tree/soc/gpio@13040000/i2c2-pins/i2c2-pins-sda/starfive,pin-gpio-dout
+==>  /proc/device-tree/soc/gpio@13040000/i2c2-pins/i2c2-pins-sda/starfive,pin-ioconfig
+==>  /proc/device-tree/soc/gpio@13040000/i2c2-pins/i2c2-pins-sda/starfive,pin-gpio-din
+==>  /proc/device-tree/soc/gpio@13040000/i2c2-pins/i2c2-pins-sda/name
+i2c2-pins-sda
+==>  /proc/device-tree/soc/gpio@13040000/i2c2-pins/phandle
+==>  /proc/device-tree/soc/gpio@13040000/i2c2-pins/name
+i2c2-pins
+==>  /proc/device-tree/soc/gpio@13040000/pcie1_perst_active/phandle
+==>  /proc/device-tree/soc/gpio@13040000/pcie1_perst_active/name
+pcie1_perst_active
+==>  /proc/device-tree/soc/gpio@13040000/pcie1_perst_active/perst-pins/starfive,pinmux
+==>  /proc/device-tree/soc/gpio@13040000/pcie1_perst_active/perst-pins/starfive,pins
+==>  /proc/device-tree/soc/gpio@13040000/pcie1_perst_active/perst-pins/starfive,pin-gpio-doen
+==>  /proc/device-tree/soc/gpio@13040000/pcie1_perst_active/perst-pins/starfive,pin-gpio-dout
+==>  /proc/device-tree/soc/gpio@13040000/pcie1_perst_active/perst-pins/starfive,pin-ioconfig
+==>  /proc/device-tree/soc/gpio@13040000/pcie1_perst_active/perst-pins/name
+perst-pins
+==>  /proc/device-tree/soc/gpio@13040000/mmc0-pins/mmc0-pins-rest/starfive,pinmux
+==>  /proc/device-tree/soc/gpio@13040000/mmc0-pins/mmc0-pins-rest/starfive,pins
+==>  /proc/device-tree/soc/gpio@13040000/mmc0-pins/mmc0-pins-rest/starfive,pin-gpio-doen
+==>  /proc/device-tree/soc/gpio@13040000/mmc0-pins/mmc0-pins-rest/starfive,pin-gpio-dout
+==>  /proc/device-tree/soc/gpio@13040000/mmc0-pins/mmc0-pins-rest/starfive,pin-ioconfig
+==>  /proc/device-tree/soc/gpio@13040000/mmc0-pins/mmc0-pins-rest/name
+mmc0-pins-rest
+==>  /proc/device-tree/soc/gpio@13040000/mmc0-pins/phandle
+==>  /proc/device-tree/soc/gpio@13040000/mmc0-pins/name
+mmc0-pins
+==>  /proc/device-tree/soc/gpio@13040000/compatible
+starfive,jh7110-sys-pinctrl
+==>  /proc/device-tree/soc/gpio@13040000/status
+okay
+==>  /proc/device-tree/soc/gpio@13040000/pcie1_perst_default/phandle
+==>  /proc/device-tree/soc/gpio@13040000/pcie1_perst_default/name
+pcie1_perst_default
+==>  /proc/device-tree/soc/gpio@13040000/pcie1_perst_default/perst-pins/starfive,pinmux
+==>  /proc/device-tree/soc/gpio@13040000/pcie1_perst_default/perst-pins/starfive,pins
+==>  /proc/device-tree/soc/gpio@13040000/pcie1_perst_default/perst-pins/starfive,pin-gpio-doen
+==>  /proc/device-tree/soc/gpio@13040000/pcie1_perst_default/perst-pins/starfive,pin-gpio-dout
+==>  /proc/device-tree/soc/gpio@13040000/pcie1_perst_default/perst-pins/starfive,pin-ioconfig
+==>  /proc/device-tree/soc/gpio@13040000/pcie1_perst_default/perst-pins/name
+perst-pins
+==>  /proc/device-tree/soc/gpio@13040000/reg
+==>  /proc/device-tree/soc/gpio@13040000/phandle
+==>  /proc/device-tree/soc/gpio@13040000/usb-pins/drive-vbus-pin/starfive,pinmux
+==>  /proc/device-tree/soc/gpio@13040000/usb-pins/drive-vbus-pin/starfive,pins
+==>  /proc/device-tree/soc/gpio@13040000/usb-pins/drive-vbus-pin/starfive,pin-gpio-doen
+==>  /proc/device-tree/soc/gpio@13040000/usb-pins/drive-vbus-pin/starfive,pin-gpio-dout
+==>  /proc/device-tree/soc/gpio@13040000/usb-pins/drive-vbus-pin/starfive,pin-ioconfig
+==>  /proc/device-tree/soc/gpio@13040000/usb-pins/drive-vbus-pin/name
+drive-vbus-pin
+==>  /proc/device-tree/soc/gpio@13040000/usb-pins/name
+usb-pins
+==>  /proc/device-tree/soc/gpio@13040000/i2c0-pins/i2c0-pins-scl/starfive,pinmux
+==>  /proc/device-tree/soc/gpio@13040000/i2c0-pins/i2c0-pins-scl/starfive,pins
+==>  /proc/device-tree/soc/gpio@13040000/i2c0-pins/i2c0-pins-scl/starfive,pin-gpio-doen
+==>  /proc/device-tree/soc/gpio@13040000/i2c0-pins/i2c0-pins-scl/starfive,pin-gpio-dout
+==>  /proc/device-tree/soc/gpio@13040000/i2c0-pins/i2c0-pins-scl/starfive,pin-ioconfig
+==>  /proc/device-tree/soc/gpio@13040000/i2c0-pins/i2c0-pins-scl/starfive,pin-gpio-din
+==>  /proc/device-tree/soc/gpio@13040000/i2c0-pins/i2c0-pins-scl/name
+i2c0-pins-scl
+==>  /proc/device-tree/soc/gpio@13040000/i2c0-pins/i2c0-pins-sda/starfive,pinmux
+==>  /proc/device-tree/soc/gpio@13040000/i2c0-pins/i2c0-pins-sda/starfive,pins
+==>  /proc/device-tree/soc/gpio@13040000/i2c0-pins/i2c0-pins-sda/starfive,pin-gpio-doen
+==>  /proc/device-tree/soc/gpio@13040000/i2c0-pins/i2c0-pins-sda/starfive,pin-gpio-dout
+==>  /proc/device-tree/soc/gpio@13040000/i2c0-pins/i2c0-pins-sda/starfive,pin-ioconfig
+==>  /proc/device-tree/soc/gpio@13040000/i2c0-pins/i2c0-pins-sda/starfive,pin-gpio-din
+==>  /proc/device-tree/soc/gpio@13040000/i2c0-pins/i2c0-pins-sda/name
+i2c0-pins-sda
+==>  /proc/device-tree/soc/gpio@13040000/i2c0-pins/phandle
+==>  /proc/device-tree/soc/gpio@13040000/i2c0-pins/name
+i2c0-pins
+==>  /proc/device-tree/soc/gpio@13040000/i2stx-pins/i2stx-pins0/starfive,pinmux
+==>  /proc/device-tree/soc/gpio@13040000/i2stx-pins/i2stx-pins0/starfive,pins
+==>  /proc/device-tree/soc/gpio@13040000/i2stx-pins/i2stx-pins0/starfive,pin-gpio-doen
+==>  /proc/device-tree/soc/gpio@13040000/i2stx-pins/i2stx-pins0/starfive,pin-gpio-dout
+==>  /proc/device-tree/soc/gpio@13040000/i2stx-pins/i2stx-pins0/starfive,pin-ioconfig
+==>  /proc/device-tree/soc/gpio@13040000/i2stx-pins/i2stx-pins0/name
+i2stx-pins0
+==>  /proc/device-tree/soc/gpio@13040000/i2stx-pins/phandle
+==>  /proc/device-tree/soc/gpio@13040000/i2stx-pins/name
+i2stx-pins
+==>  /proc/device-tree/soc/gpio@13040000/#gpio-cells
+==>  /proc/device-tree/soc/gpio@13040000/ngpios
+==>  /proc/device-tree/soc/gpio@13040000/i2c6-pins/i2c6-pins-scl/starfive,pinmux
+==>  /proc/device-tree/soc/gpio@13040000/i2c6-pins/i2c6-pins-scl/starfive,pins
+==>  /proc/device-tree/soc/gpio@13040000/i2c6-pins/i2c6-pins-scl/starfive,pin-gpio-doen
+==>  /proc/device-tree/soc/gpio@13040000/i2c6-pins/i2c6-pins-scl/starfive,pin-gpio-dout
+==>  /proc/device-tree/soc/gpio@13040000/i2c6-pins/i2c6-pins-scl/starfive,pin-ioconfig
+==>  /proc/device-tree/soc/gpio@13040000/i2c6-pins/i2c6-pins-scl/starfive,pin-gpio-din
+==>  /proc/device-tree/soc/gpio@13040000/i2c6-pins/i2c6-pins-scl/name
+i2c6-pins-scl
+==>  /proc/device-tree/soc/gpio@13040000/i2c6-pins/i2c6-pins-sda/starfive,pinmux
+==>  /proc/device-tree/soc/gpio@13040000/i2c6-pins/i2c6-pins-sda/starfive,pins
+==>  /proc/device-tree/soc/gpio@13040000/i2c6-pins/i2c6-pins-sda/starfive,pin-gpio-doen
+==>  /proc/device-tree/soc/gpio@13040000/i2c6-pins/i2c6-pins-sda/starfive,pin-gpio-dout
+==>  /proc/device-tree/soc/gpio@13040000/i2c6-pins/i2c6-pins-sda/starfive,pin-ioconfig
+==>  /proc/device-tree/soc/gpio@13040000/i2c6-pins/i2c6-pins-sda/starfive,pin-gpio-din
+==>  /proc/device-tree/soc/gpio@13040000/i2c6-pins/i2c6-pins-sda/name
+i2c6-pins-sda
+==>  /proc/device-tree/soc/gpio@13040000/i2c6-pins/phandle
+==>  /proc/device-tree/soc/gpio@13040000/i2c6-pins/name
+i2c6-pins
+==>  /proc/device-tree/soc/gpio@13040000/ssp0-pins/ssp0-pins_cs/starfive,pinmux
+==>  /proc/device-tree/soc/gpio@13040000/ssp0-pins/ssp0-pins_cs/starfive,pins
+==>  /proc/device-tree/soc/gpio@13040000/ssp0-pins/ssp0-pins_cs/starfive,pin-gpio-doen
+==>  /proc/device-tree/soc/gpio@13040000/ssp0-pins/ssp0-pins_cs/starfive,pin-gpio-dout
+==>  /proc/device-tree/soc/gpio@13040000/ssp0-pins/ssp0-pins_cs/starfive,pin-ioconfig
+==>  /proc/device-tree/soc/gpio@13040000/ssp0-pins/ssp0-pins_cs/name
+ssp0-pins_cs
+==>  /proc/device-tree/soc/gpio@13040000/ssp0-pins/ssp0-pins_tx/starfive,pinmux
+==>  /proc/device-tree/soc/gpio@13040000/ssp0-pins/ssp0-pins_tx/starfive,pins
+==>  /proc/device-tree/soc/gpio@13040000/ssp0-pins/ssp0-pins_tx/starfive,pin-gpio-doen
+==>  /proc/device-tree/soc/gpio@13040000/ssp0-pins/ssp0-pins_tx/starfive,pin-gpio-dout
+==>  /proc/device-tree/soc/gpio@13040000/ssp0-pins/ssp0-pins_tx/starfive,pin-ioconfig
+==>  /proc/device-tree/soc/gpio@13040000/ssp0-pins/ssp0-pins_tx/name
+ssp0-pins_tx
+==>  /proc/device-tree/soc/gpio@13040000/ssp0-pins/ssp0-pins_rx/starfive,pinmux
+==>  /proc/device-tree/soc/gpio@13040000/ssp0-pins/ssp0-pins_rx/starfive,pins
+==>  /proc/device-tree/soc/gpio@13040000/ssp0-pins/ssp0-pins_rx/starfive,pin-gpio-doen
+==>  /proc/device-tree/soc/gpio@13040000/ssp0-pins/ssp0-pins_rx/starfive,pin-ioconfig
+==>  /proc/device-tree/soc/gpio@13040000/ssp0-pins/ssp0-pins_rx/starfive,pin-gpio-din
+==>  /proc/device-tree/soc/gpio@13040000/ssp0-pins/ssp0-pins_rx/name
+ssp0-pins_rx
+==>  /proc/device-tree/soc/gpio@13040000/ssp0-pins/ssp0-pins_clk/starfive,pinmux
+==>  /proc/device-tree/soc/gpio@13040000/ssp0-pins/ssp0-pins_clk/starfive,pins
+==>  /proc/device-tree/soc/gpio@13040000/ssp0-pins/ssp0-pins_clk/starfive,pin-gpio-doen
+==>  /proc/device-tree/soc/gpio@13040000/ssp0-pins/ssp0-pins_clk/starfive,pin-gpio-dout
+==>  /proc/device-tree/soc/gpio@13040000/ssp0-pins/ssp0-pins_clk/starfive,pin-ioconfig
+==>  /proc/device-tree/soc/gpio@13040000/ssp0-pins/ssp0-pins_clk/name
+ssp0-pins_clk
+==>  /proc/device-tree/soc/gpio@13040000/ssp0-pins/phandle
+==>  /proc/device-tree/soc/gpio@13040000/ssp0-pins/name
+ssp0-pins
+==>  /proc/device-tree/soc/gpio@13040000/sdcard1-pins/sdcard1-pins3/starfive,pinmux
+==>  /proc/device-tree/soc/gpio@13040000/sdcard1-pins/sdcard1-pins3/starfive,pins
+==>  /proc/device-tree/soc/gpio@13040000/sdcard1-pins/sdcard1-pins3/starfive,pin-gpio-doen
+==>  /proc/device-tree/soc/gpio@13040000/sdcard1-pins/sdcard1-pins3/starfive,pin-gpio-dout
+==>  /proc/device-tree/soc/gpio@13040000/sdcard1-pins/sdcard1-pins3/starfive,pin-ioconfig
+==>  /proc/device-tree/soc/gpio@13040000/sdcard1-pins/sdcard1-pins3/starfive,pin-gpio-din
+==>  /proc/device-tree/soc/gpio@13040000/sdcard1-pins/sdcard1-pins3/name
+sdcard1-pins3
+==>  /proc/device-tree/soc/gpio@13040000/sdcard1-pins/sdcard1-pins1/starfive,pinmux
+==>  /proc/device-tree/soc/gpio@13040000/sdcard1-pins/sdcard1-pins1/starfive,pins
+==>  /proc/device-tree/soc/gpio@13040000/sdcard1-pins/sdcard1-pins1/starfive,pin-gpio-doen
+==>  /proc/device-tree/soc/gpio@13040000/sdcard1-pins/sdcard1-pins1/starfive,pin-gpio-dout
+==>  /proc/device-tree/soc/gpio@13040000/sdcard1-pins/sdcard1-pins1/starfive,pin-ioconfig
+==>  /proc/device-tree/soc/gpio@13040000/sdcard1-pins/sdcard1-pins1/starfive,pin-gpio-din
+==>  /proc/device-tree/soc/gpio@13040000/sdcard1-pins/sdcard1-pins1/name
+sdcard1-pins1
+==>  /proc/device-tree/soc/gpio@13040000/sdcard1-pins/sdcard1-pins4/starfive,pinmux
+==>  /proc/device-tree/soc/gpio@13040000/sdcard1-pins/sdcard1-pins4/starfive,pins
+==>  /proc/device-tree/soc/gpio@13040000/sdcard1-pins/sdcard1-pins4/starfive,pin-gpio-doen
+==>  /proc/device-tree/soc/gpio@13040000/sdcard1-pins/sdcard1-pins4/starfive,pin-gpio-dout
+==>  /proc/device-tree/soc/gpio@13040000/sdcard1-pins/sdcard1-pins4/starfive,pin-ioconfig
+==>  /proc/device-tree/soc/gpio@13040000/sdcard1-pins/sdcard1-pins4/starfive,pin-gpio-din
+==>  /proc/device-tree/soc/gpio@13040000/sdcard1-pins/sdcard1-pins4/name
+sdcard1-pins4
+==>  /proc/device-tree/soc/gpio@13040000/sdcard1-pins/sdcard1-pins2/starfive,pinmux
+==>  /proc/device-tree/soc/gpio@13040000/sdcard1-pins/sdcard1-pins2/starfive,pins
+==>  /proc/device-tree/soc/gpio@13040000/sdcard1-pins/sdcard1-pins2/starfive,pin-gpio-doen
+==>  /proc/device-tree/soc/gpio@13040000/sdcard1-pins/sdcard1-pins2/starfive,pin-gpio-dout
+==>  /proc/device-tree/soc/gpio@13040000/sdcard1-pins/sdcard1-pins2/starfive,pin-ioconfig
+==>  /proc/device-tree/soc/gpio@13040000/sdcard1-pins/sdcard1-pins2/starfive,pin-gpio-din
+==>  /proc/device-tree/soc/gpio@13040000/sdcard1-pins/sdcard1-pins2/name
+sdcard1-pins2
+==>  /proc/device-tree/soc/gpio@13040000/sdcard1-pins/sdcard1-pins0/starfive,pinmux
+==>  /proc/device-tree/soc/gpio@13040000/sdcard1-pins/sdcard1-pins0/starfive,pins
+==>  /proc/device-tree/soc/gpio@13040000/sdcard1-pins/sdcard1-pins0/starfive,pin-gpio-doen
+==>  /proc/device-tree/soc/gpio@13040000/sdcard1-pins/sdcard1-pins0/starfive,pin-gpio-dout
+==>  /proc/device-tree/soc/gpio@13040000/sdcard1-pins/sdcard1-pins0/starfive,pin-ioconfig
+==>  /proc/device-tree/soc/gpio@13040000/sdcard1-pins/sdcard1-pins0/name
+sdcard1-pins0
+==>  /proc/device-tree/soc/gpio@13040000/sdcard1-pins/phandle
+==>  /proc/device-tree/soc/gpio@13040000/sdcard1-pins/name
+sdcard1-pins
+==>  /proc/device-tree/soc/gpio@13040000/sdcard1-pins/sdcard1-pins5/starfive,pinmux
+==>  /proc/device-tree/soc/gpio@13040000/sdcard1-pins/sdcard1-pins5/starfive,pins
+==>  /proc/device-tree/soc/gpio@13040000/sdcard1-pins/sdcard1-pins5/starfive,pin-gpio-doen
+==>  /proc/device-tree/soc/gpio@13040000/sdcard1-pins/sdcard1-pins5/starfive,pin-gpio-dout
+==>  /proc/device-tree/soc/gpio@13040000/sdcard1-pins/sdcard1-pins5/starfive,pin-ioconfig
+==>  /proc/device-tree/soc/gpio@13040000/sdcard1-pins/sdcard1-pins5/starfive,pin-gpio-din
+==>  /proc/device-tree/soc/gpio@13040000/sdcard1-pins/sdcard1-pins5/name
+sdcard1-pins5
+==>  /proc/device-tree/soc/gpio@13040000/pwm-pins/pwm_ch1-pins/starfive,pinmux
+==>  /proc/device-tree/soc/gpio@13040000/pwm-pins/pwm_ch1-pins/starfive,pins
+==>  /proc/device-tree/soc/gpio@13040000/pwm-pins/pwm_ch1-pins/starfive,pin-gpio-doen
+==>  /proc/device-tree/soc/gpio@13040000/pwm-pins/pwm_ch1-pins/starfive,pin-gpio-dout
+==>  /proc/device-tree/soc/gpio@13040000/pwm-pins/pwm_ch1-pins/starfive,pin-ioconfig
+==>  /proc/device-tree/soc/gpio@13040000/pwm-pins/pwm_ch1-pins/name
+pwm_ch1-pins
+==>  /proc/device-tree/soc/gpio@13040000/pwm-pins/pwm_ch0-pins/starfive,pinmux
+==>  /proc/device-tree/soc/gpio@13040000/pwm-pins/pwm_ch0-pins/starfive,pins
+==>  /proc/device-tree/soc/gpio@13040000/pwm-pins/pwm_ch0-pins/starfive,pin-gpio-doen
+==>  /proc/device-tree/soc/gpio@13040000/pwm-pins/pwm_ch0-pins/starfive,pin-gpio-dout
+==>  /proc/device-tree/soc/gpio@13040000/pwm-pins/pwm_ch0-pins/starfive,pin-ioconfig
+==>  /proc/device-tree/soc/gpio@13040000/pwm-pins/pwm_ch0-pins/name
+pwm_ch0-pins
+==>  /proc/device-tree/soc/gpio@13040000/pwm-pins/phandle
+==>  /proc/device-tree/soc/gpio@13040000/pwm-pins/name
+pwm-pins
+==>  /proc/device-tree/soc/gpio@13040000/pcie0_wake_default/wake-pins/starfive,pinmux
+==>  /proc/device-tree/soc/gpio@13040000/pcie0_wake_default/wake-pins/starfive,pins
+==>  /proc/device-tree/soc/gpio@13040000/pcie0_wake_default/wake-pins/starfive,pin-gpio-doen
+==>  /proc/device-tree/soc/gpio@13040000/pcie0_wake_default/wake-pins/starfive,pin-ioconfig
+==>  /proc/device-tree/soc/gpio@13040000/pcie0_wake_default/wake-pins/name
+wake-pins
+==>  /proc/device-tree/soc/gpio@13040000/pcie0_wake_default/phandle
+==>  /proc/device-tree/soc/gpio@13040000/pcie0_wake_default/name
+pcie0_wake_default
+==>  /proc/device-tree/soc/gpio@13040000/name
+gpio
+==>  /proc/device-tree/soc/gpio@13040000/interrupt-controller
+==>  /proc/device-tree/soc/gpio@13040000/mclk_ext_pins/phandle
+==>  /proc/device-tree/soc/gpio@13040000/mclk_ext_pins/name
+mclk_ext_pins
+==>  /proc/device-tree/soc/gpio@13040000/mclk_ext_pins/mclk_ext_pins/starfive,pins
+==>  /proc/device-tree/soc/gpio@13040000/mclk_ext_pins/mclk_ext_pins/starfive,pin-gpio-doen
+==>  /proc/device-tree/soc/gpio@13040000/mclk_ext_pins/mclk_ext_pins/starfive,pin-ioconfig
+==>  /proc/device-tree/soc/gpio@13040000/mclk_ext_pins/mclk_ext_pins/starfive,pin-gpio-din
+==>  /proc/device-tree/soc/gpio@13040000/mclk_ext_pins/mclk_ext_pins/name
+mclk_ext_pins
+==>  /proc/device-tree/soc/gpio@13040000/uart0-pins/uart0-pins-tx/starfive,pins
+==>  /proc/device-tree/soc/gpio@13040000/uart0-pins/uart0-pins-tx/starfive,pin-gpio-doen
+==>  /proc/device-tree/soc/gpio@13040000/uart0-pins/uart0-pins-tx/starfive,pin-gpio-dout
+==>  /proc/device-tree/soc/gpio@13040000/uart0-pins/uart0-pins-tx/starfive,pin-ioconfig
+==>  /proc/device-tree/soc/gpio@13040000/uart0-pins/uart0-pins-tx/name
+uart0-pins-tx
+==>  /proc/device-tree/soc/gpio@13040000/uart0-pins/uart0-pins-rx/starfive,pinmux
+==>  /proc/device-tree/soc/gpio@13040000/uart0-pins/uart0-pins-rx/starfive,pins
+==>  /proc/device-tree/soc/gpio@13040000/uart0-pins/uart0-pins-rx/starfive,pin-gpio-doen
+==>  /proc/device-tree/soc/gpio@13040000/uart0-pins/uart0-pins-rx/starfive,pin-ioconfig
+==>  /proc/device-tree/soc/gpio@13040000/uart0-pins/uart0-pins-rx/starfive,pin-gpio-din
+==>  /proc/device-tree/soc/gpio@13040000/uart0-pins/uart0-pins-rx/name
+uart0-pins-rx
+==>  /proc/device-tree/soc/gpio@13040000/uart0-pins/phandle
+==>  /proc/device-tree/soc/gpio@13040000/uart0-pins/name
+uart0-pins
+==>  /proc/device-tree/soc/interrupt-parent
+==>  /proc/device-tree/soc/spi@10070000/arm,primecell-periphid
+==>  /proc/device-tree/soc/spi@10070000/#address-cells
+==>  /proc/device-tree/soc/spi@10070000/num-cs
+==>  /proc/device-tree/soc/spi@10070000/clock-names
+apb_pclk
+==>  /proc/device-tree/soc/spi@10070000/resets
+==>  /proc/device-tree/soc/spi@10070000/interrupts
+==>  /proc/device-tree/soc/spi@10070000/clocks
+==>  /proc/device-tree/soc/spi@10070000/#size-cells
+==>  /proc/device-tree/soc/spi@10070000/compatible
+arm,pl022
+arm,primecell
+==>  /proc/device-tree/soc/spi@10070000/status
+disabled
+==>  /proc/device-tree/soc/spi@10070000/reg
+==>  /proc/device-tree/soc/spi@10070000/reset-names
+rst_apb
+==>  /proc/device-tree/soc/spi@10070000/name
+==>  /proc/device-tree/soc/i2srx_mst@100e0000/clock-names
+apb0
+i2srx_apb
+i2srx_bclk_mst
+i2srx_lrck_mst
+i2srx_bclk
+i2srx_lrck
+mclk
+mclk_ext
+==>  /proc/device-tree/soc/i2srx_mst@100e0000/starfive,sys-syscon
+==>  /proc/device-tree/soc/i2srx_mst@100e0000/resets
+==>  /proc/device-tree/soc/i2srx_mst@100e0000/clocks
+==>  /proc/device-tree/soc/i2srx_mst@100e0000/dma-names
+==>  /proc/device-tree/soc/i2srx_mst@100e0000/#sound-dai-cells
+==>  /proc/device-tree/soc/i2srx_mst@100e0000/compatible
+starfive,jh7110-i2srx-master
+==>  /proc/device-tree/soc/i2srx_mst@100e0000/status
+disabled
+==>  /proc/device-tree/soc/i2srx_mst@100e0000/reg
+==>  /proc/device-tree/soc/i2srx_mst@100e0000/dmas
+==>  /proc/device-tree/soc/i2srx_mst@100e0000/reset-names
+rst_apb_rx
+rst_bclk_rx
+==>  /proc/device-tree/soc/i2srx_mst@100e0000/name
+i2srx_mst
+==>  /proc/device-tree/soc/can@130e0000/syscon,can_or_canfd
+==>  /proc/device-tree/soc/can@130e0000/clock-names
+apb_clk
+core_clk
+timer_clk
+==>  /proc/device-tree/soc/can@130e0000/starfive,sys-syscon
+==>  /proc/device-tree/soc/can@130e0000/resets
+==>  /proc/device-tree/soc/can@130e0000/interrupts
+==>  /proc/device-tree/soc/can@130e0000/clocks
+==>  /proc/device-tree/soc/can@130e0000/compatible
+starfive,jh7110-can
+ipms,can
+==>  /proc/device-tree/soc/can@130e0000/status
+disabled
+==>  /proc/device-tree/soc/can@130e0000/frequency
+==>  /proc/device-tree/soc/can@130e0000/reg
+==>  /proc/device-tree/soc/can@130e0000/reset-names
+rst_apb
+rst_core
+rst_timer
+==>  /proc/device-tree/soc/can@130e0000/name
+==>  /proc/device-tree/soc/rtc@17040000/clock-names
+pclk
+cal_clk
+==>  /proc/device-tree/soc/rtc@17040000/resets
+==>  /proc/device-tree/soc/rtc@17040000/interrupts
+==>  /proc/device-tree/soc/rtc@17040000/clocks
+==>  /proc/device-tree/soc/rtc@17040000/compatible
+starfive,jh7110-rtc
+==>  /proc/device-tree/soc/rtc@17040000/status
+okay
+==>  /proc/device-tree/soc/rtc@17040000/interrupt-names
+rtc_ms_pulse
+rtc_sec_pulse
+==>  /proc/device-tree/soc/rtc@17040000/reg
+==>  /proc/device-tree/soc/rtc@17040000/reset-names
+rst_osc
+rst_apb
+rst_cal
+==>  /proc/device-tree/soc/rtc@17040000/rtc,cal-clock-freq
+==>  /proc/device-tree/soc/rtc@17040000/name
+==>  /proc/device-tree/soc/spdif_transmitter/#sound-dai-cells
+==>  /proc/device-tree/soc/spdif_transmitter/compatible
+linux,spdif-dit
+==>  /proc/device-tree/soc/spdif_transmitter/status
+disabled
+==>  /proc/device-tree/soc/spdif_transmitter/name
+spdif_transmitter
+==>  /proc/device-tree/soc/spi@12090000/arm,primecell-periphid
+==>  /proc/device-tree/soc/spi@12090000/#address-cells
+==>  /proc/device-tree/soc/spi@12090000/num-cs
+==>  /proc/device-tree/soc/spi@12090000/clock-names
+apb_pclk
+==>  /proc/device-tree/soc/spi@12090000/resets
+==>  /proc/device-tree/soc/spi@12090000/interrupts
+==>  /proc/device-tree/soc/spi@12090000/clocks
+==>  /proc/device-tree/soc/spi@12090000/#size-cells
+==>  /proc/device-tree/soc/spi@12090000/compatible
+arm,pl022
+arm,primecell
+==>  /proc/device-tree/soc/spi@12090000/status
+disabled
+==>  /proc/device-tree/soc/spi@12090000/reg
+==>  /proc/device-tree/soc/spi@12090000/reset-names
+rst_apb
+==>  /proc/device-tree/soc/spi@12090000/name
+==>  /proc/device-tree/soc/serial@10000000/reg-io-width
+==>  /proc/device-tree/soc/serial@10000000/pinctrl-names
+default
+==>  /proc/device-tree/soc/serial@10000000/pinctrl-0
+==>  /proc/device-tree/soc/serial@10000000/clock-names
+baudclk
+apb_pclk
+==>  /proc/device-tree/soc/serial@10000000/resets
+==>  /proc/device-tree/soc/serial@10000000/interrupts
+==>  /proc/device-tree/soc/serial@10000000/clocks
+==>  /proc/device-tree/soc/serial@10000000/compatible
+snps,dw-apb-uart
+==>  /proc/device-tree/soc/serial@10000000/status
+okay
+==>  /proc/device-tree/soc/serial@10000000/reg
+==>  /proc/device-tree/soc/serial@10000000/reg-shift
+==>  /proc/device-tree/soc/serial@10000000/name
+serial
+==>  /proc/device-tree/soc/i2c@10030000/pinctrl-names
+default
+==>  /proc/device-tree/soc/i2c@10030000/#address-cells
+==>  /proc/device-tree/soc/i2c@10030000/i2c-sda-hold-time-ns
+==>  /proc/device-tree/soc/i2c@10030000/pinctrl-0
+==>  /proc/device-tree/soc/i2c@10030000/clock-names
+pclk
+==>  /proc/device-tree/soc/i2c@10030000/i2c-scl-falling-time-ns
+==>  /proc/device-tree/soc/i2c@10030000/i2c-sda-falling-time-ns
+==>  /proc/device-tree/soc/i2c@10030000/resets
+==>  /proc/device-tree/soc/i2c@10030000/interrupts
+==>  /proc/device-tree/soc/i2c@10030000/auto_calc_scl_lhcnt
+==>  /proc/device-tree/soc/i2c@10030000/clocks
+==>  /proc/device-tree/soc/i2c@10030000/#size-cells
+==>  /proc/device-tree/soc/i2c@10030000/clock-frequency
+==>  /proc/device-tree/soc/i2c@10030000/compatible
+snps,designware-i2c
+==>  /proc/device-tree/soc/i2c@10030000/status
+okay
+==>  /proc/device-tree/soc/i2c@10030000/reg
+==>  /proc/device-tree/soc/i2c@10030000/name
+==>  /proc/device-tree/soc/tda988x_pin/compatible
+starfive,tda998x_rgb_pin
+==>  /proc/device-tree/soc/tda988x_pin/status
+disabled
+==>  /proc/device-tree/soc/tda988x_pin/name
+tda988x_pin
+==>  /proc/device-tree/soc/i2srx_3ch@100e0000/pinctrl-names
+default
+==>  /proc/device-tree/soc/i2srx_3ch@100e0000/pinctrl-0
+==>  /proc/device-tree/soc/i2srx_3ch@100e0000/clock-names
+apb0
+3ch-apb
+audioroot
+mclk-inner
+bclk_mst
+3ch-lrck
+rx-bclk
+rx-lrck
+mclk
+mclk_ext
+bclk-ext
+lrck-ext
+==>  /proc/device-tree/soc/i2srx_3ch@100e0000/starfive,sys-syscon
+==>  /proc/device-tree/soc/i2srx_3ch@100e0000/resets
+==>  /proc/device-tree/soc/i2srx_3ch@100e0000/clocks
+==>  /proc/device-tree/soc/i2srx_3ch@100e0000/dma-names
+==>  /proc/device-tree/soc/i2srx_3ch@100e0000/#sound-dai-cells
+==>  /proc/device-tree/soc/i2srx_3ch@100e0000/compatible
+starfive,jh7110-i2srx
+snps,designware-i2s
+==>  /proc/device-tree/soc/i2srx_3ch@100e0000/status
+disabled
+==>  /proc/device-tree/soc/i2srx_3ch@100e0000/reg
+==>  /proc/device-tree/soc/i2srx_3ch@100e0000/dmas
+==>  /proc/device-tree/soc/i2srx_3ch@100e0000/name
+i2srx_3ch
+==>  /proc/device-tree/soc/sec_dma@16008000/memcpy-bus-width
+==>  /proc/device-tree/soc/sec_dma@16008000/arm,primecell-periphid
+==>  /proc/device-tree/soc/sec_dma@16008000/lli-bus-interface-ahb1
+==>  /proc/device-tree/soc/sec_dma@16008000/clock-names
+sec_hclk
+apb_pclk
+==>  /proc/device-tree/soc/sec_dma@16008000/reg-names
+sec_dma
+==>  /proc/device-tree/soc/sec_dma@16008000/resets
+==>  /proc/device-tree/soc/sec_dma@16008000/interrupts
+==>  /proc/device-tree/soc/sec_dma@16008000/clocks
+==>  /proc/device-tree/soc/sec_dma@16008000/memcpy-burst-size
+==>  /proc/device-tree/soc/sec_dma@16008000/compatible
+arm,pl080
+arm,primecell
+==>  /proc/device-tree/soc/sec_dma@16008000/status
+okay
+==>  /proc/device-tree/soc/sec_dma@16008000/mem-bus-interface-ahb1
+==>  /proc/device-tree/soc/sec_dma@16008000/reg
+==>  /proc/device-tree/soc/sec_dma@16008000/phandle
+==>  /proc/device-tree/soc/sec_dma@16008000/reset-names
+sec_hre
+==>  /proc/device-tree/soc/sec_dma@16008000/#dma-cells
+==>  /proc/device-tree/soc/sec_dma@16008000/name
+sec_dma
+==>  /proc/device-tree/soc/serial@12020000/reg-io-width
+==>  /proc/device-tree/soc/serial@12020000/clock-names
+baudclk
+apb_pclk
+==>  /proc/device-tree/soc/serial@12020000/resets
+==>  /proc/device-tree/soc/serial@12020000/interrupts
+==>  /proc/device-tree/soc/serial@12020000/clocks
+==>  /proc/device-tree/soc/serial@12020000/compatible
+snps,dw-apb-uart
+==>  /proc/device-tree/soc/serial@12020000/status
+disabled
+==>  /proc/device-tree/soc/serial@12020000/reg
+==>  /proc/device-tree/soc/serial@12020000/reg-shift
+==>  /proc/device-tree/soc/serial@12020000/name
+serial
+==>  /proc/device-tree/soc/spi@120A0000/arm,primecell-periphid
+==>  /proc/device-tree/soc/spi@120A0000/#address-cells
+==>  /proc/device-tree/soc/spi@120A0000/num-cs
+==>  /proc/device-tree/soc/spi@120A0000/clock-names
+apb_pclk
+==>  /proc/device-tree/soc/spi@120A0000/resets
+==>  /proc/device-tree/soc/spi@120A0000/interrupts
+==>  /proc/device-tree/soc/spi@120A0000/clocks
+==>  /proc/device-tree/soc/spi@120A0000/#size-cells
+==>  /proc/device-tree/soc/spi@120A0000/compatible
+arm,pl022
+arm,primecell
+==>  /proc/device-tree/soc/spi@120A0000/status
+disabled
+==>  /proc/device-tree/soc/spi@120A0000/reg
+==>  /proc/device-tree/soc/spi@120A0000/reset-names
+rst_apb
+==>  /proc/device-tree/soc/spi@120A0000/name
+==>  /proc/device-tree/soc/compatible
+simple-bus
+==>  /proc/device-tree/soc/dssctrl@295B0000/compatible
+starfive,jh7110-dssctrl
+verisilicon,dss-ctrl
+syscon
+==>  /proc/device-tree/soc/dssctrl@295B0000/reg
+==>  /proc/device-tree/soc/dssctrl@295B0000/phandle
+==>  /proc/device-tree/soc/dssctrl@295B0000/name
+dssctrl
+==>  /proc/device-tree/soc/mipi@295d0000/phy-names
+dphy
+==>  /proc/device-tree/soc/mipi@295d0000/clock-names
+txesc
+==>  /proc/device-tree/soc/mipi@295d0000/reg-names
+==>  /proc/device-tree/soc/mipi@295d0000/ports/port@0/#address-cells
+==>  /proc/device-tree/soc/mipi@295d0000/ports/port@0/endpoint@1/remote-endpoint
+==>  /proc/device-tree/soc/mipi@295d0000/ports/port@0/endpoint@1/reg
+==>  /proc/device-tree/soc/mipi@295d0000/ports/port@0/endpoint@1/phandle
+==>  /proc/device-tree/soc/mipi@295d0000/ports/port@0/endpoint@1/name
+endpoint
+==>  /proc/device-tree/soc/mipi@295d0000/ports/port@0/#size-cells
+==>  /proc/device-tree/soc/mipi@295d0000/ports/port@0/reg
+==>  /proc/device-tree/soc/mipi@295d0000/ports/port@0/endpoint@0/remote-endpoint
+==>  /proc/device-tree/soc/mipi@295d0000/ports/port@0/endpoint@0/reg
+==>  /proc/device-tree/soc/mipi@295d0000/ports/port@0/endpoint@0/phandle
+==>  /proc/device-tree/soc/mipi@295d0000/ports/port@0/endpoint@0/name
+endpoint
+==>  /proc/device-tree/soc/mipi@295d0000/ports/port@0/name
+port
+==>  /proc/device-tree/soc/mipi@295d0000/ports/#address-cells
+==>  /proc/device-tree/soc/mipi@295d0000/ports/#size-cells
+==>  /proc/device-tree/soc/mipi@295d0000/ports/port@1/endpoint/remote-endpoint
+==>  /proc/device-tree/soc/mipi@295d0000/ports/port@1/endpoint/phandle
+==>  /proc/device-tree/soc/mipi@295d0000/ports/port@1/endpoint/name
+endpoint
+==>  /proc/device-tree/soc/mipi@295d0000/ports/port@1/reg
+==>  /proc/device-tree/soc/mipi@295d0000/ports/port@1/name
+port
+==>  /proc/device-tree/soc/mipi@295d0000/ports/name
+ports
+==>  /proc/device-tree/soc/mipi@295d0000/resets
+==>  /proc/device-tree/soc/mipi@295d0000/interrupts
+==>  /proc/device-tree/soc/mipi@295d0000/clocks
+==>  /proc/device-tree/soc/mipi@295d0000/compatible
+starfive,jh7110-mipi_dsi
+cdns,dsi
+==>  /proc/device-tree/soc/mipi@295d0000/status
+okay
+==>  /proc/device-tree/soc/mipi@295d0000/phys
+==>  /proc/device-tree/soc/mipi@295d0000/reg
+==>  /proc/device-tree/soc/mipi@295d0000/reset-names
+dsi_dpi
+dsi_apb
+dsi_rxesc
+dsi_sys
+dsi_txbytehs
+dsi_txesc
+==>  /proc/device-tree/soc/mipi@295d0000/name
+mipi
+==>  /proc/device-tree/soc/ranges
+==>  /proc/device-tree/soc/trng@1600C000/clock-names
+hclk
+==>  /proc/device-tree/soc/trng@1600C000/resets
+==>  /proc/device-tree/soc/trng@1600C000/interrupts
+==>  /proc/device-tree/soc/trng@1600C000/clocks
+==>  /proc/device-tree/soc/trng@1600C000/compatible
+starfive,jh7110-trng
+==>  /proc/device-tree/soc/trng@1600C000/status
+okay
+==>  /proc/device-tree/soc/trng@1600C000/reg
+==>  /proc/device-tree/soc/trng@1600C000/name
+trng
+==>  /proc/device-tree/soc/i2c@12050000/pinctrl-names
+default
+==>  /proc/device-tree/soc/i2c@12050000/#address-cells
+==>  /proc/device-tree/soc/i2c@12050000/i2c-sda-hold-time-ns
+==>  /proc/device-tree/soc/i2c@12050000/pinctrl-0
+==>  /proc/device-tree/soc/i2c@12050000/clock-names
+pclk
+==>  /proc/device-tree/soc/i2c@12050000/eeprom@50/compatible
+atmel,24c04
+==>  /proc/device-tree/soc/i2c@12050000/eeprom@50/pagesize
+==>  /proc/device-tree/soc/i2c@12050000/eeprom@50/reg
+==>  /proc/device-tree/soc/i2c@12050000/eeprom@50/name
+eeprom
+==>  /proc/device-tree/soc/i2c@12050000/i2c-scl-falling-time-ns
+==>  /proc/device-tree/soc/i2c@12050000/i2c-sda-falling-time-ns
+==>  /proc/device-tree/soc/i2c@12050000/resets
+==>  /proc/device-tree/soc/i2c@12050000/interrupts
+==>  /proc/device-tree/soc/i2c@12050000/auto_calc_scl_lhcnt
+==>  /proc/device-tree/soc/i2c@12050000/clocks
+==>  /proc/device-tree/soc/i2c@12050000/#size-cells
+==>  /proc/device-tree/soc/i2c@12050000/clock-frequency
+==>  /proc/device-tree/soc/i2c@12050000/axp15060_reg@36/regulators/ALDO5/regulator-max-microvolt
+==>  /proc/device-tree/soc/i2c@12050000/axp15060_reg@36/regulators/ALDO5/regulator-boot-on
+==>  /proc/device-tree/soc/i2c@12050000/axp15060_reg@36/regulators/ALDO5/regulator-min-microvolt
+==>  /proc/device-tree/soc/i2c@12050000/axp15060_reg@36/regulators/ALDO5/regulator-name
+hdmi_0p9
+==>  /proc/device-tree/soc/i2c@12050000/axp15060_reg@36/regulators/ALDO5/name
+ALDO5
+==>  /proc/device-tree/soc/i2c@12050000/axp15060_reg@36/regulators/ALDO5/regulator-compatible
+hdmi_0p9
+==>  /proc/device-tree/soc/i2c@12050000/axp15060_reg@36/regulators/ALDO3/regulator-max-microvolt
+==>  /proc/device-tree/soc/i2c@12050000/axp15060_reg@36/regulators/ALDO3/regulator-boot-on
+==>  /proc/device-tree/soc/i2c@12050000/axp15060_reg@36/regulators/ALDO3/regulator-min-microvolt
+==>  /proc/device-tree/soc/i2c@12050000/axp15060_reg@36/regulators/ALDO3/regulator-name
+hdmi_1p8
+==>  /proc/device-tree/soc/i2c@12050000/axp15060_reg@36/regulators/ALDO3/name
+ALDO3
+==>  /proc/device-tree/soc/i2c@12050000/axp15060_reg@36/regulators/ALDO3/regulator-compatible
+hdmi_1p8
+==>  /proc/device-tree/soc/i2c@12050000/axp15060_reg@36/regulators/ALDO1/regulator-max-microvolt
+==>  /proc/device-tree/soc/i2c@12050000/axp15060_reg@36/regulators/ALDO1/regulator-boot-on
+==>  /proc/device-tree/soc/i2c@12050000/axp15060_reg@36/regulators/ALDO1/regulator-min-microvolt
+==>  /proc/device-tree/soc/i2c@12050000/axp15060_reg@36/regulators/ALDO1/regulator-name
+mipi_0p9
+==>  /proc/device-tree/soc/i2c@12050000/axp15060_reg@36/regulators/ALDO1/name
+ALDO1
+==>  /proc/device-tree/soc/i2c@12050000/axp15060_reg@36/regulators/ALDO1/regulator-compatible
+mipi_0p9
+==>  /proc/device-tree/soc/i2c@12050000/axp15060_reg@36/regulators/name
+regulators
+==>  /proc/device-tree/soc/i2c@12050000/axp15060_reg@36/regulators/DCDC2/regulator-max-microvolt
+==>  /proc/device-tree/soc/i2c@12050000/axp15060_reg@36/regulators/DCDC2/regulator-boot-on
+==>  /proc/device-tree/soc/i2c@12050000/axp15060_reg@36/regulators/DCDC2/regulator-always-on
+==>  /proc/device-tree/soc/i2c@12050000/axp15060_reg@36/regulators/DCDC2/regulator-min-microvolt
+==>  /proc/device-tree/soc/i2c@12050000/axp15060_reg@36/regulators/DCDC2/regulator-name
+cpu_vdd
+==>  /proc/device-tree/soc/i2c@12050000/axp15060_reg@36/regulators/DCDC2/phandle
+==>  /proc/device-tree/soc/i2c@12050000/axp15060_reg@36/regulators/DCDC2/name
+DCDC2
+==>  /proc/device-tree/soc/i2c@12050000/axp15060_reg@36/regulators/DCDC2/regulator-compatible
+cpu_vdd
+==>  /proc/device-tree/soc/i2c@12050000/axp15060_reg@36/compatible
+stf,axp15060-regulator
+==>  /proc/device-tree/soc/i2c@12050000/axp15060_reg@36/reg
+==>  /proc/device-tree/soc/i2c@12050000/axp15060_reg@36/name
+axp15060_reg
+==>  /proc/device-tree/soc/i2c@12050000/compatible
+snps,designware-i2c
+==>  /proc/device-tree/soc/i2c@12050000/status
+okay
+==>  /proc/device-tree/soc/i2c@12050000/reg
+==>  /proc/device-tree/soc/i2c@12050000/name
+==>  /proc/device-tree/soc/ethernet@16030000/snps,burst-map
+==>  /proc/device-tree/soc/ethernet@16030000/snps,multicast-filter-bins
+==>  /proc/device-tree/soc/ethernet@16030000/#address-cells
+==>  /proc/device-tree/soc/ethernet@16030000/phy-mode
+rgmii-id
+==>  /proc/device-tree/soc/ethernet@16030000/snps,txpbl
+==>  /proc/device-tree/soc/ethernet@16030000/snps,en-lpi
+==>  /proc/device-tree/soc/ethernet@16030000/clock-names
+ptp_ref
+stmmaceth
+pclk
+gtxc
+rmii_rtx
+==>  /proc/device-tree/soc/ethernet@16030000/snps,en-tx-lpi-clockgating
+==>  /proc/device-tree/soc/ethernet@16030000/local-mac-address
+==>  /proc/device-tree/soc/ethernet@16030000/snps,fixed-burst
+==>  /proc/device-tree/soc/ethernet@16030000/resets
+==>  /proc/device-tree/soc/ethernet@16030000/interrupts
+==>  /proc/device-tree/soc/ethernet@16030000/clocks
+==>  /proc/device-tree/soc/ethernet@16030000/#size-cells
+==>  /proc/device-tree/soc/ethernet@16030000/snps,no-pbl-x8
+==>  /proc/device-tree/soc/ethernet@16030000/snps,tso
+==>  /proc/device-tree/soc/ethernet@16030000/max-frame-size
+==>  /proc/device-tree/soc/ethernet@16030000/snps,rxpbl
+==>  /proc/device-tree/soc/ethernet@16030000/snps,read-requests
+==>  /proc/device-tree/soc/ethernet@16030000/compatible
+starfive,dwmac
+snps,dwmac-5.10a
+==>  /proc/device-tree/soc/ethernet@16030000/snps,write-requests
+==>  /proc/device-tree/soc/ethernet@16030000/status
+okay
+==>  /proc/device-tree/soc/ethernet@16030000/tx-fifo-depth
+==>  /proc/device-tree/soc/ethernet@16030000/interrupt-names
+macirq
+eth_wake_irq
+eth_lpi
+==>  /proc/device-tree/soc/ethernet@16030000/snps,force_thresh_dma_mode
+==>  /proc/device-tree/soc/ethernet@16030000/rx-fifo-depth
+==>  /proc/device-tree/soc/ethernet@16030000/reg
+==>  /proc/device-tree/soc/ethernet@16030000/reset-names
+stmmaceth
+==>  /proc/device-tree/soc/ethernet@16030000/ethernet-phy@0/rxc_dly_en
+==>  /proc/device-tree/soc/ethernet@16030000/ethernet-phy@0/tx_inverted_1000
+==>  /proc/device-tree/soc/ethernet@16030000/ethernet-phy@0/tx_delay_sel
+==>  /proc/device-tree/soc/ethernet@16030000/ethernet-phy@0/tx_inverted_10
+==>  /proc/device-tree/soc/ethernet@16030000/ethernet-phy@0/tx_delay_sel_fe
+==>  /proc/device-tree/soc/ethernet@16030000/ethernet-phy@0/name
+ethernet-phy
+==>  /proc/device-tree/soc/ethernet@16030000/ethernet-phy@0/tx_inverted_100
+==>  /proc/device-tree/soc/ethernet@16030000/snps,axi-config
+==>  /proc/device-tree/soc/ethernet@16030000/name
+ethernet
+==>  /proc/device-tree/soc/ethernet@16030000/snps,perfect-filter-entries
+==>  /proc/device-tree/soc/sdio0@16010000/fifo-depth
+==>  /proc/device-tree/soc/sdio0@16010000/pinctrl-names
+default
+==>  /proc/device-tree/soc/sdio0@16010000/data-addr
+==>  /proc/device-tree/soc/sdio0@16010000/pinctrl-0
+==>  /proc/device-tree/soc/sdio0@16010000/clock-names
+==>  /proc/device-tree/soc/sdio0@16010000/mmc-hs200-1_8v
+==>  /proc/device-tree/soc/sdio0@16010000/bus-width
+==>  /proc/device-tree/soc/sdio0@16010000/starfive,sys-syscon
+==>  /proc/device-tree/soc/sdio0@16010000/non-removable
+==>  /proc/device-tree/soc/sdio0@16010000/resets
+==>  /proc/device-tree/soc/sdio0@16010000/card-detect-delay
+==>  /proc/device-tree/soc/sdio0@16010000/interrupts
+==>  /proc/device-tree/soc/sdio0@16010000/clocks
+==>  /proc/device-tree/soc/sdio0@16010000/cap-mmc-hw-reset
+==>  /proc/device-tree/soc/sdio0@16010000/mmc-ddr-1_8v
+==>  /proc/device-tree/soc/sdio0@16010000/compatible
+starfive,jh7110-sdio
+==>  /proc/device-tree/soc/sdio0@16010000/post-power-on-delay-ms
+==>  /proc/device-tree/soc/sdio0@16010000/status
+okay
+==>  /proc/device-tree/soc/sdio0@16010000/fifo-watermark-aligned
+==>  /proc/device-tree/soc/sdio0@16010000/reg
+==>  /proc/device-tree/soc/sdio0@16010000/max-frequency
+==>  /proc/device-tree/soc/sdio0@16010000/cap-mmc-highspeed
+==>  /proc/device-tree/soc/sdio0@16010000/reset-names
+reset
+==>  /proc/device-tree/soc/sdio0@16010000/name
+sdio0
+==>  /proc/device-tree/soc/tdm@10090000/clock-names
+clk_tdm_ahb
+clk_tdm_apb
+clk_tdm_internal
+clk_tdm_ext
+clk_tdm
+mclk_inner
+==>  /proc/device-tree/soc/tdm@10090000/reg-names
+==>  /proc/device-tree/soc/tdm@10090000/resets
+==>  /proc/device-tree/soc/tdm@10090000/clocks
+==>  /proc/device-tree/soc/tdm@10090000/dma-names
+==>  /proc/device-tree/soc/tdm@10090000/#sound-dai-cells
+==>  /proc/device-tree/soc/tdm@10090000/compatible
+starfive,jh7110-tdm
+==>  /proc/device-tree/soc/tdm@10090000/status
+disabled
+==>  /proc/device-tree/soc/tdm@10090000/reg
+==>  /proc/device-tree/soc/tdm@10090000/dmas
+==>  /proc/device-tree/soc/tdm@10090000/reset-names
+tdm_ahb
+tdm_apb
+tdm_rst
+==>  /proc/device-tree/soc/tdm@10090000/name
+==>  /proc/device-tree/soc/snd-card6/simple-audio-card,name
+Starfive-WM8960-Sound-Card
+==>  /proc/device-tree/soc/snd-card6/#address-cells
+==>  /proc/device-tree/soc/snd-card6/#size-cells
+==>  /proc/device-tree/soc/snd-card6/compatible
+simple-audio-card
+==>  /proc/device-tree/soc/snd-card6/name
+snd-card6
+==>  /proc/device-tree/soc/pcie1-phyctrl@10220000/compatible
+starfive,phyctrl
+==>  /proc/device-tree/soc/pcie1-phyctrl@10220000/reg
+==>  /proc/device-tree/soc/pcie1-phyctrl@10220000/phandle
+==>  /proc/device-tree/soc/pcie1-phyctrl@10220000/name
+pcie1-phyctrl
+==>  /proc/device-tree/soc/power-controller@17030000/interrupts
+==>  /proc/device-tree/soc/power-controller@17030000/#power-domain-cells
+==>  /proc/device-tree/soc/power-controller@17030000/compatible
+starfive,jh7110-pmu
+==>  /proc/device-tree/soc/power-controller@17030000/status
+okay
+==>  /proc/device-tree/soc/power-controller@17030000/reg
+==>  /proc/device-tree/soc/power-controller@17030000/phandle
+==>  /proc/device-tree/soc/power-controller@17030000/name
+power-controller
+==>  /proc/device-tree/soc/pcie@2B000000/pinctrl-names
+default
+perst-default
+perst-active
+==>  /proc/device-tree/soc/pcie@2B000000/#address-cells
+==>  /proc/device-tree/soc/pcie@2B000000/pinctrl-2
+==>  /proc/device-tree/soc/pcie@2B000000/bus-range
+==>  /proc/device-tree/soc/pcie@2B000000/pinctrl-0
+==>  /proc/device-tree/soc/pcie@2B000000/clock-names
+axi_mst0
+==>  /proc/device-tree/soc/pcie@2B000000/reg-names
+config
+==>  /proc/device-tree/soc/pcie@2B000000/starfive,stg-syscon
+==>  /proc/device-tree/soc/pcie@2B000000/resets
+==>  /proc/device-tree/soc/pcie@2B000000/interrupts
+==>  /proc/device-tree/soc/pcie@2B000000/clocks
+==>  /proc/device-tree/soc/pcie@2B000000/interrupt-map
+==>  /proc/device-tree/soc/pcie@2B000000/#size-cells
+==>  /proc/device-tree/soc/pcie@2B000000/interrupt-parent
+==>  /proc/device-tree/soc/pcie@2B000000/starfive,phyctrl
+==>  /proc/device-tree/soc/pcie@2B000000/device_type
+==>  /proc/device-tree/soc/pcie@2B000000/interrupt-map-mask
+==>  /proc/device-tree/soc/pcie@2B000000/compatible
+starfive,jh7110-pcie
+plda,pci-xpressrich3-axi
+==>  /proc/device-tree/soc/pcie@2B000000/ranges
+==>  /proc/device-tree/soc/pcie@2B000000/#interrupt-cells
+==>  /proc/device-tree/soc/pcie@2B000000/pinctrl-1
+==>  /proc/device-tree/soc/pcie@2B000000/status
+okay
+==>  /proc/device-tree/soc/pcie@2B000000/interrupt-names
+==>  /proc/device-tree/soc/pcie@2B000000/reg
+==>  /proc/device-tree/soc/pcie@2B000000/msi-parent
+==>  /proc/device-tree/soc/pcie@2B000000/reset-names
+rst_mst0
+rst_slv0
+rst_slv
+rst_brg
+rst_core
+rst_apb
+==>  /proc/device-tree/soc/pcie@2B000000/name
+pcie
+==>  /proc/device-tree/soc/pcie@2B000000/interrupt-controller
+==>  /proc/device-tree/soc/spi@10080000/arm,primecell-periphid
+==>  /proc/device-tree/soc/spi@10080000/#address-cells
+==>  /proc/device-tree/soc/spi@10080000/num-cs
+==>  /proc/device-tree/soc/spi@10080000/clock-names
+apb_pclk
+==>  /proc/device-tree/soc/spi@10080000/resets
+==>  /proc/device-tree/soc/spi@10080000/interrupts
+==>  /proc/device-tree/soc/spi@10080000/clocks
+==>  /proc/device-tree/soc/spi@10080000/#size-cells
+==>  /proc/device-tree/soc/spi@10080000/compatible
+arm,pl022
+arm,primecell
+==>  /proc/device-tree/soc/spi@10080000/status
+disabled
+==>  /proc/device-tree/soc/spi@10080000/reg
+==>  /proc/device-tree/soc/spi@10080000/reset-names
+rst_apb
+==>  /proc/device-tree/soc/spi@10080000/name
+==>  /proc/device-tree/soc/usbdrd/starfive,usb2-only
+==>  /proc/device-tree/soc/usbdrd/#address-cells
+==>  /proc/device-tree/soc/usbdrd/clock-names
+125m
+utmi
+==>  /proc/device-tree/soc/usbdrd/starfive,sys-syscon
+==>  /proc/device-tree/soc/usbdrd/starfive,stg-syscon
+==>  /proc/device-tree/soc/usbdrd/resets
+==>  /proc/device-tree/soc/usbdrd/clocks
+==>  /proc/device-tree/soc/usbdrd/#size-cells
+==>  /proc/device-tree/soc/usbdrd/compatible
+starfive,jh7110-cdns3
+==>  /proc/device-tree/soc/usbdrd/ranges
+==>  /proc/device-tree/soc/usbdrd/#interrupt-cells
+==>  /proc/device-tree/soc/usbdrd/status
+okay
+==>  /proc/device-tree/soc/usbdrd/reg
+==>  /proc/device-tree/soc/usbdrd/dr_mode
+peripheral
+==>  /proc/device-tree/soc/usbdrd/reset-names
+pwrup
+utmi
+==>  /proc/device-tree/soc/usbdrd/name
+usbdrd
+==>  /proc/device-tree/soc/usbdrd/usb@10100000/phy-names
+cdns3,usb3-phy
+cnds3,usb2-phy
+==>  /proc/device-tree/soc/usbdrd/usb@10100000/reg-names
+xhci
+==>  /proc/device-tree/soc/usbdrd/usb@10100000/interrupts
+==>  /proc/device-tree/soc/usbdrd/usb@10100000/compatible
+cdns,usb3
+==>  /proc/device-tree/soc/usbdrd/usb@10100000/interrupt-names
+host
+peripheral
+==>  /proc/device-tree/soc/usbdrd/usb@10100000/reg
+==>  /proc/device-tree/soc/usbdrd/usb@10100000/maximum-speed
+super-speed
+==>  /proc/device-tree/soc/usbdrd/usb@10100000/name
+==>  /proc/device-tree/soc/spi@13010000/#address-cells
+==>  /proc/device-tree/soc/spi@13010000/nor-flash@0/cdns,tshsl-ns
+==>  /proc/device-tree/soc/spi@13010000/nor-flash@0/spi-max-frequency
+==>  /proc/device-tree/soc/spi@13010000/nor-flash@0/cdns,tsd2d-ns
+==>  /proc/device-tree/soc/spi@13010000/nor-flash@0/cdns,read-delay
+==>  /proc/device-tree/soc/spi@13010000/nor-flash@0/cdns,tslch-ns
+==>  /proc/device-tree/soc/spi@13010000/nor-flash@0/compatible
+jedec,spi-nor
+==>  /proc/device-tree/soc/spi@13010000/nor-flash@0/reg
+==>  /proc/device-tree/soc/spi@13010000/nor-flash@0/partitions/#address-cells
+==>  /proc/device-tree/soc/spi@13010000/nor-flash@0/partitions/data@f00000/reg
+==>  /proc/device-tree/soc/spi@13010000/nor-flash@0/partitions/data@f00000/name
+data
+==>  /proc/device-tree/soc/spi@13010000/nor-flash@0/partitions/#size-cells
+==>  /proc/device-tree/soc/spi@13010000/nor-flash@0/partitions/compatible
+fixed-partitions
+==>  /proc/device-tree/soc/spi@13010000/nor-flash@0/partitions/spl@0/reg
+==>  /proc/device-tree/soc/spi@13010000/nor-flash@0/partitions/spl@0/name
+==>  /proc/device-tree/soc/spi@13010000/nor-flash@0/partitions/uboot@100000/reg
+==>  /proc/device-tree/soc/spi@13010000/nor-flash@0/partitions/uboot@100000/name
+uboot
+==>  /proc/device-tree/soc/spi@13010000/nor-flash@0/partitions/name
+partitions
+==>  /proc/device-tree/soc/spi@13010000/nor-flash@0/name
+nor-flash
+==>  /proc/device-tree/soc/spi@13010000/nor-flash@0/cdns,tchsh-ns
+==>  /proc/device-tree/soc/spi@13010000/clock-names
+clk_ref
+clk_apb
+ahb1
+clk_ahb
+==>  /proc/device-tree/soc/spi@13010000/resets
+==>  /proc/device-tree/soc/spi@13010000/interrupts
+==>  /proc/device-tree/soc/spi@13010000/clocks
+==>  /proc/device-tree/soc/spi@13010000/cdns,fifo-width
+==>  /proc/device-tree/soc/spi@13010000/#size-cells
+==>  /proc/device-tree/soc/spi@13010000/spi-max-frequency
+==>  /proc/device-tree/soc/spi@13010000/cdns,trigger-address
+==>  /proc/device-tree/soc/spi@13010000/compatible
+cdns,qspi-nor
+==>  /proc/device-tree/soc/spi@13010000/reg
+==>  /proc/device-tree/soc/spi@13010000/name
+==>  /proc/device-tree/soc/spi@13010000/cdns,fifo-depth
+==>  /proc/device-tree/soc/otp@17050000/clock-names
+==>  /proc/device-tree/soc/otp@17050000/clocks
+==>  /proc/device-tree/soc/otp@17050000/clock-frequency
+==>  /proc/device-tree/soc/otp@17050000/compatible
+starfive,jh7110-otp
+==>  /proc/device-tree/soc/otp@17050000/reg
+==>  /proc/device-tree/soc/otp@17050000/name
+==>  /proc/device-tree/soc/cache-controller@2010000/cache-size
+==>  /proc/device-tree/soc/cache-controller@2010000/reg-names
+control
+sideband
+==>  /proc/device-tree/soc/cache-controller@2010000/cache-level
+==>  /proc/device-tree/soc/cache-controller@2010000/cache-sets
+==>  /proc/device-tree/soc/cache-controller@2010000/interrupts
+==>  /proc/device-tree/soc/cache-controller@2010000/cache-unified
+==>  /proc/device-tree/soc/cache-controller@2010000/compatible
+sifive,fu740-c000-ccache
+cache
+==>  /proc/device-tree/soc/cache-controller@2010000/reg
+==>  /proc/device-tree/soc/cache-controller@2010000/phandle
+==>  /proc/device-tree/soc/cache-controller@2010000/cache-block-size
+==>  /proc/device-tree/soc/cache-controller@2010000/name
+cache-controller
+==>  /proc/device-tree/soc/reset-controller/#reset-cells
+==>  /proc/device-tree/soc/reset-controller/reg-names
+syscrg
+stgcrg
+aoncrg
+ispcrg
+voutcrg
+==>  /proc/device-tree/soc/reset-controller/compatible
+starfive,jh7110-reset
+==>  /proc/device-tree/soc/reset-controller/status
+okay
+==>  /proc/device-tree/soc/reset-controller/reg
+==>  /proc/device-tree/soc/reset-controller/phandle
+==>  /proc/device-tree/soc/reset-controller/name
+reset-controller
+==>  /proc/device-tree/soc/snd-card4/simple-audio-card,name
+Starfive-SPDIF-Sound-Card
+==>  /proc/device-tree/soc/snd-card4/#address-cells
+==>  /proc/device-tree/soc/snd-card4/#size-cells
+==>  /proc/device-tree/soc/snd-card4/compatible
+simple-audio-card
+==>  /proc/device-tree/soc/snd-card4/name
+snd-card4
+==>  /proc/device-tree/soc/serial@10010000/reg-io-width
+==>  /proc/device-tree/soc/serial@10010000/clock-names
+baudclk
+apb_pclk
+==>  /proc/device-tree/soc/serial@10010000/resets
+==>  /proc/device-tree/soc/serial@10010000/interrupts
+==>  /proc/device-tree/soc/serial@10010000/clocks
+==>  /proc/device-tree/soc/serial@10010000/compatible
+snps,dw-apb-uart
+==>  /proc/device-tree/soc/serial@10010000/status
+disabled
+==>  /proc/device-tree/soc/serial@10010000/reg
+==>  /proc/device-tree/soc/serial@10010000/reg-shift
+==>  /proc/device-tree/soc/serial@10010000/name
+serial
+==>  /proc/device-tree/soc/i2c@10040000/#address-cells
+==>  /proc/device-tree/soc/i2c@10040000/clock-names
+pclk
+==>  /proc/device-tree/soc/i2c@10040000/resets
+==>  /proc/device-tree/soc/i2c@10040000/interrupts
+==>  /proc/device-tree/soc/i2c@10040000/clocks
+==>  /proc/device-tree/soc/i2c@10040000/#size-cells
+==>  /proc/device-tree/soc/i2c@10040000/compatible
+snps,designware-i2c
+==>  /proc/device-tree/soc/i2c@10040000/status
+disabled
+==>  /proc/device-tree/soc/i2c@10040000/reg
+==>  /proc/device-tree/soc/i2c@10040000/name
+==>  /proc/device-tree/soc/jpu@11900000/power-domains
+==>  /proc/device-tree/soc/jpu@11900000/clock-names
+axi_clk
+core_clk
+apb_clk
+noc_bus
+==>  /proc/device-tree/soc/jpu@11900000/resets
+==>  /proc/device-tree/soc/jpu@11900000/interrupts
+==>  /proc/device-tree/soc/jpu@11900000/clocks
+==>  /proc/device-tree/soc/jpu@11900000/compatible
+starfive,jpu
+==>  /proc/device-tree/soc/jpu@11900000/status
+okay
+==>  /proc/device-tree/soc/jpu@11900000/reg
+==>  /proc/device-tree/soc/jpu@11900000/reset-names
+rst_axi
+rst_core
+rst_apb
+==>  /proc/device-tree/soc/jpu@11900000/name
+==>  /proc/device-tree/soc/i2stx_4ch1@120c0000/pinctrl-names
+default
+==>  /proc/device-tree/soc/i2stx_4ch1@120c0000/pinctrl-0
+==>  /proc/device-tree/soc/i2stx_4ch1@120c0000/clock-names
+audroot
+mclk_inner
+bclk_mst
+lrck_mst
+mclk
+4chbclk
+4chlrck
+mclk_out
+apb0
+clk_apb
+mclk_ext
+bclk_ext
+lrck_ext
+==>  /proc/device-tree/soc/i2stx_4ch1@120c0000/resets
+==>  /proc/device-tree/soc/i2stx_4ch1@120c0000/clocks
+==>  /proc/device-tree/soc/i2stx_4ch1@120c0000/dma-names
+==>  /proc/device-tree/soc/i2stx_4ch1@120c0000/#sound-dai-cells
+==>  /proc/device-tree/soc/i2stx_4ch1@120c0000/compatible
+starfive,jh7110-i2stx-4ch1
+snps,designware-i2s
+==>  /proc/device-tree/soc/i2stx_4ch1@120c0000/status
+disabled
+==>  /proc/device-tree/soc/i2stx_4ch1@120c0000/reg
+==>  /proc/device-tree/soc/i2stx_4ch1@120c0000/dmas
+==>  /proc/device-tree/soc/i2stx_4ch1@120c0000/name
+i2stx_4ch1
+==>  /proc/device-tree/soc/e24@0/#address-cells
+==>  /proc/device-tree/soc/e24@0/clock-names
+clk_rtc
+clk_core
+clk_dbg
+==>  /proc/device-tree/soc/e24@0/reg-names
+ecmd
+espace
+==>  /proc/device-tree/soc/e24@0/irq-mode
+==>  /proc/device-tree/soc/e24@0/firmware-name
+e24_elf
+==>  /proc/device-tree/soc/e24@0/starfive,stg-syscon
+==>  /proc/device-tree/soc/e24@0/resets
+==>  /proc/device-tree/soc/e24@0/dsp@0/name
+==>  /proc/device-tree/soc/e24@0/clocks
+==>  /proc/device-tree/soc/e24@0/#size-cells
+==>  /proc/device-tree/soc/e24@0/interrupt-parent
+==>  /proc/device-tree/soc/e24@0/compatible
+starfive,e24
+==>  /proc/device-tree/soc/e24@0/ranges
+==>  /proc/device-tree/soc/e24@0/status
+okay
+==>  /proc/device-tree/soc/e24@0/reg
+==>  /proc/device-tree/soc/e24@0/mboxes
+==>  /proc/device-tree/soc/e24@0/reset-names
+e24_core
+==>  /proc/device-tree/soc/e24@0/mbox-names
+==>  /proc/device-tree/soc/e24@0/name
+==>  /proc/device-tree/soc/snd-card2/simple-audio-card,name
+Starfive-PDM-Sound-Card
+==>  /proc/device-tree/soc/snd-card2/#address-cells
+==>  /proc/device-tree/soc/snd-card2/#size-cells
+==>  /proc/device-tree/soc/snd-card2/compatible
+simple-audio-card
+==>  /proc/device-tree/soc/snd-card2/name
+snd-card2
+==>  /proc/device-tree/soc/xrp@0/#address-cells
+==>  /proc/device-tree/soc/xrp@0/clock-names
+core_clk
+==>  /proc/device-tree/soc/xrp@0/firmware-name
+hifi4_elf
+==>  /proc/device-tree/soc/xrp@0/starfive,stg-syscon
+==>  /proc/device-tree/soc/xrp@0/resets
+==>  /proc/device-tree/soc/xrp@0/memory-region
+==>  /proc/device-tree/soc/xrp@0/dsp@0/name
+==>  /proc/device-tree/soc/xrp@0/clocks
+==>  /proc/device-tree/soc/xrp@0/#size-cells
+==>  /proc/device-tree/soc/xrp@0/compatible
+cdns,xrp
+==>  /proc/device-tree/soc/xrp@0/ranges
+==>  /proc/device-tree/soc/xrp@0/status
+okay
+==>  /proc/device-tree/soc/xrp@0/reg
+==>  /proc/device-tree/soc/xrp@0/reset-names
+rst_core
+rst_axi
+==>  /proc/device-tree/soc/xrp@0/name
+==>  /proc/device-tree/soc/mailbox@0/clock-names
+clk_apb
+==>  /proc/device-tree/soc/mailbox@0/resets
+==>  /proc/device-tree/soc/mailbox@0/interrupts
+==>  /proc/device-tree/soc/mailbox@0/clocks
+==>  /proc/device-tree/soc/mailbox@0/#mbox-cells
+==>  /proc/device-tree/soc/mailbox@0/compatible
+starfive,mail_box
+==>  /proc/device-tree/soc/mailbox@0/status
+okay
+==>  /proc/device-tree/soc/mailbox@0/reg
+==>  /proc/device-tree/soc/mailbox@0/phandle
+==>  /proc/device-tree/soc/mailbox@0/reset-names
+mbx_rre
+==>  /proc/device-tree/soc/mailbox@0/name
+mailbox
+==>  /proc/device-tree/soc/clock-controller@19810000/power-domains
+==>  /proc/device-tree/soc/clock-controller@19810000/clock-names
+u0_dom_isp_top_clk_dom_isp_top_clk_dvp
+u0_dom_isp_top_clk_dom_isp_top_clk_ispcore_2x
+u0_dom_isp_top_clk_dom_isp_top_clk_isp_axi
+u0_sft7110_noc_bus_clk_isp_axi
+==>  /proc/device-tree/soc/clock-controller@19810000/reg-names
+==>  /proc/device-tree/soc/clock-controller@19810000/resets
+==>  /proc/device-tree/soc/clock-controller@19810000/clocks
+==>  /proc/device-tree/soc/clock-controller@19810000/#clock-cells
+==>  /proc/device-tree/soc/clock-controller@19810000/compatible
+starfive,jh7110-clk-isp
+==>  /proc/device-tree/soc/clock-controller@19810000/status
+okay
+==>  /proc/device-tree/soc/clock-controller@19810000/reg
+==>  /proc/device-tree/soc/clock-controller@19810000/phandle
+==>  /proc/device-tree/soc/clock-controller@19810000/reset-names
+rst_isp_top_n
+rst_isp_top_axi
+rst_isp_noc_bus_n
+==>  /proc/device-tree/soc/clock-controller@19810000/name
+clock-controller
+==>  /proc/device-tree/soc/i2c@12060000/pinctrl-names
+default
+==>  /proc/device-tree/soc/i2c@12060000/#address-cells
+==>  /proc/device-tree/soc/i2c@12060000/i2c-sda-hold-time-ns
+==>  /proc/device-tree/soc/i2c@12060000/pinctrl-0
+==>  /proc/device-tree/soc/i2c@12060000/clock-names
+pclk
+==>  /proc/device-tree/soc/i2c@12060000/i2c-scl-falling-time-ns
+==>  /proc/device-tree/soc/i2c@12060000/i2c-sda-falling-time-ns
+==>  /proc/device-tree/soc/i2c@12060000/resets
+==>  /proc/device-tree/soc/i2c@12060000/interrupts
+==>  /proc/device-tree/soc/i2c@12060000/auto_calc_scl_lhcnt
+==>  /proc/device-tree/soc/i2c@12060000/clocks
+==>  /proc/device-tree/soc/i2c@12060000/#size-cells
+==>  /proc/device-tree/soc/i2c@12060000/clock-frequency
+==>  /proc/device-tree/soc/i2c@12060000/compatible
+snps,designware-i2c
+==>  /proc/device-tree/soc/i2c@12060000/status
+okay
+==>  /proc/device-tree/soc/i2c@12060000/reg
+==>  /proc/device-tree/soc/i2c@12060000/name
+==>  /proc/device-tree/soc/i2c@12060000/imx219@10/pinctrl-names
+default
+==>  /proc/device-tree/soc/i2c@12060000/imx219@10/pinctrl-0
+==>  /proc/device-tree/soc/i2c@12060000/imx219@10/clock-names
+xclk
+==>  /proc/device-tree/soc/i2c@12060000/imx219@10/port/endpoint/data-lanes
+==>  /proc/device-tree/soc/i2c@12060000/imx219@10/port/endpoint/clock-lanes
+==>  /proc/device-tree/soc/i2c@12060000/imx219@10/port/endpoint/remote-endpoint
+==>  /proc/device-tree/soc/i2c@12060000/imx219@10/port/endpoint/bus-type
+==>  /proc/device-tree/soc/i2c@12060000/imx219@10/port/endpoint/lane-polarities
+==>  /proc/device-tree/soc/i2c@12060000/imx219@10/port/endpoint/phandle
+==>  /proc/device-tree/soc/i2c@12060000/imx219@10/port/endpoint/link-frequencies
+==>  /proc/device-tree/soc/i2c@12060000/imx219@10/port/endpoint/name
+endpoint
+==>  /proc/device-tree/soc/i2c@12060000/imx219@10/port/name
+port
+==>  /proc/device-tree/soc/i2c@12060000/imx219@10/clocks
+==>  /proc/device-tree/soc/i2c@12060000/imx219@10/rotation
+==>  /proc/device-tree/soc/i2c@12060000/imx219@10/compatible
+sony,imx219
+==>  /proc/device-tree/soc/i2c@12060000/imx219@10/orientation
+==>  /proc/device-tree/soc/i2c@12060000/imx219@10/reg
+==>  /proc/device-tree/soc/i2c@12060000/imx219@10/name
+imx219
+==>  /proc/device-tree/soc/pwmdac-transmitter/#sound-dai-cells
+==>  /proc/device-tree/soc/pwmdac-transmitter/compatible
+starfive,jh7110-pwmdac-dit
+==>  /proc/device-tree/soc/pwmdac-transmitter/status
+okay
+==>  /proc/device-tree/soc/pwmdac-transmitter/phandle
+==>  /proc/device-tree/soc/pwmdac-transmitter/name
+pwmdac-transmitter
+==>  /proc/device-tree/soc/ethernet@16040000/snps,burst-map
+==>  /proc/device-tree/soc/ethernet@16040000/snps,multicast-filter-bins
+==>  /proc/device-tree/soc/ethernet@16040000/#address-cells
+==>  /proc/device-tree/soc/ethernet@16040000/phy-mode
+rgmii-id
+==>  /proc/device-tree/soc/ethernet@16040000/snps,txpbl
+==>  /proc/device-tree/soc/ethernet@16040000/snps,en-lpi
+==>  /proc/device-tree/soc/ethernet@16040000/clock-names
+ptp_ref
+stmmaceth
+pclk
+gtxc
+rmii_rtx
+==>  /proc/device-tree/soc/ethernet@16040000/snps,en-tx-lpi-clockgating
+==>  /proc/device-tree/soc/ethernet@16040000/ethernet-phy@1/rxc_dly_en
+==>  /proc/device-tree/soc/ethernet@16040000/ethernet-phy@1/tx_inverted_1000
+==>  /proc/device-tree/soc/ethernet@16040000/ethernet-phy@1/tx_delay_sel
+==>  /proc/device-tree/soc/ethernet@16040000/ethernet-phy@1/tx_inverted_10
+==>  /proc/device-tree/soc/ethernet@16040000/ethernet-phy@1/tx_delay_sel_fe
+==>  /proc/device-tree/soc/ethernet@16040000/ethernet-phy@1/name
+ethernet-phy
+==>  /proc/device-tree/soc/ethernet@16040000/ethernet-phy@1/tx_inverted_100
+==>  /proc/device-tree/soc/ethernet@16040000/local-mac-address
+==>  /proc/device-tree/soc/ethernet@16040000/snps,fixed-burst
+==>  /proc/device-tree/soc/ethernet@16040000/resets
+==>  /proc/device-tree/soc/ethernet@16040000/interrupts
+==>  /proc/device-tree/soc/ethernet@16040000/clocks
+==>  /proc/device-tree/soc/ethernet@16040000/#size-cells
+==>  /proc/device-tree/soc/ethernet@16040000/snps,no-pbl-x8
+==>  /proc/device-tree/soc/ethernet@16040000/snps,tso
+==>  /proc/device-tree/soc/ethernet@16040000/max-frame-size
+==>  /proc/device-tree/soc/ethernet@16040000/snps,rxpbl
+==>  /proc/device-tree/soc/ethernet@16040000/snps,read-requests
+==>  /proc/device-tree/soc/ethernet@16040000/compatible
+starfive,dwmac
+snps,dwmac-5.10a
+==>  /proc/device-tree/soc/ethernet@16040000/snps,write-requests
+==>  /proc/device-tree/soc/ethernet@16040000/status
+okay
+==>  /proc/device-tree/soc/ethernet@16040000/tx-fifo-depth
+==>  /proc/device-tree/soc/ethernet@16040000/interrupt-names
+macirq
+eth_wake_irq
+eth_lpi
+==>  /proc/device-tree/soc/ethernet@16040000/snps,force_thresh_dma_mode
+==>  /proc/device-tree/soc/ethernet@16040000/rx-fifo-depth
+==>  /proc/device-tree/soc/ethernet@16040000/reg
+==>  /proc/device-tree/soc/ethernet@16040000/reset-names
+stmmaceth
+==>  /proc/device-tree/soc/ethernet@16040000/snps,axi-config
+==>  /proc/device-tree/soc/ethernet@16040000/name
+ethernet
+==>  /proc/device-tree/soc/ethernet@16040000/snps,perfect-filter-entries
+==>  /proc/device-tree/soc/stg_syscon@10240000/compatible
+syscon
+==>  /proc/device-tree/soc/stg_syscon@10240000/reg
+==>  /proc/device-tree/soc/stg_syscon@10240000/phandle
+==>  /proc/device-tree/soc/stg_syscon@10240000/name
+stg_syscon
+==>  /proc/device-tree/soc/name
+==>  /proc/device-tree/soc/gpu@18000000/power-domains
+==>  /proc/device-tree/soc/gpu@18000000/clock-names
+clk_bv
+clk_apb
+clk_rtc
+clk_core
+clk_sys
+clk_axi
+==>  /proc/device-tree/soc/gpu@18000000/current-clock
+==>  /proc/device-tree/soc/gpu@18000000/resets
+==>  /proc/device-tree/soc/gpu@18000000/interrupts
+==>  /proc/device-tree/soc/gpu@18000000/clocks
+==>  /proc/device-tree/soc/gpu@18000000/compatible
+img-gpu
+==>  /proc/device-tree/soc/gpu@18000000/status
+okay
+==>  /proc/device-tree/soc/gpu@18000000/reg
+==>  /proc/device-tree/soc/gpu@18000000/reset-names
+rst_apb
+rst_doma
+==>  /proc/device-tree/soc/gpu@18000000/name
+==>  /proc/device-tree/soc/vpu_dec@130A0000/power-domains
+==>  /proc/device-tree/soc/vpu_dec@130A0000/clock-names
+axi_clk
+bpu_clk
+vce_clk
+apb_clk
+noc_bus
+==>  /proc/device-tree/soc/vpu_dec@130A0000/resets
+==>  /proc/device-tree/soc/vpu_dec@130A0000/interrupts
+==>  /proc/device-tree/soc/vpu_dec@130A0000/clocks
+==>  /proc/device-tree/soc/vpu_dec@130A0000/compatible
+starfive,vdec
+==>  /proc/device-tree/soc/vpu_dec@130A0000/status
+okay
+==>  /proc/device-tree/soc/vpu_dec@130A0000/reg
+==>  /proc/device-tree/soc/vpu_dec@130A0000/starfive,vdec_noc_ctrl
+==>  /proc/device-tree/soc/vpu_dec@130A0000/reset-names
+rst_axi
+rst_bpu
+rst_vce
+rst_apb
+rst_sram
+==>  /proc/device-tree/soc/vpu_dec@130A0000/name
+vpu_dec
+==>  /proc/device-tree/soc/snd-card0/simple-audio-card,name
+Starfive-AC108-Sound-Card
+==>  /proc/device-tree/soc/snd-card0/#address-cells
+==>  /proc/device-tree/soc/snd-card0/#size-cells
+==>  /proc/device-tree/soc/snd-card0/compatible
+simple-audio-card
+==>  /proc/device-tree/soc/snd-card0/name
+snd-card0
+==>  /proc/device-tree/soc/wdog@13070000/clock-names
+core_clk
+apb_clk
+==>  /proc/device-tree/soc/wdog@13070000/resets
+==>  /proc/device-tree/soc/wdog@13070000/interrupts
+==>  /proc/device-tree/soc/wdog@13070000/clocks
+==>  /proc/device-tree/soc/wdog@13070000/timeout-sec
+==>  /proc/device-tree/soc/wdog@13070000/compatible
+starfive,jh7110-wdt
+==>  /proc/device-tree/soc/wdog@13070000/status
+okay
+==>  /proc/device-tree/soc/wdog@13070000/interrupt-names
+wdog
+==>  /proc/device-tree/soc/wdog@13070000/reg
+==>  /proc/device-tree/soc/wdog@13070000/reset-names
+rst_apb
+rst_core
+==>  /proc/device-tree/soc/wdog@13070000/name
+wdog
+==>  /proc/device-tree/soc/spdif0@100a0000/clock-names
+spdif-apb
+spdif-core
+audroot
+mclk_inner
+mclk_ext
+mclk
+==>  /proc/device-tree/soc/spdif0@100a0000/resets
+==>  /proc/device-tree/soc/spdif0@100a0000/interrupts
+==>  /proc/device-tree/soc/spdif0@100a0000/clocks
+==>  /proc/device-tree/soc/spdif0@100a0000/#sound-dai-cells
+==>  /proc/device-tree/soc/spdif0@100a0000/compatible
+starfive,jh7110-spdif
+==>  /proc/device-tree/soc/spdif0@100a0000/status
+disabled
+==>  /proc/device-tree/soc/spdif0@100a0000/interrupt-names
+==>  /proc/device-tree/soc/spdif0@100a0000/reg
+==>  /proc/device-tree/soc/spdif0@100a0000/reset-names
+rst_apb
+==>  /proc/device-tree/soc/spdif0@100a0000/name
+spdif0
+==>  /proc/device-tree/soc/pcie@2C000000/pinctrl-names
+default
+perst-default
+perst-active
+==>  /proc/device-tree/soc/pcie@2C000000/#address-cells
+==>  /proc/device-tree/soc/pcie@2C000000/pinctrl-2
+==>  /proc/device-tree/soc/pcie@2C000000/bus-range
+==>  /proc/device-tree/soc/pcie@2C000000/pinctrl-0
+==>  /proc/device-tree/soc/pcie@2C000000/clock-names
+axi_mst0
+==>  /proc/device-tree/soc/pcie@2C000000/reg-names
+config
+==>  /proc/device-tree/soc/pcie@2C000000/starfive,stg-syscon
+==>  /proc/device-tree/soc/pcie@2C000000/resets
+==>  /proc/device-tree/soc/pcie@2C000000/interrupts
+==>  /proc/device-tree/soc/pcie@2C000000/clocks
+==>  /proc/device-tree/soc/pcie@2C000000/interrupt-map
+==>  /proc/device-tree/soc/pcie@2C000000/#size-cells
+==>  /proc/device-tree/soc/pcie@2C000000/interrupt-parent
+==>  /proc/device-tree/soc/pcie@2C000000/starfive,phyctrl
+==>  /proc/device-tree/soc/pcie@2C000000/device_type
+==>  /proc/device-tree/soc/pcie@2C000000/interrupt-map-mask
+==>  /proc/device-tree/soc/pcie@2C000000/compatible
+starfive,jh7110-pcie
+plda,pci-xpressrich3-axi
+==>  /proc/device-tree/soc/pcie@2C000000/ranges
+==>  /proc/device-tree/soc/pcie@2C000000/#interrupt-cells
+==>  /proc/device-tree/soc/pcie@2C000000/pinctrl-1
+==>  /proc/device-tree/soc/pcie@2C000000/status
+okay
+==>  /proc/device-tree/soc/pcie@2C000000/interrupt-names
+==>  /proc/device-tree/soc/pcie@2C000000/reg
+==>  /proc/device-tree/soc/pcie@2C000000/msi-parent
+==>  /proc/device-tree/soc/pcie@2C000000/reset-names
+rst_mst0
+rst_slv0
+rst_slv
+rst_brg
+rst_core
+rst_apb
+==>  /proc/device-tree/soc/pcie@2C000000/name
+pcie
+==>  /proc/device-tree/soc/pcie@2C000000/interrupt-controller
+==>  /proc/device-tree/clk_rtc/#clock-cells
+==>  /proc/device-tree/clk_rtc/clock-frequency
+==>  /proc/device-tree/clk_rtc/compatible
+fixed-clock
+==>  /proc/device-tree/clk_rtc/phandle
+==>  /proc/device-tree/clk_rtc/name
+clk_rtc
+==>  /proc/device-tree/leds/led-ack/linux,default-trigger
+heartbeat
+==>  /proc/device-tree/leds/led-ack/function
+heartbeat
+==>  /proc/device-tree/leds/led-ack/color
+==>  /proc/device-tree/leds/led-ack/label
+==>  /proc/device-tree/leds/led-ack/name
+led-ack
+==>  /proc/device-tree/leds/led-ack/gpios
+==>  /proc/device-tree/leds/compatible
+gpio-leds
+==>  /proc/device-tree/leds/name
+leds
+==>  /proc/device-tree/gmac0_rmii_refin/#clock-cells
+==>  /proc/device-tree/gmac0_rmii_refin/clock-frequency
+==>  /proc/device-tree/gmac0_rmii_refin/compatible
+fixed-clock
+==>  /proc/device-tree/gmac0_rmii_refin/phandle
+==>  /proc/device-tree/gmac0_rmii_refin/name
+gmac0_rmii_refin
+==>  /proc/device-tree/#size-cells
+==>  /proc/device-tree/jtag_tck_inner/#clock-cells
+==>  /proc/device-tree/jtag_tck_inner/clock-frequency
+==>  /proc/device-tree/jtag_tck_inner/compatible
+fixed-clock
+==>  /proc/device-tree/jtag_tck_inner/phandle
+==>  /proc/device-tree/jtag_tck_inner/name
+jtag_tck_inner
+==>  /proc/device-tree/gpio-restart/priority
+==>  /proc/device-tree/gpio-restart/compatible
+gpio-restart
+==>  /proc/device-tree/gpio-restart/name
+gpio-restart
+==>  /proc/device-tree/gpio-restart/gpios
+==>  /proc/device-tree/gmac0_rgmii_rxin/#clock-cells
+==>  /proc/device-tree/gmac0_rgmii_rxin/clock-frequency
+==>  /proc/device-tree/gmac0_rgmii_rxin/compatible
+fixed-clock
+==>  /proc/device-tree/gmac0_rgmii_rxin/phandle
+==>  /proc/device-tree/gmac0_rgmii_rxin/name
+gmac0_rgmii_rxin
+==>  /proc/device-tree/bist_apb/#clock-cells
+==>  /proc/device-tree/bist_apb/clock-frequency
+==>  /proc/device-tree/bist_apb/compatible
+fixed-clock
+==>  /proc/device-tree/bist_apb/phandle
+==>  /proc/device-tree/bist_apb/name
+bist_apb
+==>  /proc/device-tree/i2stx_bclk_ext/#clock-cells
+==>  /proc/device-tree/i2stx_bclk_ext/clock-frequency
+==>  /proc/device-tree/i2stx_bclk_ext/compatible
+fixed-clock
+==>  /proc/device-tree/i2stx_bclk_ext/phandle
+==>  /proc/device-tree/i2stx_bclk_ext/name
+i2stx_bclk_ext
+==>  /proc/device-tree/opp-table-0/opp-500000000/opp-microvolt
+==>  /proc/device-tree/opp-table-0/opp-500000000/opp-hz
+==>  /proc/device-tree/opp-table-0/opp-500000000/name
+opp-500000000
+==>  /proc/device-tree/opp-table-0/opp-shared
+==>  /proc/device-tree/opp-table-0/compatible
+operating-points-v2
+==>  /proc/device-tree/opp-table-0/opp-750000000/opp-microvolt
+==>  /proc/device-tree/opp-table-0/opp-750000000/opp-hz
+==>  /proc/device-tree/opp-table-0/opp-750000000/opp-suspend
+==>  /proc/device-tree/opp-table-0/opp-750000000/name
+opp-750000000
+==>  /proc/device-tree/opp-table-0/opp-1500000000/opp-microvolt
+==>  /proc/device-tree/opp-table-0/opp-1500000000/opp-hz
+==>  /proc/device-tree/opp-table-0/opp-1500000000/name
+opp-1500000000
+==>  /proc/device-tree/opp-table-0/phandle
+==>  /proc/device-tree/opp-table-0/opp-375000000/opp-microvolt
+==>  /proc/device-tree/opp-table-0/opp-375000000/opp-hz
+==>  /proc/device-tree/opp-table-0/opp-375000000/name
+opp-375000000
+==>  /proc/device-tree/opp-table-0/name
+opp-table-0
+==>  /proc/device-tree/compatible
+starfive,visionfive-v2
+starfive,jh7110
+==>  /proc/device-tree/i2stx_lrck_ext/#clock-cells
+==>  /proc/device-tree/i2stx_lrck_ext/clock-frequency
+==>  /proc/device-tree/i2stx_lrck_ext/compatible
+fixed-clock
+==>  /proc/device-tree/i2stx_lrck_ext/phandle
+==>  /proc/device-tree/i2stx_lrck_ext/name
+i2stx_lrck_ext
+==>  /proc/device-tree/aliases/i2c3
+/soc/i2c@12030000
+==>  /proc/device-tree/aliases/ethernet0
+/soc/ethernet@16030000
+==>  /proc/device-tree/aliases/gpio0
+/soc/gpio@13040000
+==>  /proc/device-tree/aliases/i2c1
+/soc/i2c@10040000
+==>  /proc/device-tree/aliases/spi0
+/soc/spi@13010000
+==>  /proc/device-tree/aliases/mmc1
+/soc/sdio1@16020000
+==>  /proc/device-tree/aliases/serial3
+/soc/serial@12000000
+==>  /proc/device-tree/aliases/i2c6
+/soc/i2c@12060000
+==>  /proc/device-tree/aliases/i2c4
+/soc/i2c@12040000
+==>  /proc/device-tree/aliases/ethernet1
+/soc/ethernet@16040000
+==>  /proc/device-tree/aliases/i2c2
+/soc/i2c@10050000
+==>  /proc/device-tree/aliases/i2c0
+/soc/i2c@10030000
+==>  /proc/device-tree/aliases/mmc0
+/soc/sdio0@16010000
+==>  /proc/device-tree/aliases/i2c5
+/soc/i2c@12050000
+==>  /proc/device-tree/aliases/serial0
+/soc/serial@10000000
+==>  /proc/device-tree/aliases/name
+aliases
+==>  /proc/device-tree/ac108_mclk/#clock-cells
+==>  /proc/device-tree/ac108_mclk/clock-frequency
+==>  /proc/device-tree/ac108_mclk/compatible
+fixed-clock
+==>  /proc/device-tree/ac108_mclk/name
+ac108_mclk
+==>  /proc/device-tree/clk-ext-camera/#clock-cells
+==>  /proc/device-tree/clk-ext-camera/clock-frequency
+==>  /proc/device-tree/clk-ext-camera/compatible
+fixed-clock
+==>  /proc/device-tree/clk-ext-camera/phandle
+==>  /proc/device-tree/clk-ext-camera/name
+clk-ext-camera
+==>  /proc/device-tree/chosen/#bootargs
+debug console=ttyS0 rootwait
+==>  /proc/device-tree/chosen/linux,initrd-end
+==>  /proc/device-tree/chosen/bootargs
+root=/dev/mmcblk1p4 root=/dev/mmcblk1p4 rw console=tty0 console=ttyS0,115200 earlycon rootwait stmmaceth=chain_mode:1 selinux=0
+==>  /proc/device-tree/chosen/boot-hartid
+==>  /proc/device-tree/chosen/linux,initrd-start
+==>  /proc/device-tree/chosen/name
+chosen
+==>  /proc/device-tree/chosen/stdout-path
+serial0:115200
+==>  /proc/device-tree/i2srx_bclk_ext/#clock-cells
+==>  /proc/device-tree/i2srx_bclk_ext/clock-frequency
+==>  /proc/device-tree/i2srx_bclk_ext/compatible
+fixed-clock
+==>  /proc/device-tree/i2srx_bclk_ext/phandle
+==>  /proc/device-tree/i2srx_bclk_ext/name
+i2srx_bclk_ext
+==>  /proc/device-tree/gmac1_rmii_refin/#clock-cells
+==>  /proc/device-tree/gmac1_rmii_refin/clock-frequency
+==>  /proc/device-tree/gmac1_rmii_refin/compatible
+fixed-clock
+==>  /proc/device-tree/gmac1_rmii_refin/phandle
+==>  /proc/device-tree/gmac1_rmii_refin/name
+gmac1_rmii_refin
+==>  /proc/device-tree/i2srx_lrck_ext/#clock-cells
+==>  /proc/device-tree/i2srx_lrck_ext/clock-frequency
+==>  /proc/device-tree/i2srx_lrck_ext/compatible
+fixed-clock
+==>  /proc/device-tree/i2srx_lrck_ext/phandle
+==>  /proc/device-tree/i2srx_lrck_ext/name
+i2srx_lrck_ext
+==>  /proc/device-tree/wm8960_mclk/#clock-cells
+==>  /proc/device-tree/wm8960_mclk/clock-frequency
+==>  /proc/device-tree/wm8960_mclk/compatible
+fixed-clock
+==>  /proc/device-tree/wm8960_mclk/name
+wm8960_mclk
+==>  /proc/device-tree/cpus/cpu@1/i-tlb-sets
+==>  /proc/device-tree/cpus/cpu@1/clock-names
+==>  /proc/device-tree/cpus/cpu@1/cpu-supply
+==>  /proc/device-tree/cpus/cpu@1/clocks
+==>  /proc/device-tree/cpus/cpu@1/d-cache-block-size
+==>  /proc/device-tree/cpus/cpu@1/device_type
+==>  /proc/device-tree/cpus/cpu@1/compatible
+sifive,u74-mc
+riscv
+==>  /proc/device-tree/cpus/cpu@1/mmu-type
+riscv,sv39
+==>  /proc/device-tree/cpus/cpu@1/status
+okay
+==>  /proc/device-tree/cpus/cpu@1/d-cache-size
+==>  /proc/device-tree/cpus/cpu@1/next-level-cache
+==>  /proc/device-tree/cpus/cpu@1/i-cache-size
+==>  /proc/device-tree/cpus/cpu@1/reg
+==>  /proc/device-tree/cpus/cpu@1/phandle
+==>  /proc/device-tree/cpus/cpu@1/d-cache-sets
+==>  /proc/device-tree/cpus/cpu@1/i-cache-block-size
+==>  /proc/device-tree/cpus/cpu@1/operating-points-v2
+==>  /proc/device-tree/cpus/cpu@1/i-cache-sets
+==>  /proc/device-tree/cpus/cpu@1/d-tlb-size
+==>  /proc/device-tree/cpus/cpu@1/riscv,isa
+rv64imafdc
+==>  /proc/device-tree/cpus/cpu@1/tlb-split
+==>  /proc/device-tree/cpus/cpu@1/i-tlb-size
+==>  /proc/device-tree/cpus/cpu@1/name
+==>  /proc/device-tree/cpus/cpu@1/d-tlb-sets
+==>  /proc/device-tree/cpus/cpu@1/interrupt-controller/compatible
+riscv,cpu-intc
+==>  /proc/device-tree/cpus/cpu@1/interrupt-controller/#interrupt-cells
+==>  /proc/device-tree/cpus/cpu@1/interrupt-controller/phandle
+==>  /proc/device-tree/cpus/cpu@1/interrupt-controller/name
+interrupt-controller
+==>  /proc/device-tree/cpus/cpu@1/interrupt-controller/interrupt-controller
+==>  /proc/device-tree/cpus/cpu@1/#cooling-cells
+==>  /proc/device-tree/cpus/#address-cells
+==>  /proc/device-tree/cpus/cpu@4/i-tlb-sets
+==>  /proc/device-tree/cpus/cpu@4/d-cache-block-size
+==>  /proc/device-tree/cpus/cpu@4/device_type
+==>  /proc/device-tree/cpus/cpu@4/compatible
+sifive,u74-mc
+riscv
+==>  /proc/device-tree/cpus/cpu@4/mmu-type
+riscv,sv39
+==>  /proc/device-tree/cpus/cpu@4/status
+okay
+==>  /proc/device-tree/cpus/cpu@4/d-cache-size
+==>  /proc/device-tree/cpus/cpu@4/next-level-cache
+==>  /proc/device-tree/cpus/cpu@4/i-cache-size
+==>  /proc/device-tree/cpus/cpu@4/reg
+==>  /proc/device-tree/cpus/cpu@4/d-cache-sets
+==>  /proc/device-tree/cpus/cpu@4/i-cache-block-size
+==>  /proc/device-tree/cpus/cpu@4/operating-points-v2
+==>  /proc/device-tree/cpus/cpu@4/i-cache-sets
+==>  /proc/device-tree/cpus/cpu@4/d-tlb-size
+==>  /proc/device-tree/cpus/cpu@4/riscv,isa
+rv64imafdc
+==>  /proc/device-tree/cpus/cpu@4/tlb-split
+==>  /proc/device-tree/cpus/cpu@4/i-tlb-size
+==>  /proc/device-tree/cpus/cpu@4/name
+==>  /proc/device-tree/cpus/cpu@4/d-tlb-sets
+==>  /proc/device-tree/cpus/cpu@4/interrupt-controller/compatible
+riscv,cpu-intc
+==>  /proc/device-tree/cpus/cpu@4/interrupt-controller/#interrupt-cells
+==>  /proc/device-tree/cpus/cpu@4/interrupt-controller/phandle
+==>  /proc/device-tree/cpus/cpu@4/interrupt-controller/name
+interrupt-controller
+==>  /proc/device-tree/cpus/cpu@4/interrupt-controller/interrupt-controller
+==>  /proc/device-tree/cpus/cpu@4/#cooling-cells
+==>  /proc/device-tree/cpus/#size-cells
+==>  /proc/device-tree/cpus/cpu@2/i-tlb-sets
+==>  /proc/device-tree/cpus/cpu@2/d-cache-block-size
+==>  /proc/device-tree/cpus/cpu@2/device_type
+==>  /proc/device-tree/cpus/cpu@2/compatible
+sifive,u74-mc
+riscv
+==>  /proc/device-tree/cpus/cpu@2/mmu-type
+riscv,sv39
+==>  /proc/device-tree/cpus/cpu@2/status
+okay
+==>  /proc/device-tree/cpus/cpu@2/d-cache-size
+==>  /proc/device-tree/cpus/cpu@2/next-level-cache
+==>  /proc/device-tree/cpus/cpu@2/i-cache-size
+==>  /proc/device-tree/cpus/cpu@2/reg
+==>  /proc/device-tree/cpus/cpu@2/phandle
+==>  /proc/device-tree/cpus/cpu@2/d-cache-sets
+==>  /proc/device-tree/cpus/cpu@2/i-cache-block-size
+==>  /proc/device-tree/cpus/cpu@2/operating-points-v2
+==>  /proc/device-tree/cpus/cpu@2/i-cache-sets
+==>  /proc/device-tree/cpus/cpu@2/d-tlb-size
+==>  /proc/device-tree/cpus/cpu@2/riscv,isa
+rv64imafdc
+==>  /proc/device-tree/cpus/cpu@2/tlb-split
+==>  /proc/device-tree/cpus/cpu@2/i-tlb-size
+==>  /proc/device-tree/cpus/cpu@2/name
+==>  /proc/device-tree/cpus/cpu@2/d-tlb-sets
+==>  /proc/device-tree/cpus/cpu@2/interrupt-controller/compatible
+riscv,cpu-intc
+==>  /proc/device-tree/cpus/cpu@2/interrupt-controller/#interrupt-cells
+==>  /proc/device-tree/cpus/cpu@2/interrupt-controller/phandle
+==>  /proc/device-tree/cpus/cpu@2/interrupt-controller/name
+interrupt-controller
+==>  /proc/device-tree/cpus/cpu@2/interrupt-controller/interrupt-controller
+==>  /proc/device-tree/cpus/cpu@2/#cooling-cells
+==>  /proc/device-tree/cpus/cpu@0/i-tlb-sets
+==>  /proc/device-tree/cpus/cpu@0/d-cache-block-size
+==>  /proc/device-tree/cpus/cpu@0/device_type
+==>  /proc/device-tree/cpus/cpu@0/compatible
+sifive,u74-mc
+riscv
+==>  /proc/device-tree/cpus/cpu@0/mmu-type
+riscv,sv39
+==>  /proc/device-tree/cpus/cpu@0/status
+disabled
+==>  /proc/device-tree/cpus/cpu@0/d-cache-size
+==>  /proc/device-tree/cpus/cpu@0/next-level-cache
+==>  /proc/device-tree/cpus/cpu@0/i-cache-size
+==>  /proc/device-tree/cpus/cpu@0/reg
+==>  /proc/device-tree/cpus/cpu@0/phandle
+==>  /proc/device-tree/cpus/cpu@0/d-cache-sets
+==>  /proc/device-tree/cpus/cpu@0/i-cache-block-size
+==>  /proc/device-tree/cpus/cpu@0/i-cache-sets
+==>  /proc/device-tree/cpus/cpu@0/d-tlb-size
+==>  /proc/device-tree/cpus/cpu@0/riscv,isa
+rv64imac
+==>  /proc/device-tree/cpus/cpu@0/tlb-split
+==>  /proc/device-tree/cpus/cpu@0/i-tlb-size
+==>  /proc/device-tree/cpus/cpu@0/name
+==>  /proc/device-tree/cpus/cpu@0/d-tlb-sets
+==>  /proc/device-tree/cpus/cpu@0/interrupt-controller/compatible
+riscv,cpu-intc
+==>  /proc/device-tree/cpus/cpu@0/interrupt-controller/#interrupt-cells
+==>  /proc/device-tree/cpus/cpu@0/interrupt-controller/phandle
+==>  /proc/device-tree/cpus/cpu@0/interrupt-controller/name
+interrupt-controller
+==>  /proc/device-tree/cpus/cpu@0/interrupt-controller/interrupt-controller
+==>  /proc/device-tree/cpus/cpu@0/#cooling-cells
+==>  /proc/device-tree/cpus/timebase-frequency
+==>  /proc/device-tree/cpus/name
+cpus
+==>  /proc/device-tree/cpus/cpu@3/i-tlb-sets
+==>  /proc/device-tree/cpus/cpu@3/d-cache-block-size
+==>  /proc/device-tree/cpus/cpu@3/device_type
+==>  /proc/device-tree/cpus/cpu@3/compatible
+sifive,u74-mc
+riscv
+==>  /proc/device-tree/cpus/cpu@3/mmu-type
+riscv,sv39
+==>  /proc/device-tree/cpus/cpu@3/status
+okay
+==>  /proc/device-tree/cpus/cpu@3/d-cache-size
+==>  /proc/device-tree/cpus/cpu@3/next-level-cache
+==>  /proc/device-tree/cpus/cpu@3/i-cache-size
+==>  /proc/device-tree/cpus/cpu@3/reg
+==>  /proc/device-tree/cpus/cpu@3/phandle
+==>  /proc/device-tree/cpus/cpu@3/d-cache-sets
+==>  /proc/device-tree/cpus/cpu@3/i-cache-block-size
+==>  /proc/device-tree/cpus/cpu@3/operating-points-v2
+==>  /proc/device-tree/cpus/cpu@3/i-cache-sets
+==>  /proc/device-tree/cpus/cpu@3/d-tlb-size
+==>  /proc/device-tree/cpus/cpu@3/riscv,isa
+rv64imafdc
+==>  /proc/device-tree/cpus/cpu@3/tlb-split
+==>  /proc/device-tree/cpus/cpu@3/i-tlb-size
+==>  /proc/device-tree/cpus/cpu@3/name
+==>  /proc/device-tree/cpus/cpu@3/d-tlb-sets
+==>  /proc/device-tree/cpus/cpu@3/interrupt-controller/compatible
+riscv,cpu-intc
+==>  /proc/device-tree/cpus/cpu@3/interrupt-controller/#interrupt-cells
+==>  /proc/device-tree/cpus/cpu@3/interrupt-controller/phandle
+==>  /proc/device-tree/cpus/cpu@3/interrupt-controller/name
+interrupt-controller
+==>  /proc/device-tree/cpus/cpu@3/interrupt-controller/interrupt-controller
+==>  /proc/device-tree/cpus/cpu@3/#cooling-cells
+==>  /proc/device-tree/reserved-memory/opensbi@40000000/reg
+==>  /proc/device-tree/reserved-memory/opensbi@40000000/phandle
+==>  /proc/device-tree/reserved-memory/opensbi@40000000/no-map
+==>  /proc/device-tree/reserved-memory/opensbi@40000000/name
+opensbi
+==>  /proc/device-tree/reserved-memory/linux,cma/linux,cma-default
+==>  /proc/device-tree/reserved-memory/linux,cma/alignment
+==>  /proc/device-tree/reserved-memory/linux,cma/alloc-ranges
+==>  /proc/device-tree/reserved-memory/linux,cma/compatible
+shared-dma-pool
+==>  /proc/device-tree/reserved-memory/linux,cma/size
+==>  /proc/device-tree/reserved-memory/linux,cma/name
+linux,cma
+==>  /proc/device-tree/reserved-memory/linux,cma/reusable
+==>  /proc/device-tree/reserved-memory/#address-cells
+==>  /proc/device-tree/reserved-memory/e24@c0000000/reg
+==>  /proc/device-tree/reserved-memory/e24@c0000000/no-map
+==>  /proc/device-tree/reserved-memory/e24@c0000000/name
+==>  /proc/device-tree/reserved-memory/xrpbuffer@f0000000/reg
+==>  /proc/device-tree/reserved-memory/xrpbuffer@f0000000/phandle
+==>  /proc/device-tree/reserved-memory/xrpbuffer@f0000000/name
+xrpbuffer
+==>  /proc/device-tree/reserved-memory/#size-cells
+==>  /proc/device-tree/reserved-memory/ranges
+==>  /proc/device-tree/reserved-memory/name
+reserved-memory
+==>  /proc/device-tree/hdmitx0_pixelclk/#clock-cells
+==>  /proc/device-tree/hdmitx0_pixelclk/clock-frequency
+==>  /proc/device-tree/hdmitx0_pixelclk/compatible
+fixed-clock
+==>  /proc/device-tree/hdmitx0_pixelclk/phandle
+==>  /proc/device-tree/hdmitx0_pixelclk/name
+hdmitx0_pixelclk
+==>  /proc/device-tree/gmac1_rgmii_rxin/#clock-cells
+==>  /proc/device-tree/gmac1_rgmii_rxin/clock-frequency
+==>  /proc/device-tree/gmac1_rgmii_rxin/compatible
+fixed-clock
+==>  /proc/device-tree/gmac1_rgmii_rxin/phandle
+==>  /proc/device-tree/gmac1_rgmii_rxin/name
+gmac1_rgmii_rxin
+==>  /proc/device-tree/name
+==>  /proc/device-tree/tdm_ext/#clock-cells
+==>  /proc/device-tree/tdm_ext/clock-frequency
+==>  /proc/device-tree/tdm_ext/compatible
+fixed-clock
+==>  /proc/device-tree/tdm_ext/phandle
+==>  /proc/device-tree/tdm_ext/name
+tdm_ext
